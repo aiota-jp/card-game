@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ja">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CARD GAME LOUNGE</title><link rel="stylesheet" href="suite.css"><link rel="stylesheet" href="greeting.css"><link rel="stylesheet" href="suite-title.css?v=20261028-kathy"></head>
+<body class="is-suite-intro"><svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" style="position:absolute;pointer-events:none"><defs><filter id="character-clean-alpha" color-interpolation-filters="sRGB" x="-1%" y="-1%" width="102%" height="102%"><feComponentTransfer><feFuncA type="linear" slope="12.75" intercept="-11.5"/></feComponentTransfer></filter></defs></svg><style id="character-alpha-style">#host-image,.home-art img,.dealer-portrait,#reward-image{filter:url(#character-clean-alpha)!important}</style>
+<section id="suite-title" aria-labelledby="suite-title-heading">
+ <img id="suite-title-image" src="lounge-title-five.png?v=20261028-kathy" alt="AYAKA・RINA・MISAKI・KATHY・SHIZUEの5人がカード卓を囲む実写風の集合画像" fetchpriority="high">
+ <div class="suite-title-shade"></div>
+ <div class="suite-title-heading"><p>WELCOME TO THE LOUNGE</p><h1 id="suite-title-heading">CARD GAME <span>LOUNGE</span></h1><p class="suite-title-jp">カードゲームラウンジ</p><small>MISAKI · AYAKA · RINA · SHIZUE · KATHY</small></div>
+ <div class="suite-title-bottom"><div class="suite-title-music"><button id="title-music-toggle" type="button" aria-pressed="true">♫ BGM ON</button><label for="title-music-volume">音量 <output id="title-music-volume-value">25%</output></label><input id="title-music-volume" type="range" min="0" max="100" step="5" value="25" aria-label="TOPのBGM音量"></div><button id="suite-title-enter">ラウンジへ進む <span>→</span></button><p>5秒後にゲーム選択画面へ進みます</p><div class="suite-title-progress" aria-hidden="true"><i></i></div></div>
+</section>
+<header class="suite-bar" hidden><a href="#" id="brand" aria-label="ゲーム一覧へ">♠ <span>CARD GAME <b>LOUNGE</b></span></a><div id="playing" hidden><span id="current-game"></span><button id="back" aria-label="ホーム（ゲーム一覧）へ戻る" title="ホームへ戻る">ホーム</button></div><span id="suite-tag">5 HOSTS · 3 GAMES</span><span id="suite-tools"><button id="settings-open">設定・バックアップ</button><button id="exit-open">ゲーム終了</button></span><button id="credits-open" aria-haspopup="dialog" aria-controls="credits-dialog">クレジット</button></header>
+<main id="hub" hidden>
+ <section class="host-panel" aria-label="キャラクター選択"><div class="host-glow"></div><img id="host-image" src="poker/assets/misaki-full.png" alt="MISAKIの全身画像"><div class="host-info"><small>YOUR HOST</small><h2 id="host-name">MISAKI</h2><div id="hosts"><button data-host="misaki" aria-pressed="true">MISAKI</button><button data-host="ayaka" aria-pressed="false">AYAKA</button><button data-host="rina" aria-pressed="false">RINA</button><button data-host="shizue" aria-pressed="false">SHIZUE</button><button data-host="kathy" aria-pressed="false">KATHY</button></div><p>お好きな相手とテーブルへ</p></div></section>
+ <section class="selection"><div class="eyebrow">WELCOME TO YOUR LOUNGE</div><h1 tabindex="-1" id="hub-title">今夜はどのゲームで遊ぶ？</h1><p class="lead">駆け引きも 直感も 自分のペースで。<br>3つのカードゲームをひとつのラウンジで。</p>
+ <section id="greeting-box" class="greeting-box" aria-label="ホストの挨拶">
+  <div class="greeting-heading"><strong id="greeting-name">MISAKIからのご挨拶</strong><small id="greeting-state">女性を選ぶと声でご挨拶します</small></div>
+  <p id="greeting-text" aria-live="polite"></p>
+  <div class="greeting-controls"><button id="hub-music-toggle" type="button" aria-pressed="true">♫ BGM ON</button><button id="greeting-repeat">♫ もう一度聞く</button><button id="greeting-stop">停止</button><button id="greeting-voice" aria-pressed="true">音声 ON</button><label for="greeting-volume">音量 <output id="greeting-volume-value">30%</output></label><input id="greeting-volume" aria-label="挨拶の音量" type="range" min="0" max="100" step="5" value="30"><small id="greeting-rate">1.0倍</small></div>
+ </section>
+ <div class="game-grid">
+  <button class="game-card poker" data-game="poker"><div class="preview" aria-hidden="true"><i class="mini-card red">A<span>♥</span></i><i class="mini-card">A<span>♠</span></i><div class="chips">♣</div></div><div class="card-content"><div class="label">01 / STRATEGY</div><h2>ポーカー</h2><p>手札を読み 心理戦を楽しむ</p><small>ホールデム・オマハなど6種類</small><strong>テーブルを選ぶ <span>→</span></strong></div></button>
+  <button class="game-card blackjack" data-game="blackjack"><div class="preview" aria-hidden="true"><i class="mini-card">A<span>♠</span></i><i class="mini-card red">K<span>♦</span></i><div class="number">21</div></div><div class="card-content"><div class="label">02 / DECISION</div><h2>ブラックジャック</h2><p>もう1枚か ここで止めるか</p><small>21を目指すディーラーとの勝負</small><strong>ラウンジに入る <span>→</span></strong></div></button>
+  <button class="game-card baccarat" data-game="baccarat"><div class="preview" aria-hidden="true"><i class="mini-card red">4<span>♥</span></i><i class="mini-card">5<span>♣</span></i><div class="number">9</div></div><div class="card-content"><div class="label">03 / INTUITION</div><h2>バカラ</h2><p>9に近い手を見極める</p><small>プント・バンコなど3種類</small><strong>テーブルを選ぶ <span>→</span></strong></div></button>
+ </div><p class="hint"><span>✦ チュートリアル付き</span><span>♫ 音声・BGM・音量調整</span><span>♠ 仮想チップで練習</span></p><p class="session-note">一覧に戻っても進行を保持します。アプリを終了すると持ち点は初期状態に戻ります。</p>
+ </section>
+</main>
+<section id="workspace" hidden aria-label="ゲーム画面"></section>
+<p id="status" role="status" hidden></p>
+<dialog id="credits-dialog" aria-labelledby="credits-heading">
+ <h2 id="credits-heading">クレジット</h2>
+ <p class="credits-producer">制作：aiota</p>
+ <h3>CARD GAME LOUNGE</h3>
+ <p>ポーカー・ブラックジャック・バカラ</p>
+ <p>音声：AivisSpeech（MISAKI：凛音エル／AYAKA：まお／RINA：みちのくあいり／SHIZUE：まい／KATHY：コハク）。各モデル：ACML 1.0。</p>
+ <p>アプリ基盤：Go / Wails / Microsoft Edge WebView2</p>
+ <p>画像・BGM・効果音：各ゲームで採用した素材</p>
+ <p class="credits-notices">音声と第三者ソフトウェアの出典・利用条件は、同梱の docs/CREDITS.ja.md、各ゲームのVOICE-CREDITS、THIRD-PARTY-NOTICESとライセンス文書に記載しています。</p>
+ <button id="credits-close" autofocus>閉じる</button>
+</dialog>
+<dialog id="settings-dialog" class="tools-dialog" aria-labelledby="settings-heading">
+<h2 id="settings-heading">設定・バックアップ</h2>
+<div class="settings-grid">
+<label><input id="setting-voice" type="checkbox">セリフ・読み上げ</label><label>音量（%）<input id="setting-voice-volume" type="number" min="0" max="100"></label>
+<label><input id="setting-music" type="checkbox">BGM</label><label>音量（%）<input id="setting-music-volume" type="number" min="0" max="100"></label>
+<label><input id="setting-effects" type="checkbox">効果音</label><label>音量（%）<input id="setting-effects-volume" type="number" min="0" max="100"></label>
+<label for="setting-voice-rate">セリフの速度（倍）</label><input id="setting-voice-rate" type="number" min="0.8" max="2.5" step="0.001">
+</div>
+<p class="tools-note">音の設定は3ゲーム共通です。声・話速・抑揚はリバーシテスト版の人物別設定に準拠しています。<br>バックアップ対象：音・人物の設定とポーカーのチュートリアル達成履歴。<br>持ち点・対局途中の状態・ウィンドウ位置は含みません。</p>
+<div class="tools-actions"><button id="settings-save">設定を保存</button><button id="backup-save">バックアップを保存</button><button id="backup-restore">バックアップを復元</button><button id="settings-close">閉じる</button></div>
+</dialog>
+<dialog id="restore-dialog" class="tools-dialog"><h2>バックアップを復元</h2><p>保存済みの設定と達成履歴を置き換えます。復元しますか？</p><button id="restore-confirm">復元する</button> <button id="restore-cancel">キャンセル</button></dialog>
+<dialog id="exit-dialog" class="tools-dialog"><h2>ゲーム終了</h2><p>ゲームを終了しますか？<br>持ち点・対局の進行は初期状態に戻ります。設定は保持します。</p><button id="exit-confirm">終了する</button> <button id="exit-cancel">続ける</button></dialog>
+
+<script type="module" src="suite.js?v=20261028-audit"></script>
+</body></html>

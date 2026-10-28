@@ -1,0 +1,80 @@
+{
+  "credit": "VOICEVOX:九州そら",
+  "core": "0.17.0",
+  "styleId": 16,
+  "lines": [
+    {
+      "id": "reward-01",
+      "kind": "reward",
+      "text": "お見事です。私の持ち点がゼロ、あなたの完全勝利ですね。お祝いに、涼しげな夏服に着替えてみました。またご一緒しましょう。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/reward-01-expressive.wav",
+          "duration": 12.757,
+          "pauses": [
+            {
+              "before": 1.2691,
+              "after": 0.4
+            },
+            {
+              "before": 1.0451,
+              "after": 0.4
+            },
+            {
+              "before": 0.9671,
+              "after": 0.4
+            },
+            {
+              "before": 0.9796,
+              "after": 0.4
+            },
+            {
+              "before": 1.0725,
+              "after": 0.4
+            }
+          ],
+          "voice": {
+            "styleId": 16,
+            "pitchScale": 0,
+            "speedScale": 1.02,
+            "intonationScale": 1.08
+          },
+          "sha256": "c77d64dd1d42a557d3f76385c340dbc5062a0b820e4f774003f81cb63baee29f"
+        },
+        "calm": {
+          "path": "assets/voice/reward-01-calm.wav",
+          "duration": 12.757,
+          "pauses": [
+            {
+              "before": 1.2691,
+              "after": 0.4
+            },
+            {
+              "before": 1.0451,
+              "after": 0.4
+            },
+            {
+              "before": 0.9671,
+              "after": 0.4
+            },
+            {
+              "before": 0.9796,
+              "after": 0.4
+            },
+            {
+              "before": 1.0725,
+              "after": 0.4
+            }
+          ],
+          "voice": {
+            "styleId": 16,
+            "pitchScale": 0,
+            "speedScale": 1.03,
+            "intonationScale": 0.85
+          },
+          "sha256": "5da6c185e296cf48e89a617767eb30e547513d426fd84936ad476552cdbafa97"
+        }
+      }
+    }
+  ]
+}

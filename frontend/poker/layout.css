@@ -1,0 +1,9 @@
+/* Keep the player's hand clear of all five community cards. */
+.table { height: 480px; }
+@media (min-width: 1400px) {
+ .table { height: 520px; }
+ .community { top: 175px; }
+}
+@media (max-width: 850px) {
+ .table { height: 480px; }
+}

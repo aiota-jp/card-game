@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Use case: identity-preserve / precise-object-edit. Edit image 1, the existing five-woman CARD GAME LOUNGE opening photograph. Change ONLY Kathy, the blonde adult woman second from the right, so that she matches image 2, the exact in-game Kathy portrait. Match image 2's facial identity, face shape, pale blonde hair with its side part and waves, eyes, friendly smile, small gold earrings and delicate gold necklace, and especially her emerald/teal-green thin-strap dress with the same neckline. Replace her current pale-yellow puff-sleeve dress with that green dress. Keep her seated in precisely the same position, holding the same fan of cards with the same hands and pose, using the existing warm lounge illumination and realistic photographic style. Preserve the other FOUR women exactly, preserve their faces, clothing, hair, expressions and positions. Preserve the entire table, playing cards, chips, background lamps, framing, dimensions, dark upper title space and lower button space. Exactly five women. No letters, text, watermark, additional people, compositional changes, or changes outside Kathy's head/neck/clothing region. Output one landscape image matching image 1.",
+  "references": [
+    "frontend/lounge-title-five.png (before edit; preserved in backup)",
+    "frontend/cast-images/kathy-portrait.png"
+  ],
+  "generatedSource": "C:/Users/aero3/.codex/generated_images/01a1802c-3e7c-77e2-83c2-c6e993924449/exec-eab76c36-ad50-486c-9fff-504127c59a7f.png",
+  "asset": "frontend/lounge-title-five.png",
+  "scope": "Opening Kathy matches the in-game portrait: face, hair and green dress."
+}

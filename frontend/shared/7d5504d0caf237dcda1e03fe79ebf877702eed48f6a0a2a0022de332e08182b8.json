@@ -1,0 +1,82 @@
+{
+  "credit": "VOICEVOX:九州そら",
+  "core": "0.17.0",
+  "styleId": 16,
+  "lines": [
+    {
+      "id": "reward-01",
+      "kind": "reward",
+      "text": "2,000チップ達成、おめでとうございます。バカラのテーブル、楽しんでいただけましたか？ お祝いに、夏服でご挨拶です。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/reward-01-expressive.wav",
+          "duration": 11.808,
+          "pauses": [
+            {
+              "before": 1.1945,
+              "after": 0.4
+            },
+            {
+              "before": 1.2483,
+              "after": 0.4
+            },
+            {
+              "before": 1.1955,
+              "after": 0.4
+            },
+            {
+              "before": 0.8432,
+              "after": 0.3795
+            },
+            {
+              "before": 1.1084,
+              "after": 0.4
+            }
+          ],
+          "voice": {
+            "styleId": 16,
+            "queryStyleId": 16,
+            "pitchScale": 0,
+            "speedScale": 1.02,
+            "intonationScale": 1.08
+          },
+          "sha256": "3d161b3bae4ff161356622e7fa420a0c0afe416f961af1bb8351b407ebff2111"
+        },
+        "calm": {
+          "path": "assets/voice/reward-01-calm.wav",
+          "duration": 11.787,
+          "pauses": [
+            {
+              "before": 1.1945,
+              "after": 0.4
+            },
+            {
+              "before": 1.2483,
+              "after": 0.4
+            },
+            {
+              "before": 1.1955,
+              "after": 0.4
+            },
+            {
+              "before": 0.8432,
+              "after": 0.3795
+            },
+            {
+              "before": 1.1084,
+              "after": 0.4
+            }
+          ],
+          "voice": {
+            "styleId": 16,
+            "queryStyleId": 16,
+            "pitchScale": 0,
+            "speedScale": 1.03,
+            "intonationScale": 0.85
+          },
+          "sha256": "a8f4a1f6e34651ddbb686778e48b3c23cd4f97cc76a5eef5de158d0fb29f317d"
+        }
+      }
+    }
+  ]
+}

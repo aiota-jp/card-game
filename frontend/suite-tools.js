@@ -1,0 +1,22 @@
+export const allowedPreference=(key,value)=>{
+ if(typeof value!=='string')return false;
+ if(key==='cardlounge.lounge.character')return ['misaki','ayaka','rina','shizue','kathy'].includes(value);
+ if(['cardlounge.lounge.voice','cardlounge.lounge.expression','cardlounge.sound.enabled','cardlounge.music.enabled'].includes(key))return ['true','false'].includes(value);
+ if(['cardlounge.lounge.aivis-default-v1','cardlounge.lounge.rate-default-v2','cardlounge.lounge.rate-default-v3','cardlounge.lounge.volume-default-v2'].includes(key))return value==='1';
+ if(['cardlounge.lounge.volume','cardlounge.sound.volume','cardlounge.music.volume','cardlounge.lounge.rate'].includes(key)){const n=Number(value);return /^[ \t\r\n]*-?(?:0|[1-9]\d*)(?:\.\d+)?(?:[eE][+-]?\d+)?[ \t\r\n]*$/.test(value)&&Number.isFinite(n)&&n>=(key.endsWith('.rate')?.8:0)&&n<=(key.endsWith('.rate')?2.5:100)}
+ return key.startsWith('poker.tutorial.completed.v1.')&&key.length<100&&value==='1';
+};
+export function snapshot(storage=localStorage){const settings={};for(let i=0;i<storage.length;i++){const k=storage.key(i),v=storage.getItem(k);if(allowedPreference(k,v))settings[k]=v}return {format:'CardGameLoungeBackup/1',settings}}
+export function validateBackup(raw){const b=JSON.parse(raw);if(b?.format!=='CardGameLoungeBackup/1'||!b.settings||Array.isArray(b.settings)||typeof b.settings!=='object'||Object.keys(b.settings).length>100||!Object.entries(b.settings).every(([k,v])=>allowedPreference(k,v)))throw Error('このゲームの有効なバックアップではありません');return b}
+export function applyBackup(raw,storage=localStorage){const b=validateBackup(raw),before=snapshot(storage);storage.setItem('cardlounge.backup.before-restore',JSON.stringify(before));try{for(const k of Object.keys(before.settings))storage.removeItem(k);for(const [k,v] of Object.entries(b.settings))storage.setItem(k,v)}catch(error){for(const k of Object.keys(b.settings))storage.removeItem(k);for(const [k,v] of Object.entries(before.settings))storage.setItem(k,v);throw error}}
+export function createSuiteTools({stop,refresh,notify}){
+ const $=id=>document.getElementById(id),dialog=$('settings-dialog'),exit=$('exit-dialog');
+ const fields=[['voice','cardlounge.lounge.voice','true'],['music','cardlounge.music.enabled','true'],['effects','cardlounge.sound.enabled','true'],['voice-volume','cardlounge.lounge.volume','30'],['music-volume','cardlounge.music.volume','25'],['effects-volume','cardlounge.sound.volume','40'],['voice-rate','cardlounge.lounge.rate','1.0']];
+ function load(){for(const [id,key,fallback]of fields){const el=$('setting-'+id),v=localStorage.getItem(key)??fallback;if(el.type==='checkbox')el.checked=v==='true';else el.value=v}}
+ $('settings-open').onclick=()=>{stop();load();dialog.showModal()};$('settings-close').onclick=()=>dialog.close();
+ $('settings-save').onclick=()=>{try{for(const[id,key]of fields){const el=$('setting-'+id),v=el.type==='checkbox'?String(el.checked):el.value;if(!allowedPreference(key,v))throw Error('設定の範囲を確認してください')}for(const[id,key]of fields){const el=$('setting-'+id);localStorage.setItem(key,el.type==='checkbox'?String(el.checked):el.value)}localStorage.setItem('cardlounge.lounge.rate-default-v3','1');localStorage.setItem('cardlounge.lounge.rate-default-v2','1');localStorage.setItem('cardlounge.lounge.volume-default-v2','1');refresh();notify('設定を保存しました')}catch(e){notify(String(e.message||e))}};
+ $('backup-save').onclick=async()=>{try{const api=window.go?.main?.SystemApp;if(!api)throw Error('EXEから起動してください');const path=await api.SaveBackup(JSON.stringify(snapshot(),null,2));if(path)notify('バックアップを保存しました')}catch(e){notify(String(e.message||e))}};
+ $('backup-restore').onclick=async()=>{try{const api=window.go?.main?.SystemApp;if(!api)throw Error('EXEから起動してください');const raw=await api.LoadBackup();if(!raw)return;validateBackup(raw);const confirm=$('restore-dialog');confirm.showModal();$('restore-confirm').onclick=()=>{try{applyBackup(raw);load();refresh();notify('復元しました。復元前のデータもアプリ内に保持しています。');confirm.close()}catch(e){notify(String(e.message||e))}}}catch(e){notify(String(e.message||e))}};
+ $('restore-cancel').onclick=()=>$('restore-dialog').close();
+ $('exit-open').onclick=()=>{stop();exit.showModal()};$('exit-cancel').onclick=()=>exit.close();$('exit-confirm').onclick=async()=>{try{const api=window.go?.main?.SystemApp;if(!api)throw Error('EXEから起動してください');await api.Exit()}catch(e){notify(String(e.message||e))}};
+}

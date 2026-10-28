@@ -1,0 +1,3414 @@
+[
+  {
+    "character": "misaki",
+    "game": "poker",
+    "module": "frontend/poker/voice-lines.js",
+    "manifest": "poker/assets/voice/manifest.json",
+    "lines": [
+      {
+        "id": "welcome-01",
+        "kind": "welcome",
+        "text": "ラウンジへようこそ。今夜は、ゆっくり楽しんでいってくださいね。"
+      },
+      {
+        "id": "welcome-02",
+        "kind": "welcome",
+        "text": "いらっしゃいませ。お会いできて、うれしいです。"
+      },
+      {
+        "id": "welcome-03",
+        "kind": "welcome",
+        "text": "準備はいいですか？ それでは、始めましょう。"
+      },
+      {
+        "id": "welcome-04",
+        "kind": "welcome",
+        "text": "お帰りなさい。続きを、ご一緒しましょう。"
+      },
+      {
+        "id": "deal-01",
+        "kind": "deal",
+        "text": "新しいカードです。どんな一手になるか、楽しみですね。"
+      },
+      {
+        "id": "deal-02",
+        "kind": "deal",
+        "text": "次のハンドへ。今度は、どう攻めますか？"
+      },
+      {
+        "id": "deal-03",
+        "kind": "deal",
+        "text": "カードを配りました。慌てず、見てみてください。"
+      },
+      {
+        "id": "deal-04",
+        "kind": "deal",
+        "text": "さて、次の勝負です。よろしくお願いします。"
+      },
+      {
+        "id": "win-01",
+        "kind": "win",
+        "text": "お見事です。きれいに決まりましたね。"
+      },
+      {
+        "id": "win-02",
+        "kind": "win",
+        "text": "あなたの勝ちです。さすがですね。"
+      },
+      {
+        "id": "win-03",
+        "kind": "win",
+        "text": "あら、負けちゃいました。いい勝負でしたね。"
+      },
+      {
+        "id": "win-04",
+        "kind": "win",
+        "text": "その一手、素敵でした。次は私も頑張ります。"
+      },
+      {
+        "id": "win-05",
+        "kind": "win",
+        "text": "やられましたね。思わず見入ってしまいました。"
+      },
+      {
+        "id": "win-06",
+        "kind": "win",
+        "text": "おめでとうございます。次の勝負も、楽しみです。"
+      },
+      {
+        "id": "loss-01",
+        "kind": "loss",
+        "text": "今回は、私の勝ちですね。もう一度、いかがですか？"
+      },
+      {
+        "id": "loss-02",
+        "kind": "loss",
+        "text": "惜しかったですね。次のカードに、期待しましょう。"
+      },
+      {
+        "id": "loss-03",
+        "kind": "loss",
+        "text": "焦らなくて大丈夫。ゆっくりいきましょうね。"
+      },
+      {
+        "id": "loss-04",
+        "kind": "loss",
+        "text": "今回は、こちらに流れが来たみたいです。"
+      },
+      {
+        "id": "loss-05",
+        "kind": "loss",
+        "text": "いい勝負でした。次は、どうなるでしょうね。"
+      },
+      {
+        "id": "loss-06",
+        "kind": "loss",
+        "text": "勝負は、まだまだこれから。お付き合いくださいね。"
+      },
+      {
+        "id": "tie-01",
+        "kind": "tie",
+        "text": "引き分けですね。なんだか、息がぴったりです。"
+      },
+      {
+        "id": "tie-02",
+        "kind": "tie",
+        "text": "互角の勝負でしたね。次こそ、決着でしょうか。"
+      },
+      {
+        "id": "tie-03",
+        "kind": "tie",
+        "text": "今回は、仲良く半分ずつ。次も楽しみですね。"
+      },
+      {
+        "id": "draw-01",
+        "kind": "draw",
+        "text": "交換するカードを、選んでくださいね。"
+      },
+      {
+        "id": "draw-02",
+        "kind": "draw",
+        "text": "そのままでも、交換しても大丈夫。お任せします。"
+      },
+      {
+        "id": "draw-03",
+        "kind": "draw",
+        "text": "どのカードを残しますか？ じっくり考えてください。"
+      },
+      {
+        "id": "reveal-01",
+        "kind": "reveal",
+        "text": "カードがそろいました。最後の一手、どうしますか？"
+      },
+      {
+        "id": "reveal-02",
+        "kind": "reveal",
+        "text": "ここが、勝負どころですね。私は、準備できています。"
+      },
+      {
+        "id": "reveal-03",
+        "kind": "reveal",
+        "text": "最後の判断です。納得のいく一手を、どうぞ。"
+      },
+      {
+        "id": "raise-01",
+        "kind": "raise",
+        "text": "あら、強気ですね。こちらも、気が抜けません。"
+      },
+      {
+        "id": "raise-02",
+        "kind": "raise",
+        "text": "勝負に出ましたね。面白くなってきました。"
+      },
+      {
+        "id": "raise-03",
+        "kind": "raise",
+        "text": "そのレイズ、気になりますね。さて、どうしましょう。"
+      },
+      {
+        "id": "streakWin-01",
+        "kind": "streakWin",
+        "text": "また、あなたの勝ちですね。今日は手強いなあ。"
+      },
+      {
+        "id": "streakWin-02",
+        "kind": "streakWin",
+        "text": "連勝ですね。すっかり、調子が出てきましたね。"
+      },
+      {
+        "id": "streakWin-03",
+        "kind": "streakWin",
+        "text": "お強いですね。次こそ、私も負けませんよ。"
+      },
+      {
+        "id": "streakLoss-01",
+        "kind": "streakLoss",
+        "text": "少し、ひと息つきましょうか。急がなくて大丈夫ですよ。"
+      },
+      {
+        "id": "streakLoss-02",
+        "kind": "streakLoss",
+        "text": "なかなか、流れが来ませんね。無理せず、いきましょう。"
+      },
+      {
+        "id": "streakLoss-03",
+        "kind": "streakLoss",
+        "text": "次の勝負は、気持ちを切り替えて。応援しています。"
+      },
+      {
+        "id": "fold-01",
+        "kind": "fold",
+        "text": "ここは、ひと休みですね。次のチャンスを待ちましょう。"
+      },
+      {
+        "id": "fold-02",
+        "kind": "fold",
+        "text": "降りるのも、大切な判断です。次のハンドへ、いきましょう。"
+      }
+    ]
+  },
+  {
+    "character": "misaki",
+    "game": "poker",
+    "module": "frontend/poker/misaki-reward-lines.js",
+    "manifest": "poker/assets/voice/reward-manifest.json",
+    "lines": [
+      {
+        "id": "reward-01",
+        "kind": "reward",
+        "text": "お見事です。私の持ち点がゼロ、あなたの完全勝利ですね。お祝いに、涼しげな夏服に着替えてみました。またご一緒しましょう。"
+      }
+    ]
+  },
+  {
+    "character": "ayaka",
+    "game": "poker",
+    "module": "frontend/poker/ayaka-voice-lines.js",
+    "manifest": "poker/assets/voice-ayaka/manifest.json",
+    "lines": [
+      {
+        "id": "welcome-01",
+        "kind": "welcome",
+        "text": "こんにちは、アヤカです！ いっしょにポーカーを楽しみましょう。"
+      },
+      {
+        "id": "welcome-02",
+        "kind": "welcome",
+        "text": "会えてうれしいです！ 今日は、どのゲームにしますか？"
+      },
+      {
+        "id": "welcome-03",
+        "kind": "welcome",
+        "text": "準備はいいですか？ それじゃあ、始めましょう！"
+      },
+      {
+        "id": "welcome-04",
+        "kind": "welcome",
+        "text": "お帰りなさい！ 続きも、いっしょに楽しみましょう。"
+      },
+      {
+        "id": "deal-01",
+        "kind": "deal",
+        "text": "新しいカードです。どんな一手になるか、楽しみですね。"
+      },
+      {
+        "id": "deal-02",
+        "kind": "deal",
+        "text": "次のハンドへ。今度は、どう攻めますか？"
+      },
+      {
+        "id": "deal-03",
+        "kind": "deal",
+        "text": "カードを配りました。慌てず、見てみてください。"
+      },
+      {
+        "id": "deal-04",
+        "kind": "deal",
+        "text": "さて、次の勝負です。よろしくお願いします。"
+      },
+      {
+        "id": "win-01",
+        "kind": "win",
+        "text": "すごい！ きれいに決まりましたね。"
+      },
+      {
+        "id": "win-02",
+        "kind": "win",
+        "text": "あなたの勝ちです。さすがですね。"
+      },
+      {
+        "id": "win-03",
+        "kind": "win",
+        "text": "ああ、負けちゃった！ でも、楽しかったです。"
+      },
+      {
+        "id": "win-04",
+        "kind": "win",
+        "text": "その一手、素敵でした。次は私も頑張ります。"
+      },
+      {
+        "id": "win-05",
+        "kind": "win",
+        "text": "わあ、お見事です！ 思わず見入っちゃいました。"
+      },
+      {
+        "id": "win-06",
+        "kind": "win",
+        "text": "おめでとうございます。次の勝負も、楽しみです。"
+      },
+      {
+        "id": "loss-01",
+        "kind": "loss",
+        "text": "今回は、私の勝ちです！ 次も、いっしょに遊びましょう。"
+      },
+      {
+        "id": "loss-02",
+        "kind": "loss",
+        "text": "惜しかったですね。次のカードに、期待しましょう。"
+      },
+      {
+        "id": "loss-03",
+        "kind": "loss",
+        "text": "焦らなくて大丈夫。ゆっくりいきましょうね。"
+      },
+      {
+        "id": "loss-04",
+        "kind": "loss",
+        "text": "やった！ 今回は、こっちに流れが来たみたいです。"
+      },
+      {
+        "id": "loss-05",
+        "kind": "loss",
+        "text": "いい勝負でした。次は、どうなるでしょうね。"
+      },
+      {
+        "id": "loss-06",
+        "kind": "loss",
+        "text": "勝負は、まだまだこれから。お付き合いくださいね。"
+      },
+      {
+        "id": "tie-01",
+        "kind": "tie",
+        "text": "引き分けですね。なんだか、息がぴったりです。"
+      },
+      {
+        "id": "tie-02",
+        "kind": "tie",
+        "text": "互角の勝負でしたね。次こそ、決着でしょうか。"
+      },
+      {
+        "id": "tie-03",
+        "kind": "tie",
+        "text": "今回は、仲良く半分ずつ。次も楽しみですね。"
+      },
+      {
+        "id": "draw-01",
+        "kind": "draw",
+        "text": "交換するカードを、選んでくださいね。"
+      },
+      {
+        "id": "draw-02",
+        "kind": "draw",
+        "text": "そのままでも、交換しても大丈夫。お任せします。"
+      },
+      {
+        "id": "draw-03",
+        "kind": "draw",
+        "text": "どのカードを残しますか？ じっくり考えてください。"
+      },
+      {
+        "id": "reveal-01",
+        "kind": "reveal",
+        "text": "カードがそろいました。最後の一手、どうしますか？"
+      },
+      {
+        "id": "reveal-02",
+        "kind": "reveal",
+        "text": "ここが、勝負どころですね。私は、準備できています。"
+      },
+      {
+        "id": "reveal-03",
+        "kind": "reveal",
+        "text": "最後の判断です。納得のいく一手を、どうぞ。"
+      },
+      {
+        "id": "raise-01",
+        "kind": "raise",
+        "text": "わあ、強気ですね！ 私も頑張らなくちゃ。"
+      },
+      {
+        "id": "raise-02",
+        "kind": "raise",
+        "text": "勝負に出ましたね。面白くなってきました。"
+      },
+      {
+        "id": "raise-03",
+        "kind": "raise",
+        "text": "そのレイズ、気になりますね。さて、どうしましょう。"
+      },
+      {
+        "id": "streakWin-01",
+        "kind": "streakWin",
+        "text": "また、あなたの勝ちですね！ うーん、手強いなあ。"
+      },
+      {
+        "id": "streakWin-02",
+        "kind": "streakWin",
+        "text": "連勝ですね。すっかり、調子が出てきましたね。"
+      },
+      {
+        "id": "streakWin-03",
+        "kind": "streakWin",
+        "text": "お強いですね。次こそ、私も負けませんよ。"
+      },
+      {
+        "id": "streakLoss-01",
+        "kind": "streakLoss",
+        "text": "ちょっと、ひと休みしましょうか。急がなくて大丈夫ですよ。"
+      },
+      {
+        "id": "streakLoss-02",
+        "kind": "streakLoss",
+        "text": "なかなか、流れが来ませんね。無理せず、いきましょう。"
+      },
+      {
+        "id": "streakLoss-03",
+        "kind": "streakLoss",
+        "text": "次の勝負は、気持ちを切り替えて。応援しています。"
+      },
+      {
+        "id": "fold-01",
+        "kind": "fold",
+        "text": "ここは、ひと休みですね。次のチャンスを待ちましょう。"
+      },
+      {
+        "id": "fold-02",
+        "kind": "fold",
+        "text": "降りるのも、大切な判断です。次のハンドへ、いきましょう。"
+      }
+    ]
+  },
+  {
+    "character": "ayaka",
+    "game": "poker",
+    "module": "frontend/poker/ayaka-reward-lines.js",
+    "manifest": "poker/assets/voice-ayaka/reward-manifest.json",
+    "lines": [
+      {
+        "id": "reward-01",
+        "kind": "reward",
+        "text": "わあ、私の持ち点がゼロ！ あなたの完全勝利だね。お祝いに夏服に着替えてみたよ。次の対戦も楽しみにしてるね！"
+      }
+    ]
+  },
+  {
+    "character": "rina",
+    "game": "poker",
+    "module": "frontend/poker/rina-voice-lines.js",
+    "manifest": "poker/assets/voice-rina/manifest.json",
+    "lines": [
+      {
+        "id": "welcome-01",
+        "kind": "welcome",
+        "text": "やっほー、リナだよ。今日は一緒に楽しもう！"
+      },
+      {
+        "id": "welcome-02",
+        "kind": "welcome",
+        "text": "準備できた？ さあ、いい勝負にしよう！"
+      },
+      {
+        "id": "welcome-03",
+        "kind": "welcome",
+        "text": "来てくれてうれしいな。最後まで、全力でいくよ！"
+      },
+      {
+        "id": "welcome-04",
+        "kind": "welcome",
+        "text": "おかえり！ 続きも、元気にいこう！"
+      },
+      {
+        "id": "deal-01",
+        "kind": "deal",
+        "text": "次のハンドだよ。気持ちを切り替えて、いこう！"
+      },
+      {
+        "id": "deal-02",
+        "kind": "deal",
+        "text": "新しいカード！ まずは、しっかり見てみよう。"
+      },
+      {
+        "id": "deal-03",
+        "kind": "deal",
+        "text": "よし、次の勝負！ どんな一手を見せてくれるかな？"
+      },
+      {
+        "id": "deal-04",
+        "kind": "deal",
+        "text": "カードを配ったよ。自分のペースでいこうね。"
+      },
+      {
+        "id": "win-01",
+        "kind": "win",
+        "text": "ナイス！ その一手、ばっちり決まったね。"
+      },
+      {
+        "id": "win-02",
+        "kind": "win",
+        "text": "おお、あなたの勝ち！ いいプレーだったね。"
+      },
+      {
+        "id": "win-03",
+        "kind": "win",
+        "text": "やられた！ 次は、私も負けないよ。"
+      },
+      {
+        "id": "win-04",
+        "kind": "win",
+        "text": "すごいね！ 思わず、拍手しちゃいそう。"
+      },
+      {
+        "id": "win-05",
+        "kind": "win",
+        "text": "きれいに決まったね。ナイスファイト！"
+      },
+      {
+        "id": "win-06",
+        "kind": "win",
+        "text": "おめでとう！ 次の勝負も、楽しみだね。"
+      },
+      {
+        "id": "loss-01",
+        "kind": "loss",
+        "text": "よし、今回は私の勝ち！ 次も、全力でいこう。"
+      },
+      {
+        "id": "loss-02",
+        "kind": "loss",
+        "text": "惜しかったね。次のチャンスを、つかもう！"
+      },
+      {
+        "id": "loss-03",
+        "kind": "loss",
+        "text": "大丈夫！ 焦らず、自分のペースでね。"
+      },
+      {
+        "id": "loss-04",
+        "kind": "loss",
+        "text": "今回は、こっちに流れが来たね。いい勝負だったよ！"
+      },
+      {
+        "id": "loss-05",
+        "kind": "loss",
+        "text": "最後まで、いいプレーだったよ。次も、いこう！"
+      },
+      {
+        "id": "loss-06",
+        "kind": "loss",
+        "text": "勝負は、まだこれから！ 一緒に楽しもう。"
+      },
+      {
+        "id": "tie-01",
+        "kind": "tie",
+        "text": "引き分け！ お互い、いい勝負だったね。"
+      },
+      {
+        "id": "tie-02",
+        "kind": "tie",
+        "text": "互角だね！ 次で、決着をつけよう。"
+      },
+      {
+        "id": "tie-03",
+        "kind": "tie",
+        "text": "今回は、半分ずつ！ 次も、フェアにいこうね。"
+      },
+      {
+        "id": "draw-01",
+        "kind": "draw",
+        "text": "交換するカードを選ぼう！ じっくり見てね。"
+      },
+      {
+        "id": "draw-02",
+        "kind": "draw",
+        "text": "そのままでも、交換してもオッケー！ 自分で決めよう。"
+      },
+      {
+        "id": "draw-03",
+        "kind": "draw",
+        "text": "どのカードを残す？ チャンスを、つかもう！"
+      },
+      {
+        "id": "reveal-01",
+        "kind": "reveal",
+        "text": "カードがそろったよ。さあ、最後の一手！"
+      },
+      {
+        "id": "reveal-02",
+        "kind": "reveal",
+        "text": "ここが、勝負どころ！ 集中して、いこう。"
+      },
+      {
+        "id": "reveal-03",
+        "kind": "reveal",
+        "text": "ラストの判断だね。自分を信じて、どうぞ！"
+      },
+      {
+        "id": "raise-01",
+        "kind": "raise",
+        "text": "おっ、勝負に出たね！ 私も、気合いが入るよ。"
+      },
+      {
+        "id": "raise-02",
+        "kind": "raise",
+        "text": "強気のレイズ！ 面白くなってきたね。"
+      },
+      {
+        "id": "raise-03",
+        "kind": "raise",
+        "text": "いいね、そのチャレンジ！ さて、どうしようかな。"
+      },
+      {
+        "id": "streakWin-01",
+        "kind": "streakWin",
+        "text": "また、あなたの勝ち！ 今日は、絶好調だね。"
+      },
+      {
+        "id": "streakWin-02",
+        "kind": "streakWin",
+        "text": "連勝、おめでとう！ この調子で、楽しもう。"
+      },
+      {
+        "id": "streakWin-03",
+        "kind": "streakWin",
+        "text": "強いなあ！ 次こそ、私も食らいつくよ。"
+      },
+      {
+        "id": "streakLoss-01",
+        "kind": "streakLoss",
+        "text": "ちょっと、深呼吸しよう。焦らなくて、大丈夫！"
+      },
+      {
+        "id": "streakLoss-02",
+        "kind": "streakLoss",
+        "text": "流れが来ないね。でも、無理せずいこう！"
+      },
+      {
+        "id": "streakLoss-03",
+        "kind": "streakLoss",
+        "text": "次は、気持ちを切り替えて！ 応援してるよ。"
+      },
+      {
+        "id": "fold-01",
+        "kind": "fold",
+        "text": "ここは、ひと休み！ 次のチャンスに備えよう。"
+      },
+      {
+        "id": "fold-02",
+        "kind": "fold",
+        "text": "降りるのも、いい判断だね。次のハンド、いこう！"
+      }
+    ]
+  },
+  {
+    "character": "rina",
+    "game": "poker",
+    "module": "frontend/poker/rina-reward-lines.js",
+    "manifest": "poker/assets/voice-rina/reward-manifest.json",
+    "lines": [
+      {
+        "id": "reward-01",
+        "kind": "reward",
+        "text": "ナイス、完全勝利！ 私の持ち点、全部持っていかれたな！ 夏服で、ひと休みだ。次は負けないぞ！"
+      }
+    ]
+  },
+  {
+    "character": "shizue",
+    "game": "poker",
+    "module": "frontend/poker/shizue-voice-lines.js",
+    "manifest": "poker/assets/voice-shizue/manifest.json",
+    "lines": [
+      {
+        "id": "welcome-01",
+        "kind": "welcome",
+        "text": "ラウンジへようおこしやす。今夜は、ゆっくり楽しんでいっておくれやす。"
+      },
+      {
+        "id": "welcome-02",
+        "kind": "welcome",
+        "text": "いらっしゃいませ。お会いできて、うれしいどす。"
+      },
+      {
+        "id": "welcome-03",
+        "kind": "welcome",
+        "text": "準備はいいですか？ それでは、始めましょう。"
+      },
+      {
+        "id": "welcome-04",
+        "kind": "welcome",
+        "text": "お帰りなさい。続きを、ご一緒しまひょ。"
+      },
+      {
+        "id": "deal-01",
+        "kind": "deal",
+        "text": "新しいカードどす。どんな一手になるか、楽しみどすね。"
+      },
+      {
+        "id": "deal-02",
+        "kind": "deal",
+        "text": "次のハンドへ。今度は、どう攻めますか？"
+      },
+      {
+        "id": "deal-03",
+        "kind": "deal",
+        "text": "カードを配りました。慌てず、見てみてください。"
+      },
+      {
+        "id": "deal-04",
+        "kind": "deal",
+        "text": "さて、次の勝負どす。よろしくお願いします。"
+      },
+      {
+        "id": "win-01",
+        "kind": "win",
+        "text": "お見事どす。きれいに決まりましたね。"
+      },
+      {
+        "id": "win-02",
+        "kind": "win",
+        "text": "あなたの勝ちどす。さすがどすね。"
+      },
+      {
+        "id": "win-03",
+        "kind": "win",
+        "text": "あら、負けちゃいました。いい勝負でしたね。"
+      },
+      {
+        "id": "win-04",
+        "kind": "win",
+        "text": "その一手、素敵でした。次はうちも頑張ります。"
+      },
+      {
+        "id": "win-05",
+        "kind": "win",
+        "text": "やられましたね。思わず見入ってしまいました。"
+      },
+      {
+        "id": "win-06",
+        "kind": "win",
+        "text": "おめでとうございます。次の勝負も、楽しみどす。"
+      },
+      {
+        "id": "loss-01",
+        "kind": "loss",
+        "text": "今回は、うちの勝ちどすね。もう一度、いかがですか？"
+      },
+      {
+        "id": "loss-02",
+        "kind": "loss",
+        "text": "惜しかったどすね。次のカードに、期待しまひょ。"
+      },
+      {
+        "id": "loss-03",
+        "kind": "loss",
+        "text": "焦らなくて大丈夫。ゆっくりいきましょうね。"
+      },
+      {
+        "id": "loss-04",
+        "kind": "loss",
+        "text": "今回は、こちらに流れが来たみたいどす。"
+      },
+      {
+        "id": "loss-05",
+        "kind": "loss",
+        "text": "いい勝負でした。次は、どうなるでしょうね。"
+      },
+      {
+        "id": "loss-06",
+        "kind": "loss",
+        "text": "勝負は、まだまだこれから。お付き合いおくれやす。"
+      },
+      {
+        "id": "tie-01",
+        "kind": "tie",
+        "text": "引き分けどすね。なんだか、息がぴったりどす。"
+      },
+      {
+        "id": "tie-02",
+        "kind": "tie",
+        "text": "互角の勝負でしたね。次こそ、決着でしょうか。"
+      },
+      {
+        "id": "tie-03",
+        "kind": "tie",
+        "text": "今回は、仲良く半分ずつ。次も楽しみどすね。"
+      },
+      {
+        "id": "draw-01",
+        "kind": "draw",
+        "text": "交換するカードを、選んでおくれやす。"
+      },
+      {
+        "id": "draw-02",
+        "kind": "draw",
+        "text": "そのままでも、交換しても大丈夫。お任せします。"
+      },
+      {
+        "id": "draw-03",
+        "kind": "draw",
+        "text": "どのカードを残しますか？ じっくり考えてください。"
+      },
+      {
+        "id": "reveal-01",
+        "kind": "reveal",
+        "text": "カードがそろいました。最後の一手、どうしますか？"
+      },
+      {
+        "id": "reveal-02",
+        "kind": "reveal",
+        "text": "ここが、勝負どころどすね。うちは、準備できています。"
+      },
+      {
+        "id": "reveal-03",
+        "kind": "reveal",
+        "text": "最後の判断どす。納得のいく一手を、どうぞ。"
+      },
+      {
+        "id": "raise-01",
+        "kind": "raise",
+        "text": "あら、強気どすね。こちらも、気が抜けません。"
+      },
+      {
+        "id": "raise-02",
+        "kind": "raise",
+        "text": "勝負に出ましたね。面白くなってきました。"
+      },
+      {
+        "id": "raise-03",
+        "kind": "raise",
+        "text": "そのレイズ、気になりますね。さて、どうしまひょ。"
+      },
+      {
+        "id": "streakWin-01",
+        "kind": "streakWin",
+        "text": "また、あなたの勝ちどすね。今日は手強いなあ。"
+      },
+      {
+        "id": "streakWin-02",
+        "kind": "streakWin",
+        "text": "連勝どすね。すっかり、調子が出てきましたね。"
+      },
+      {
+        "id": "streakWin-03",
+        "kind": "streakWin",
+        "text": "お強いどすね。次こそ、うちも負けませんよ。"
+      },
+      {
+        "id": "streakLoss-01",
+        "kind": "streakLoss",
+        "text": "少し、ひと息つきましょうか。急がなくて大丈夫どすよ。"
+      },
+      {
+        "id": "streakLoss-02",
+        "kind": "streakLoss",
+        "text": "なかなか、流れが来ませんね。無理せず、いきましょう。"
+      },
+      {
+        "id": "streakLoss-03",
+        "kind": "streakLoss",
+        "text": "次の勝負は、気持ちを切り替えて。応援しています。"
+      },
+      {
+        "id": "fold-01",
+        "kind": "fold",
+        "text": "ここは、ひと休みどすね。次のチャンスを待ちましょう。"
+      },
+      {
+        "id": "fold-02",
+        "kind": "fold",
+        "text": "降りるのも、大切な判断どす。次のハンドへ、いきましょう。"
+      }
+    ]
+  },
+  {
+    "character": "shizue",
+    "game": "poker",
+    "module": "frontend/poker/shizue-reward-lines.js",
+    "manifest": "poker/assets/voice-shizue/reward-manifest.json",
+    "lines": [
+      {
+        "id": "reward-01",
+        "kind": "reward",
+        "text": "お見事どす。うちの持ち点がゼロ、あなたの完全勝利どすね。お祝いに、涼しげな夏服に着替えてみました。またご一緒しまひょ。"
+      }
+    ]
+  },
+  {
+    "character": "kathy",
+    "game": "poker",
+    "module": "frontend/poker/kathy-voice-lines.js",
+    "manifest": "poker/assets/voice-kathy/manifest.json",
+    "lines": [
+      {
+        "id": "welcome-01",
+        "kind": "welcome",
+        "text": "ラウンジへようこそ。今夜は、ゆっくり楽しんでいってくださいね。"
+      },
+      {
+        "id": "welcome-02",
+        "kind": "welcome",
+        "text": "いらっしゃいませ。お会いできて、うれしいです。"
+      },
+      {
+        "id": "welcome-03",
+        "kind": "welcome",
+        "text": "準備はいいですか？ それでは、始めましょう。"
+      },
+      {
+        "id": "welcome-04",
+        "kind": "welcome",
+        "text": "お帰りなさい。続きを、ご一緒しましょう。"
+      },
+      {
+        "id": "deal-01",
+        "kind": "deal",
+        "text": "新しいカードです。どんな一手になるか、楽しみですね。"
+      },
+      {
+        "id": "deal-02",
+        "kind": "deal",
+        "text": "次のハンドへ。今度は、どう攻めますか？"
+      },
+      {
+        "id": "deal-03",
+        "kind": "deal",
+        "text": "カードを配りました。慌てず、見てみてください。"
+      },
+      {
+        "id": "deal-04",
+        "kind": "deal",
+        "text": "さて、次の勝負です。よろしくお願いします。"
+      },
+      {
+        "id": "win-01",
+        "kind": "win",
+        "text": "お見事です。きれいに決まりましたね。"
+      },
+      {
+        "id": "win-02",
+        "kind": "win",
+        "text": "あなたの勝ちです。さすがですね。"
+      },
+      {
+        "id": "win-03",
+        "kind": "win",
+        "text": "あら、負けちゃいました。いい勝負でしたね。"
+      },
+      {
+        "id": "win-04",
+        "kind": "win",
+        "text": "その一手、素敵でした。次は私も頑張ります。"
+      },
+      {
+        "id": "win-05",
+        "kind": "win",
+        "text": "やられましたね。思わず見入ってしまいました。"
+      },
+      {
+        "id": "win-06",
+        "kind": "win",
+        "text": "おめでとうございます。次の勝負も、楽しみです。"
+      },
+      {
+        "id": "loss-01",
+        "kind": "loss",
+        "text": "今回は、私の勝ちですね。もう一度、いかがですか？"
+      },
+      {
+        "id": "loss-02",
+        "kind": "loss",
+        "text": "惜しかったですね。次のカードに、期待しましょう。"
+      },
+      {
+        "id": "loss-03",
+        "kind": "loss",
+        "text": "焦らなくて大丈夫。ゆっくりいきましょうね。"
+      },
+      {
+        "id": "loss-04",
+        "kind": "loss",
+        "text": "今回は、こちらに流れが来たみたいです。"
+      },
+      {
+        "id": "loss-05",
+        "kind": "loss",
+        "text": "いい勝負でした。次は、どうなるでしょうね。"
+      },
+      {
+        "id": "loss-06",
+        "kind": "loss",
+        "text": "勝負は、まだまだこれから。お付き合いくださいね。"
+      },
+      {
+        "id": "tie-01",
+        "kind": "tie",
+        "text": "引き分けですね。なんだか、息がぴったりです。"
+      },
+      {
+        "id": "tie-02",
+        "kind": "tie",
+        "text": "互角の勝負でしたね。次こそ、決着でしょうか。"
+      },
+      {
+        "id": "tie-03",
+        "kind": "tie",
+        "text": "今回は、仲良く半分ずつ。次も楽しみですね。"
+      },
+      {
+        "id": "draw-01",
+        "kind": "draw",
+        "text": "交換するカードを、選んでくださいね。"
+      },
+      {
+        "id": "draw-02",
+        "kind": "draw",
+        "text": "そのままでも、交換しても大丈夫。お任せします。"
+      },
+      {
+        "id": "draw-03",
+        "kind": "draw",
+        "text": "どのカードを残しますか？ じっくり考えてください。"
+      },
+      {
+        "id": "reveal-01",
+        "kind": "reveal",
+        "text": "カードがそろいました。最後の一手、どうしますか？"
+      },
+      {
+        "id": "reveal-02",
+        "kind": "reveal",
+        "text": "ここが、勝負どころですね。私は、準備できています。"
+      },
+      {
+        "id": "reveal-03",
+        "kind": "reveal",
+        "text": "最後の判断です。納得のいく一手を、どうぞ。"
+      },
+      {
+        "id": "raise-01",
+        "kind": "raise",
+        "text": "あら、強気ですね。こちらも、気が抜けません。"
+      },
+      {
+        "id": "raise-02",
+        "kind": "raise",
+        "text": "勝負に出ましたね。面白くなってきました。"
+      },
+      {
+        "id": "raise-03",
+        "kind": "raise",
+        "text": "そのレイズ、気になりますね。さて、どうしましょう。"
+      },
+      {
+        "id": "streakWin-01",
+        "kind": "streakWin",
+        "text": "また、あなたの勝ちですね。今日は手強いなあ。"
+      },
+      {
+        "id": "streakWin-02",
+        "kind": "streakWin",
+        "text": "連勝ですね。すっかり、調子が出てきましたね。"
+      },
+      {
+        "id": "streakWin-03",
+        "kind": "streakWin",
+        "text": "お強いですね。次こそ、私も負けませんよ。"
+      },
+      {
+        "id": "streakLoss-01",
+        "kind": "streakLoss",
+        "text": "少し、ひと息つきましょうか。急がなくて大丈夫ですよ。"
+      },
+      {
+        "id": "streakLoss-02",
+        "kind": "streakLoss",
+        "text": "なかなか、流れが来ませんね。無理せず、いきましょう。"
+      },
+      {
+        "id": "streakLoss-03",
+        "kind": "streakLoss",
+        "text": "次の勝負は、気持ちを切り替えて。応援しています。"
+      },
+      {
+        "id": "fold-01",
+        "kind": "fold",
+        "text": "ここは、ひと休みですね。次のチャンスを待ちましょう。"
+      },
+      {
+        "id": "fold-02",
+        "kind": "fold",
+        "text": "降りるのも、大切な判断です。次のハンドへ、いきましょう。"
+      }
+    ]
+  },
+  {
+    "character": "kathy",
+    "game": "poker",
+    "module": "frontend/poker/kathy-reward-lines.js",
+    "manifest": "poker/assets/voice-kathy/reward-manifest.json",
+    "lines": [
+      {
+        "id": "reward-01",
+        "kind": "reward",
+        "text": "お見事です。私の持ち点がゼロ、あなたの完全勝利ですね。お祝いに、涼しげな夏服に着替えてみました。またご一緒しましょう。"
+      }
+    ]
+  },
+  {
+    "character": "misaki",
+    "game": "blackjack",
+    "module": "frontend/blackjack/voice-lines.js",
+    "manifest": "blackjack/assets/voice/manifest.json",
+    "lines": [
+      {
+        "id": "welcome-01",
+        "kind": "welcome",
+        "text": "ラウンジへようこそ。今夜は、ゆっくり楽しんでいってくださいね。"
+      },
+      {
+        "id": "welcome-02",
+        "kind": "welcome",
+        "text": "いらっしゃいませ。お会いできて、うれしいです。"
+      },
+      {
+        "id": "welcome-03",
+        "kind": "welcome",
+        "text": "準備はいいですか？ それでは、始めましょう。"
+      },
+      {
+        "id": "welcome-04",
+        "kind": "welcome",
+        "text": "お帰りなさい。続きを、ご一緒しましょう。"
+      },
+      {
+        "id": "deal-01",
+        "kind": "deal",
+        "text": "新しいカードです。どんな一手になるか、楽しみですね。"
+      },
+      {
+        "id": "deal-02",
+        "kind": "deal",
+        "text": "次のハンドへ。今度は、どう攻めますか？"
+      },
+      {
+        "id": "deal-03",
+        "kind": "deal",
+        "text": "カードを配りました。慌てず、見てみてください。"
+      },
+      {
+        "id": "deal-04",
+        "kind": "deal",
+        "text": "さて、次の勝負です。よろしくお願いします。"
+      },
+      {
+        "id": "win-01",
+        "kind": "win",
+        "text": "お見事です。きれいに決まりましたね。"
+      },
+      {
+        "id": "win-02",
+        "kind": "win",
+        "text": "あなたの勝ちです。さすがですね。"
+      },
+      {
+        "id": "win-03",
+        "kind": "win",
+        "text": "あら、負けちゃいました。いい勝負でしたね。"
+      },
+      {
+        "id": "win-04",
+        "kind": "win",
+        "text": "その一手、素敵でした。次は私も頑張ります。"
+      },
+      {
+        "id": "win-05",
+        "kind": "win",
+        "text": "やられましたね。思わず見入ってしまいました。"
+      },
+      {
+        "id": "win-06",
+        "kind": "win",
+        "text": "おめでとうございます。次の勝負も、楽しみです。"
+      },
+      {
+        "id": "loss-01",
+        "kind": "loss",
+        "text": "今回は、私の勝ちですね。もう一度、いかがですか？"
+      },
+      {
+        "id": "loss-02",
+        "kind": "loss",
+        "text": "惜しかったですね。次のカードに、期待しましょう。"
+      },
+      {
+        "id": "loss-03",
+        "kind": "loss",
+        "text": "焦らなくて大丈夫。ゆっくりいきましょうね。"
+      },
+      {
+        "id": "loss-04",
+        "kind": "loss",
+        "text": "今回は、こちらに流れが来たみたいです。"
+      },
+      {
+        "id": "loss-05",
+        "kind": "loss",
+        "text": "いい勝負でした。次は、どうなるでしょうね。"
+      },
+      {
+        "id": "loss-06",
+        "kind": "loss",
+        "text": "勝負は、まだまだこれから。お付き合いくださいね。"
+      },
+      {
+        "id": "tie-01",
+        "kind": "tie",
+        "text": "引き分けですね。なんだか、息がぴったりです。"
+      },
+      {
+        "id": "tie-02",
+        "kind": "tie",
+        "text": "互角の勝負でしたね。次こそ、決着でしょうか。"
+      },
+      {
+        "id": "tie-03",
+        "kind": "tie",
+        "text": "今回は、仲良く半分ずつ。次も楽しみですね。"
+      },
+      {
+        "id": "draw-01",
+        "kind": "draw",
+        "text": "交換するカードを、選んでくださいね。"
+      },
+      {
+        "id": "draw-02",
+        "kind": "draw",
+        "text": "そのままでも、交換しても大丈夫。お任せします。"
+      },
+      {
+        "id": "draw-03",
+        "kind": "draw",
+        "text": "どのカードを残しますか？ じっくり考えてください。"
+      },
+      {
+        "id": "reveal-01",
+        "kind": "reveal",
+        "text": "カードがそろいました。最後の一手、どうしますか？"
+      },
+      {
+        "id": "reveal-02",
+        "kind": "reveal",
+        "text": "ここが、勝負どころですね。私は、準備できています。"
+      },
+      {
+        "id": "reveal-03",
+        "kind": "reveal",
+        "text": "最後の判断です。納得のいく一手を、どうぞ。"
+      },
+      {
+        "id": "raise-01",
+        "kind": "raise",
+        "text": "あら、強気ですね。こちらも、気が抜けません。"
+      },
+      {
+        "id": "raise-02",
+        "kind": "raise",
+        "text": "勝負に出ましたね。面白くなってきました。"
+      },
+      {
+        "id": "raise-03",
+        "kind": "raise",
+        "text": "そのレイズ、気になりますね。さて、どうしましょう。"
+      },
+      {
+        "id": "streakWin-01",
+        "kind": "streakWin",
+        "text": "また、あなたの勝ちですね。今日は手強いなあ。"
+      },
+      {
+        "id": "streakWin-02",
+        "kind": "streakWin",
+        "text": "連勝ですね。すっかり、調子が出てきましたね。"
+      },
+      {
+        "id": "streakWin-03",
+        "kind": "streakWin",
+        "text": "お強いですね。次こそ、私も負けませんよ。"
+      },
+      {
+        "id": "streakLoss-01",
+        "kind": "streakLoss",
+        "text": "少し、ひと息つきましょうか。急がなくて大丈夫ですよ。"
+      },
+      {
+        "id": "streakLoss-02",
+        "kind": "streakLoss",
+        "text": "なかなか、流れが来ませんね。無理せず、いきましょう。"
+      },
+      {
+        "id": "streakLoss-03",
+        "kind": "streakLoss",
+        "text": "次の勝負は、気持ちを切り替えて。応援しています。"
+      },
+      {
+        "id": "fold-01",
+        "kind": "fold",
+        "text": "ここは、ひと休みですね。次のチャンスを待ちましょう。"
+      },
+      {
+        "id": "fold-02",
+        "kind": "fold",
+        "text": "降りるのも、大切な判断です。次のハンドへ、いきましょう。"
+      }
+    ]
+  },
+  {
+    "character": "misaki",
+    "game": "blackjack",
+    "module": "frontend/blackjack/misaki-reward-lines.js",
+    "manifest": "blackjack/assets/voice/reward-manifest.json",
+    "lines": [
+      {
+        "id": "reward-01",
+        "kind": "reward",
+        "text": "2,000チップ達成、おめでとうございます。お祝いに、涼しげな夏服に着替えてみました。ブラックジャックも、お上手ですね。"
+      }
+    ]
+  },
+  {
+    "character": "ayaka",
+    "game": "blackjack",
+    "module": "frontend/blackjack/ayaka-voice-lines.js",
+    "manifest": "blackjack/assets/voice-ayaka/manifest.json",
+    "lines": [
+      {
+        "id": "welcome-01",
+        "kind": "welcome",
+        "text": "こんにちは、アヤカです！ いっしょにブラックジャックを楽しみましょう。"
+      },
+      {
+        "id": "welcome-02",
+        "kind": "welcome",
+        "text": "会えてうれしいです！ 今日は、どのゲームにしますか？"
+      },
+      {
+        "id": "welcome-03",
+        "kind": "welcome",
+        "text": "準備はいいですか？ それじゃあ、始めましょう！"
+      },
+      {
+        "id": "welcome-04",
+        "kind": "welcome",
+        "text": "お帰りなさい！ 続きも、いっしょに楽しみましょう。"
+      },
+      {
+        "id": "deal-01",
+        "kind": "deal",
+        "text": "新しいカードです。どんな一手になるか、楽しみですね。"
+      },
+      {
+        "id": "deal-02",
+        "kind": "deal",
+        "text": "次のハンドへ。今度は、どう攻めますか？"
+      },
+      {
+        "id": "deal-03",
+        "kind": "deal",
+        "text": "カードを配りました。慌てず、見てみてください。"
+      },
+      {
+        "id": "deal-04",
+        "kind": "deal",
+        "text": "さて、次の勝負です。よろしくお願いします。"
+      },
+      {
+        "id": "win-01",
+        "kind": "win",
+        "text": "すごい！ きれいに決まりましたね。"
+      },
+      {
+        "id": "win-02",
+        "kind": "win",
+        "text": "あなたの勝ちです。さすがですね。"
+      },
+      {
+        "id": "win-03",
+        "kind": "win",
+        "text": "ああ、負けちゃった！ でも、楽しかったです。"
+      },
+      {
+        "id": "win-04",
+        "kind": "win",
+        "text": "その一手、素敵でした。次は私も頑張ります。"
+      },
+      {
+        "id": "win-05",
+        "kind": "win",
+        "text": "わあ、お見事です！ 思わず見入っちゃいました。"
+      },
+      {
+        "id": "win-06",
+        "kind": "win",
+        "text": "おめでとうございます。次の勝負も、楽しみです。"
+      },
+      {
+        "id": "loss-01",
+        "kind": "loss",
+        "text": "今回は、私の勝ちです！ 次も、いっしょに遊びましょう。"
+      },
+      {
+        "id": "loss-02",
+        "kind": "loss",
+        "text": "惜しかったですね。次のカードに、期待しましょう。"
+      },
+      {
+        "id": "loss-03",
+        "kind": "loss",
+        "text": "焦らなくて大丈夫。ゆっくりいきましょうね。"
+      },
+      {
+        "id": "loss-04",
+        "kind": "loss",
+        "text": "やった！ 今回は、こっちに流れが来たみたいです。"
+      },
+      {
+        "id": "loss-05",
+        "kind": "loss",
+        "text": "いい勝負でした。次は、どうなるでしょうね。"
+      },
+      {
+        "id": "loss-06",
+        "kind": "loss",
+        "text": "勝負は、まだまだこれから。お付き合いくださいね。"
+      },
+      {
+        "id": "tie-01",
+        "kind": "tie",
+        "text": "引き分けですね。なんだか、息がぴったりです。"
+      },
+      {
+        "id": "tie-02",
+        "kind": "tie",
+        "text": "互角の勝負でしたね。次こそ、決着でしょうか。"
+      },
+      {
+        "id": "tie-03",
+        "kind": "tie",
+        "text": "今回は、仲良く半分ずつ。次も楽しみですね。"
+      },
+      {
+        "id": "draw-01",
+        "kind": "draw",
+        "text": "交換するカードを、選んでくださいね。"
+      },
+      {
+        "id": "draw-02",
+        "kind": "draw",
+        "text": "そのままでも、交換しても大丈夫。お任せします。"
+      },
+      {
+        "id": "draw-03",
+        "kind": "draw",
+        "text": "どのカードを残しますか？ じっくり考えてください。"
+      },
+      {
+        "id": "reveal-01",
+        "kind": "reveal",
+        "text": "カードがそろいました。最後の一手、どうしますか？"
+      },
+      {
+        "id": "reveal-02",
+        "kind": "reveal",
+        "text": "ここが、勝負どころですね。私は、準備できています。"
+      },
+      {
+        "id": "reveal-03",
+        "kind": "reveal",
+        "text": "最後の判断です。納得のいく一手を、どうぞ。"
+      },
+      {
+        "id": "raise-01",
+        "kind": "raise",
+        "text": "わあ、強気ですね！ 私も頑張らなくちゃ。"
+      },
+      {
+        "id": "raise-02",
+        "kind": "raise",
+        "text": "勝負に出ましたね。面白くなってきました。"
+      },
+      {
+        "id": "raise-03",
+        "kind": "raise",
+        "text": "そのレイズ、気になりますね。さて、どうしましょう。"
+      },
+      {
+        "id": "streakWin-01",
+        "kind": "streakWin",
+        "text": "また、あなたの勝ちですね！ うーん、手強いなあ。"
+      },
+      {
+        "id": "streakWin-02",
+        "kind": "streakWin",
+        "text": "連勝ですね。すっかり、調子が出てきましたね。"
+      },
+      {
+        "id": "streakWin-03",
+        "kind": "streakWin",
+        "text": "お強いですね。次こそ、私も負けませんよ。"
+      },
+      {
+        "id": "streakLoss-01",
+        "kind": "streakLoss",
+        "text": "ちょっと、ひと休みしましょうか。急がなくて大丈夫ですよ。"
+      },
+      {
+        "id": "streakLoss-02",
+        "kind": "streakLoss",
+        "text": "なかなか、流れが来ませんね。無理せず、いきましょう。"
+      },
+      {
+        "id": "streakLoss-03",
+        "kind": "streakLoss",
+        "text": "次の勝負は、気持ちを切り替えて。応援しています。"
+      },
+      {
+        "id": "fold-01",
+        "kind": "fold",
+        "text": "ここは、ひと休みですね。次のチャンスを待ちましょう。"
+      },
+      {
+        "id": "fold-02",
+        "kind": "fold",
+        "text": "降りるのも、大切な判断です。次のハンドへ、いきましょう。"
+      }
+    ]
+  },
+  {
+    "character": "ayaka",
+    "game": "blackjack",
+    "module": "frontend/blackjack/ayaka-reward-lines.js",
+    "manifest": "blackjack/assets/voice-ayaka/reward-manifest.json",
+    "lines": [
+      {
+        "id": "reward-01",
+        "kind": "reward",
+        "text": "やったね、2,000チップ達成！ お祝いの夏服だよ。ブラックジャック、楽しかったね。また一緒に遊ぼう！"
+      }
+    ]
+  },
+  {
+    "character": "rina",
+    "game": "blackjack",
+    "module": "frontend/blackjack/rina-voice-lines.js",
+    "manifest": "blackjack/assets/voice-rina/manifest.json",
+    "lines": [
+      {
+        "id": "welcome-01",
+        "kind": "welcome",
+        "text": "やっほー、リナだよ。今日は一緒に楽しもう！"
+      },
+      {
+        "id": "welcome-02",
+        "kind": "welcome",
+        "text": "準備できた？ さあ、いい勝負にしよう！"
+      },
+      {
+        "id": "welcome-03",
+        "kind": "welcome",
+        "text": "来てくれてうれしいな。最後まで、全力でいくよ！"
+      },
+      {
+        "id": "welcome-04",
+        "kind": "welcome",
+        "text": "おかえり！ 続きも、元気にいこう！"
+      },
+      {
+        "id": "deal-01",
+        "kind": "deal",
+        "text": "次のハンドだよ。気持ちを切り替えて、いこう！"
+      },
+      {
+        "id": "deal-02",
+        "kind": "deal",
+        "text": "新しいカード！ まずは、しっかり見てみよう。"
+      },
+      {
+        "id": "deal-03",
+        "kind": "deal",
+        "text": "よし、次の勝負！ どんな一手を見せてくれるかな？"
+      },
+      {
+        "id": "deal-04",
+        "kind": "deal",
+        "text": "カードを配ったよ。自分のペースでいこうね。"
+      },
+      {
+        "id": "win-01",
+        "kind": "win",
+        "text": "ナイス！ その一手、ばっちり決まったね。"
+      },
+      {
+        "id": "win-02",
+        "kind": "win",
+        "text": "おお、あなたの勝ち！ いいプレーだったね。"
+      },
+      {
+        "id": "win-03",
+        "kind": "win",
+        "text": "やられた！ 次は、私も負けないよ。"
+      },
+      {
+        "id": "win-04",
+        "kind": "win",
+        "text": "すごいね！ 思わず、拍手しちゃいそう。"
+      },
+      {
+        "id": "win-05",
+        "kind": "win",
+        "text": "きれいに決まったね。ナイスファイト！"
+      },
+      {
+        "id": "win-06",
+        "kind": "win",
+        "text": "おめでとう！ 次の勝負も、楽しみだね。"
+      },
+      {
+        "id": "loss-01",
+        "kind": "loss",
+        "text": "よし、今回は私の勝ち！ 次も、全力でいこう。"
+      },
+      {
+        "id": "loss-02",
+        "kind": "loss",
+        "text": "惜しかったね。次のチャンスを、つかもう！"
+      },
+      {
+        "id": "loss-03",
+        "kind": "loss",
+        "text": "大丈夫！ 焦らず、自分のペースでね。"
+      },
+      {
+        "id": "loss-04",
+        "kind": "loss",
+        "text": "今回は、こっちに流れが来たね。いい勝負だったよ！"
+      },
+      {
+        "id": "loss-05",
+        "kind": "loss",
+        "text": "最後まで、いいプレーだったよ。次も、いこう！"
+      },
+      {
+        "id": "loss-06",
+        "kind": "loss",
+        "text": "勝負は、まだこれから！ 一緒に楽しもう。"
+      },
+      {
+        "id": "tie-01",
+        "kind": "tie",
+        "text": "引き分け！ お互い、いい勝負だったね。"
+      },
+      {
+        "id": "tie-02",
+        "kind": "tie",
+        "text": "互角だね！ 次で、決着をつけよう。"
+      },
+      {
+        "id": "tie-03",
+        "kind": "tie",
+        "text": "今回は、半分ずつ！ 次も、フェアにいこうね。"
+      },
+      {
+        "id": "draw-01",
+        "kind": "draw",
+        "text": "交換するカードを選ぼう！ じっくり見てね。"
+      },
+      {
+        "id": "draw-02",
+        "kind": "draw",
+        "text": "そのままでも、交換してもオッケー！ 自分で決めよう。"
+      },
+      {
+        "id": "draw-03",
+        "kind": "draw",
+        "text": "どのカードを残す？ チャンスを、つかもう！"
+      },
+      {
+        "id": "reveal-01",
+        "kind": "reveal",
+        "text": "カードがそろったよ。さあ、最後の一手！"
+      },
+      {
+        "id": "reveal-02",
+        "kind": "reveal",
+        "text": "ここが、勝負どころ！ 集中して、いこう。"
+      },
+      {
+        "id": "reveal-03",
+        "kind": "reveal",
+        "text": "ラストの判断だね。自分を信じて、どうぞ！"
+      },
+      {
+        "id": "raise-01",
+        "kind": "raise",
+        "text": "おっ、勝負に出たね！ 私も、気合いが入るよ。"
+      },
+      {
+        "id": "raise-02",
+        "kind": "raise",
+        "text": "強気のレイズ！ 面白くなってきたね。"
+      },
+      {
+        "id": "raise-03",
+        "kind": "raise",
+        "text": "いいね、そのチャレンジ！ さて、どうしようかな。"
+      },
+      {
+        "id": "streakWin-01",
+        "kind": "streakWin",
+        "text": "また、あなたの勝ち！ 今日は、絶好調だね。"
+      },
+      {
+        "id": "streakWin-02",
+        "kind": "streakWin",
+        "text": "連勝、おめでとう！ この調子で、楽しもう。"
+      },
+      {
+        "id": "streakWin-03",
+        "kind": "streakWin",
+        "text": "強いなあ！ 次こそ、私も食らいつくよ。"
+      },
+      {
+        "id": "streakLoss-01",
+        "kind": "streakLoss",
+        "text": "ちょっと、深呼吸しよう。焦らなくて、大丈夫！"
+      },
+      {
+        "id": "streakLoss-02",
+        "kind": "streakLoss",
+        "text": "流れが来ないね。でも、無理せずいこう！"
+      },
+      {
+        "id": "streakLoss-03",
+        "kind": "streakLoss",
+        "text": "次は、気持ちを切り替えて！ 応援してるよ。"
+      },
+      {
+        "id": "fold-01",
+        "kind": "fold",
+        "text": "ここは、ひと休み！ 次のチャンスに備えよう。"
+      },
+      {
+        "id": "fold-02",
+        "kind": "fold",
+        "text": "降りるのも、いい判断だね。次のハンド、いこう！"
+      }
+    ]
+  },
+  {
+    "character": "rina",
+    "game": "blackjack",
+    "module": "frontend/blackjack/rina-reward-lines.js",
+    "manifest": "blackjack/assets/voice-rina/reward-manifest.json",
+    "lines": [
+      {
+        "id": "reward-01",
+        "kind": "reward",
+        "text": "ナイス、2,000チップ達成！ 判断がばっちり決まったな！ 夏服で、ひと休みだ。次も全力でいこう！"
+      }
+    ]
+  },
+  {
+    "character": "shizue",
+    "game": "blackjack",
+    "module": "frontend/blackjack/shizue-voice-lines.js",
+    "manifest": "blackjack/assets/voice-shizue/manifest.json",
+    "lines": [
+      {
+        "id": "welcome-01",
+        "kind": "welcome",
+        "text": "ラウンジへようおこしやす。今夜は、ゆっくり楽しんでいっておくれやす。"
+      },
+      {
+        "id": "welcome-02",
+        "kind": "welcome",
+        "text": "いらっしゃいませ。お会いできて、うれしいどす。"
+      },
+      {
+        "id": "welcome-03",
+        "kind": "welcome",
+        "text": "準備はいいですか？ それでは、始めましょう。"
+      },
+      {
+        "id": "welcome-04",
+        "kind": "welcome",
+        "text": "お帰りなさい。続きを、ご一緒しまひょ。"
+      },
+      {
+        "id": "deal-01",
+        "kind": "deal",
+        "text": "新しいカードどす。どんな一手になるか、楽しみどすね。"
+      },
+      {
+        "id": "deal-02",
+        "kind": "deal",
+        "text": "次のハンドへ。今度は、どう攻めますか？"
+      },
+      {
+        "id": "deal-03",
+        "kind": "deal",
+        "text": "カードを配りました。慌てず、見てみてください。"
+      },
+      {
+        "id": "deal-04",
+        "kind": "deal",
+        "text": "さて、次の勝負どす。よろしくお願いします。"
+      },
+      {
+        "id": "win-01",
+        "kind": "win",
+        "text": "お見事どす。きれいに決まりましたね。"
+      },
+      {
+        "id": "win-02",
+        "kind": "win",
+        "text": "あなたの勝ちどす。さすがどすね。"
+      },
+      {
+        "id": "win-03",
+        "kind": "win",
+        "text": "あら、負けちゃいました。いい勝負でしたね。"
+      },
+      {
+        "id": "win-04",
+        "kind": "win",
+        "text": "その一手、素敵でした。次はうちも頑張ります。"
+      },
+      {
+        "id": "win-05",
+        "kind": "win",
+        "text": "やられましたね。思わず見入ってしまいました。"
+      },
+      {
+        "id": "win-06",
+        "kind": "win",
+        "text": "おめでとうございます。次の勝負も、楽しみどす。"
+      },
+      {
+        "id": "loss-01",
+        "kind": "loss",
+        "text": "今回は、うちの勝ちどすね。もう一度、いかがですか？"
+      },
+      {
+        "id": "loss-02",
+        "kind": "loss",
+        "text": "惜しかったどすね。次のカードに、期待しまひょ。"
+      },
+      {
+        "id": "loss-03",
+        "kind": "loss",
+        "text": "焦らなくて大丈夫。ゆっくりいきましょうね。"
+      },
+      {
+        "id": "loss-04",
+        "kind": "loss",
+        "text": "今回は、こちらに流れが来たみたいどす。"
+      },
+      {
+        "id": "loss-05",
+        "kind": "loss",
+        "text": "いい勝負でした。次は、どうなるでしょうね。"
+      },
+      {
+        "id": "loss-06",
+        "kind": "loss",
+        "text": "勝負は、まだまだこれから。お付き合いおくれやす。"
+      },
+      {
+        "id": "tie-01",
+        "kind": "tie",
+        "text": "引き分けどすね。なんだか、息がぴったりどす。"
+      },
+      {
+        "id": "tie-02",
+        "kind": "tie",
+        "text": "互角の勝負でしたね。次こそ、決着でしょうか。"
+      },
+      {
+        "id": "tie-03",
+        "kind": "tie",
+        "text": "今回は、仲良く半分ずつ。次も楽しみどすね。"
+      },
+      {
+        "id": "draw-01",
+        "kind": "draw",
+        "text": "交換するカードを、選んでおくれやす。"
+      },
+      {
+        "id": "draw-02",
+        "kind": "draw",
+        "text": "そのままでも、交換しても大丈夫。お任せします。"
+      },
+      {
+        "id": "draw-03",
+        "kind": "draw",
+        "text": "どのカードを残しますか？ じっくり考えてください。"
+      },
+      {
+        "id": "reveal-01",
+        "kind": "reveal",
+        "text": "カードがそろいました。最後の一手、どうしますか？"
+      },
+      {
+        "id": "reveal-02",
+        "kind": "reveal",
+        "text": "ここが、勝負どころどすね。うちは、準備できています。"
+      },
+      {
+        "id": "reveal-03",
+        "kind": "reveal",
+        "text": "最後の判断どす。納得のいく一手を、どうぞ。"
+      },
+      {
+        "id": "raise-01",
+        "kind": "raise",
+        "text": "あら、強気どすね。こちらも、気が抜けません。"
+      },
+      {
+        "id": "raise-02",
+        "kind": "raise",
+        "text": "勝負に出ましたね。面白くなってきました。"
+      },
+      {
+        "id": "raise-03",
+        "kind": "raise",
+        "text": "そのレイズ、気になりますね。さて、どうしまひょ。"
+      },
+      {
+        "id": "streakWin-01",
+        "kind": "streakWin",
+        "text": "また、あなたの勝ちどすね。今日は手強いなあ。"
+      },
+      {
+        "id": "streakWin-02",
+        "kind": "streakWin",
+        "text": "連勝どすね。すっかり、調子が出てきましたね。"
+      },
+      {
+        "id": "streakWin-03",
+        "kind": "streakWin",
+        "text": "お強いどすね。次こそ、うちも負けませんよ。"
+      },
+      {
+        "id": "streakLoss-01",
+        "kind": "streakLoss",
+        "text": "少し、ひと息つきましょうか。急がなくて大丈夫どすよ。"
+      },
+      {
+        "id": "streakLoss-02",
+        "kind": "streakLoss",
+        "text": "なかなか、流れが来ませんね。無理せず、いきましょう。"
+      },
+      {
+        "id": "streakLoss-03",
+        "kind": "streakLoss",
+        "text": "次の勝負は、気持ちを切り替えて。応援しています。"
+      },
+      {
+        "id": "fold-01",
+        "kind": "fold",
+        "text": "ここは、ひと休みどすね。次のチャンスを待ちましょう。"
+      },
+      {
+        "id": "fold-02",
+        "kind": "fold",
+        "text": "降りるのも、大切な判断どす。次のハンドへ、いきましょう。"
+      }
+    ]
+  },
+  {
+    "character": "shizue",
+    "game": "blackjack",
+    "module": "frontend/blackjack/shizue-reward-lines.js",
+    "manifest": "blackjack/assets/voice-shizue/reward-manifest.json",
+    "lines": [
+      {
+        "id": "reward-01",
+        "kind": "reward",
+        "text": "2,000チップ達成、おめでとうございます。お祝いに、涼しげな夏服に着替えてみました。ブラックジャックも、お上手どすね。"
+      }
+    ]
+  },
+  {
+    "character": "kathy",
+    "game": "blackjack",
+    "module": "frontend/blackjack/kathy-voice-lines.js",
+    "manifest": "blackjack/assets/voice-kathy/manifest.json",
+    "lines": [
+      {
+        "id": "welcome-01",
+        "kind": "welcome",
+        "text": "ラウンジへようこそ。今夜は、ゆっくり楽しんでいってくださいね。"
+      },
+      {
+        "id": "welcome-02",
+        "kind": "welcome",
+        "text": "いらっしゃいませ。お会いできて、うれしいです。"
+      },
+      {
+        "id": "welcome-03",
+        "kind": "welcome",
+        "text": "準備はいいですか？ それでは、始めましょう。"
+      },
+      {
+        "id": "welcome-04",
+        "kind": "welcome",
+        "text": "お帰りなさい。続きを、ご一緒しましょう。"
+      },
+      {
+        "id": "deal-01",
+        "kind": "deal",
+        "text": "新しいカードです。どんな一手になるか、楽しみですね。"
+      },
+      {
+        "id": "deal-02",
+        "kind": "deal",
+        "text": "次のハンドへ。今度は、どう攻めますか？"
+      },
+      {
+        "id": "deal-03",
+        "kind": "deal",
+        "text": "カードを配りました。慌てず、見てみてください。"
+      },
+      {
+        "id": "deal-04",
+        "kind": "deal",
+        "text": "さて、次の勝負です。よろしくお願いします。"
+      },
+      {
+        "id": "win-01",
+        "kind": "win",
+        "text": "お見事です。きれいに決まりましたね。"
+      },
+      {
+        "id": "win-02",
+        "kind": "win",
+        "text": "あなたの勝ちです。さすがですね。"
+      },
+      {
+        "id": "win-03",
+        "kind": "win",
+        "text": "あら、負けちゃいました。いい勝負でしたね。"
+      },
+      {
+        "id": "win-04",
+        "kind": "win",
+        "text": "その一手、素敵でした。次は私も頑張ります。"
+      },
+      {
+        "id": "win-05",
+        "kind": "win",
+        "text": "やられましたね。思わず見入ってしまいました。"
+      },
+      {
+        "id": "win-06",
+        "kind": "win",
+        "text": "おめでとうございます。次の勝負も、楽しみです。"
+      },
+      {
+        "id": "loss-01",
+        "kind": "loss",
+        "text": "今回は、私の勝ちですね。もう一度、いかがですか？"
+      },
+      {
+        "id": "loss-02",
+        "kind": "loss",
+        "text": "惜しかったですね。次のカードに、期待しましょう。"
+      },
+      {
+        "id": "loss-03",
+        "kind": "loss",
+        "text": "焦らなくて大丈夫。ゆっくりいきましょうね。"
+      },
+      {
+        "id": "loss-04",
+        "kind": "loss",
+        "text": "今回は、こちらに流れが来たみたいです。"
+      },
+      {
+        "id": "loss-05",
+        "kind": "loss",
+        "text": "いい勝負でした。次は、どうなるでしょうね。"
+      },
+      {
+        "id": "loss-06",
+        "kind": "loss",
+        "text": "勝負は、まだまだこれから。お付き合いくださいね。"
+      },
+      {
+        "id": "tie-01",
+        "kind": "tie",
+        "text": "引き分けですね。なんだか、息がぴったりです。"
+      },
+      {
+        "id": "tie-02",
+        "kind": "tie",
+        "text": "互角の勝負でしたね。次こそ、決着でしょうか。"
+      },
+      {
+        "id": "tie-03",
+        "kind": "tie",
+        "text": "今回は、仲良く半分ずつ。次も楽しみですね。"
+      },
+      {
+        "id": "draw-01",
+        "kind": "draw",
+        "text": "交換するカードを、選んでくださいね。"
+      },
+      {
+        "id": "draw-02",
+        "kind": "draw",
+        "text": "そのままでも、交換しても大丈夫。お任せします。"
+      },
+      {
+        "id": "draw-03",
+        "kind": "draw",
+        "text": "どのカードを残しますか？ じっくり考えてください。"
+      },
+      {
+        "id": "reveal-01",
+        "kind": "reveal",
+        "text": "カードがそろいました。最後の一手、どうしますか？"
+      },
+      {
+        "id": "reveal-02",
+        "kind": "reveal",
+        "text": "ここが、勝負どころですね。私は、準備できています。"
+      },
+      {
+        "id": "reveal-03",
+        "kind": "reveal",
+        "text": "最後の判断です。納得のいく一手を、どうぞ。"
+      },
+      {
+        "id": "raise-01",
+        "kind": "raise",
+        "text": "あら、強気ですね。こちらも、気が抜けません。"
+      },
+      {
+        "id": "raise-02",
+        "kind": "raise",
+        "text": "勝負に出ましたね。面白くなってきました。"
+      },
+      {
+        "id": "raise-03",
+        "kind": "raise",
+        "text": "そのレイズ、気になりますね。さて、どうしましょう。"
+      },
+      {
+        "id": "streakWin-01",
+        "kind": "streakWin",
+        "text": "また、あなたの勝ちですね。今日は手強いなあ。"
+      },
+      {
+        "id": "streakWin-02",
+        "kind": "streakWin",
+        "text": "連勝ですね。すっかり、調子が出てきましたね。"
+      },
+      {
+        "id": "streakWin-03",
+        "kind": "streakWin",
+        "text": "お強いですね。次こそ、私も負けませんよ。"
+      },
+      {
+        "id": "streakLoss-01",
+        "kind": "streakLoss",
+        "text": "少し、ひと息つきましょうか。急がなくて大丈夫ですよ。"
+      },
+      {
+        "id": "streakLoss-02",
+        "kind": "streakLoss",
+        "text": "なかなか、流れが来ませんね。無理せず、いきましょう。"
+      },
+      {
+        "id": "streakLoss-03",
+        "kind": "streakLoss",
+        "text": "次の勝負は、気持ちを切り替えて。応援しています。"
+      },
+      {
+        "id": "fold-01",
+        "kind": "fold",
+        "text": "ここは、ひと休みですね。次のチャンスを待ちましょう。"
+      },
+      {
+        "id": "fold-02",
+        "kind": "fold",
+        "text": "降りるのも、大切な判断です。次のハンドへ、いきましょう。"
+      }
+    ]
+  },
+  {
+    "character": "kathy",
+    "game": "blackjack",
+    "module": "frontend/blackjack/kathy-reward-lines.js",
+    "manifest": "blackjack/assets/voice-kathy/reward-manifest.json",
+    "lines": [
+      {
+        "id": "reward-01",
+        "kind": "reward",
+        "text": "2,000チップ達成、おめでとうございます。お祝いに、涼しげな夏服に着替えてみました。ブラックジャックも、お上手ですね。"
+      }
+    ]
+  },
+  {
+    "character": "misaki",
+    "game": "baccarat",
+    "module": "frontend/baccarat/voice-lines.js",
+    "manifest": "baccarat/assets/voice/manifest.json",
+    "lines": [
+      {
+        "id": "welcome-01",
+        "kind": "welcome",
+        "text": "ラウンジへようこそ。今夜は、ゆっくり楽しんでいってくださいね。"
+      },
+      {
+        "id": "welcome-02",
+        "kind": "welcome",
+        "text": "いらっしゃいませ。お会いできて、うれしいです。"
+      },
+      {
+        "id": "welcome-03",
+        "kind": "welcome",
+        "text": "準備はいいですか？ それでは、始めましょう。"
+      },
+      {
+        "id": "welcome-04",
+        "kind": "welcome",
+        "text": "お帰りなさい。続きを、ご一緒しましょう。"
+      },
+      {
+        "id": "deal-01",
+        "kind": "deal",
+        "text": "新しいカードです。どんな一手になるか、楽しみですね。"
+      },
+      {
+        "id": "deal-02",
+        "kind": "deal",
+        "text": "次のハンドへ。今度は、どう攻めますか？"
+      },
+      {
+        "id": "deal-03",
+        "kind": "deal",
+        "text": "カードを配りました。慌てず、見てみてください。"
+      },
+      {
+        "id": "deal-04",
+        "kind": "deal",
+        "text": "さて、次の勝負です。よろしくお願いします。"
+      },
+      {
+        "id": "win-01",
+        "kind": "win",
+        "text": "お見事です。きれいに決まりましたね。"
+      },
+      {
+        "id": "win-02",
+        "kind": "win",
+        "text": "あなたの勝ちです。さすがですね。"
+      },
+      {
+        "id": "win-03",
+        "kind": "win",
+        "text": "あら、負けちゃいました。いい勝負でしたね。"
+      },
+      {
+        "id": "win-04",
+        "kind": "win",
+        "text": "その一手、素敵でした。次は私も頑張ります。"
+      },
+      {
+        "id": "win-05",
+        "kind": "win",
+        "text": "やられましたね。思わず見入ってしまいました。"
+      },
+      {
+        "id": "win-06",
+        "kind": "win",
+        "text": "おめでとうございます。次の勝負も、楽しみです。"
+      },
+      {
+        "id": "loss-01",
+        "kind": "loss",
+        "text": "今回は、私の勝ちですね。もう一度、いかがですか？"
+      },
+      {
+        "id": "loss-02",
+        "kind": "loss",
+        "text": "惜しかったですね。次のカードに、期待しましょう。"
+      },
+      {
+        "id": "loss-03",
+        "kind": "loss",
+        "text": "焦らなくて大丈夫。ゆっくりいきましょうね。"
+      },
+      {
+        "id": "loss-04",
+        "kind": "loss",
+        "text": "今回は、こちらに流れが来たみたいです。"
+      },
+      {
+        "id": "loss-05",
+        "kind": "loss",
+        "text": "いい勝負でした。次は、どうなるでしょうね。"
+      },
+      {
+        "id": "loss-06",
+        "kind": "loss",
+        "text": "勝負は、まだまだこれから。お付き合いくださいね。"
+      },
+      {
+        "id": "tie-01",
+        "kind": "tie",
+        "text": "引き分けですね。なんだか、息がぴったりです。"
+      },
+      {
+        "id": "tie-02",
+        "kind": "tie",
+        "text": "互角の勝負でしたね。次こそ、決着でしょうか。"
+      },
+      {
+        "id": "tie-03",
+        "kind": "tie",
+        "text": "今回は、仲良く半分ずつ。次も楽しみですね。"
+      },
+      {
+        "id": "draw-01",
+        "kind": "draw",
+        "text": "交換するカードを、選んでくださいね。"
+      },
+      {
+        "id": "draw-02",
+        "kind": "draw",
+        "text": "そのままでも、交換しても大丈夫。お任せします。"
+      },
+      {
+        "id": "draw-03",
+        "kind": "draw",
+        "text": "どのカードを残しますか？ じっくり考えてください。"
+      },
+      {
+        "id": "reveal-01",
+        "kind": "reveal",
+        "text": "カードがそろいました。最後の一手、どうしますか？"
+      },
+      {
+        "id": "reveal-02",
+        "kind": "reveal",
+        "text": "ここが、勝負どころですね。私は、準備できています。"
+      },
+      {
+        "id": "reveal-03",
+        "kind": "reveal",
+        "text": "最後の判断です。納得のいく一手を、どうぞ。"
+      },
+      {
+        "id": "raise-01",
+        "kind": "raise",
+        "text": "あら、強気ですね。こちらも、気が抜けません。"
+      },
+      {
+        "id": "raise-02",
+        "kind": "raise",
+        "text": "勝負に出ましたね。面白くなってきました。"
+      },
+      {
+        "id": "raise-03",
+        "kind": "raise",
+        "text": "そのレイズ、気になりますね。さて、どうしましょう。"
+      },
+      {
+        "id": "streakWin-01",
+        "kind": "streakWin",
+        "text": "また、あなたの勝ちですね。今日は手強いなあ。"
+      },
+      {
+        "id": "streakWin-02",
+        "kind": "streakWin",
+        "text": "連勝ですね。すっかり、調子が出てきましたね。"
+      },
+      {
+        "id": "streakWin-03",
+        "kind": "streakWin",
+        "text": "お強いですね。次こそ、私も負けませんよ。"
+      },
+      {
+        "id": "streakLoss-01",
+        "kind": "streakLoss",
+        "text": "少し、ひと息つきましょうか。急がなくて大丈夫ですよ。"
+      },
+      {
+        "id": "streakLoss-02",
+        "kind": "streakLoss",
+        "text": "なかなか、流れが来ませんね。無理せず、いきましょう。"
+      },
+      {
+        "id": "streakLoss-03",
+        "kind": "streakLoss",
+        "text": "次の勝負は、気持ちを切り替えて。応援しています。"
+      },
+      {
+        "id": "fold-01",
+        "kind": "fold",
+        "text": "ここは、ひと休みですね。次のチャンスを待ちましょう。"
+      },
+      {
+        "id": "fold-02",
+        "kind": "fold",
+        "text": "降りるのも、大切な判断です。次のハンドへ、いきましょう。"
+      }
+    ]
+  },
+  {
+    "character": "misaki",
+    "game": "baccarat",
+    "module": "frontend/baccarat/misaki-reward-lines.js",
+    "manifest": "baccarat/assets/voice/reward-manifest.json",
+    "lines": [
+      {
+        "id": "reward-01",
+        "kind": "reward",
+        "text": "2,000チップ達成、おめでとうございます。バカラのテーブル、楽しんでいただけましたか？ お祝いに、夏服でご挨拶です。"
+      }
+    ]
+  },
+  {
+    "character": "ayaka",
+    "game": "baccarat",
+    "module": "frontend/baccarat/ayaka-voice-lines.js",
+    "manifest": "baccarat/assets/voice-ayaka/manifest.json",
+    "lines": [
+      {
+        "id": "welcome-01",
+        "kind": "welcome",
+        "text": "こんにちは、アヤカです！ いっしょにバカラを楽しみましょう。"
+      },
+      {
+        "id": "welcome-02",
+        "kind": "welcome",
+        "text": "会えてうれしいです！ 今日は、どのゲームにしますか？"
+      },
+      {
+        "id": "welcome-03",
+        "kind": "welcome",
+        "text": "準備はいいですか？ それじゃあ、始めましょう！"
+      },
+      {
+        "id": "welcome-04",
+        "kind": "welcome",
+        "text": "お帰りなさい！ 続きも、いっしょに楽しみましょう。"
+      },
+      {
+        "id": "deal-01",
+        "kind": "deal",
+        "text": "新しいカードです。どんな一手になるか、楽しみですね。"
+      },
+      {
+        "id": "deal-02",
+        "kind": "deal",
+        "text": "次のハンドへ。今度は、どう攻めますか？"
+      },
+      {
+        "id": "deal-03",
+        "kind": "deal",
+        "text": "カードを配りました。慌てず、見てみてください。"
+      },
+      {
+        "id": "deal-04",
+        "kind": "deal",
+        "text": "さて、次の勝負です。よろしくお願いします。"
+      },
+      {
+        "id": "win-01",
+        "kind": "win",
+        "text": "すごい！ きれいに決まりましたね。"
+      },
+      {
+        "id": "win-02",
+        "kind": "win",
+        "text": "あなたの勝ちです。さすがですね。"
+      },
+      {
+        "id": "win-03",
+        "kind": "win",
+        "text": "ああ、負けちゃった！ でも、楽しかったです。"
+      },
+      {
+        "id": "win-04",
+        "kind": "win",
+        "text": "その一手、素敵でした。次は私も頑張ります。"
+      },
+      {
+        "id": "win-05",
+        "kind": "win",
+        "text": "わあ、お見事です！ 思わず見入っちゃいました。"
+      },
+      {
+        "id": "win-06",
+        "kind": "win",
+        "text": "おめでとうございます。次の勝負も、楽しみです。"
+      },
+      {
+        "id": "loss-01",
+        "kind": "loss",
+        "text": "今回は、私の勝ちです！ 次も、いっしょに遊びましょう。"
+      },
+      {
+        "id": "loss-02",
+        "kind": "loss",
+        "text": "惜しかったですね。次のカードに、期待しましょう。"
+      },
+      {
+        "id": "loss-03",
+        "kind": "loss",
+        "text": "焦らなくて大丈夫。ゆっくりいきましょうね。"
+      },
+      {
+        "id": "loss-04",
+        "kind": "loss",
+        "text": "やった！ 今回は、こっちに流れが来たみたいです。"
+      },
+      {
+        "id": "loss-05",
+        "kind": "loss",
+        "text": "いい勝負でした。次は、どうなるでしょうね。"
+      },
+      {
+        "id": "loss-06",
+        "kind": "loss",
+        "text": "勝負は、まだまだこれから。お付き合いくださいね。"
+      },
+      {
+        "id": "tie-01",
+        "kind": "tie",
+        "text": "引き分けですね。なんだか、息がぴったりです。"
+      },
+      {
+        "id": "tie-02",
+        "kind": "tie",
+        "text": "互角の勝負でしたね。次こそ、決着でしょうか。"
+      },
+      {
+        "id": "tie-03",
+        "kind": "tie",
+        "text": "今回は、仲良く半分ずつ。次も楽しみですね。"
+      },
+      {
+        "id": "draw-01",
+        "kind": "draw",
+        "text": "交換するカードを、選んでくださいね。"
+      },
+      {
+        "id": "draw-02",
+        "kind": "draw",
+        "text": "そのままでも、交換しても大丈夫。お任せします。"
+      },
+      {
+        "id": "draw-03",
+        "kind": "draw",
+        "text": "どのカードを残しますか？ じっくり考えてください。"
+      },
+      {
+        "id": "reveal-01",
+        "kind": "reveal",
+        "text": "カードがそろいました。最後の一手、どうしますか？"
+      },
+      {
+        "id": "reveal-02",
+        "kind": "reveal",
+        "text": "ここが、勝負どころですね。私は、準備できています。"
+      },
+      {
+        "id": "reveal-03",
+        "kind": "reveal",
+        "text": "最後の判断です。納得のいく一手を、どうぞ。"
+      },
+      {
+        "id": "raise-01",
+        "kind": "raise",
+        "text": "わあ、強気ですね！ 私も頑張らなくちゃ。"
+      },
+      {
+        "id": "raise-02",
+        "kind": "raise",
+        "text": "勝負に出ましたね。面白くなってきました。"
+      },
+      {
+        "id": "raise-03",
+        "kind": "raise",
+        "text": "そのレイズ、気になりますね。さて、どうしましょう。"
+      },
+      {
+        "id": "streakWin-01",
+        "kind": "streakWin",
+        "text": "また、あなたの勝ちですね！ うーん、手強いなあ。"
+      },
+      {
+        "id": "streakWin-02",
+        "kind": "streakWin",
+        "text": "連勝ですね。すっかり、調子が出てきましたね。"
+      },
+      {
+        "id": "streakWin-03",
+        "kind": "streakWin",
+        "text": "お強いですね。次こそ、私も負けませんよ。"
+      },
+      {
+        "id": "streakLoss-01",
+        "kind": "streakLoss",
+        "text": "ちょっと、ひと休みしましょうか。急がなくて大丈夫ですよ。"
+      },
+      {
+        "id": "streakLoss-02",
+        "kind": "streakLoss",
+        "text": "なかなか、流れが来ませんね。無理せず、いきましょう。"
+      },
+      {
+        "id": "streakLoss-03",
+        "kind": "streakLoss",
+        "text": "次の勝負は、気持ちを切り替えて。応援しています。"
+      },
+      {
+        "id": "fold-01",
+        "kind": "fold",
+        "text": "ここは、ひと休みですね。次のチャンスを待ちましょう。"
+      },
+      {
+        "id": "fold-02",
+        "kind": "fold",
+        "text": "降りるのも、大切な判断です。次のハンドへ、いきましょう。"
+      }
+    ]
+  },
+  {
+    "character": "ayaka",
+    "game": "baccarat",
+    "module": "frontend/baccarat/ayaka-reward-lines.js",
+    "manifest": "baccarat/assets/voice-ayaka/reward-manifest.json",
+    "lines": [
+      {
+        "id": "reward-01",
+        "kind": "reward",
+        "text": "やったね、2,000チップ達成！ バカラ、楽しかったね。お祝いの夏服だよ。また一緒に遊ぼう！"
+      }
+    ]
+  },
+  {
+    "character": "rina",
+    "game": "baccarat",
+    "module": "frontend/baccarat/rina-voice-lines.js",
+    "manifest": "baccarat/assets/voice-rina/manifest.json",
+    "lines": [
+      {
+        "id": "welcome-01",
+        "kind": "welcome",
+        "text": "やっほー、リナだよ。今日は一緒に楽しもう！"
+      },
+      {
+        "id": "welcome-02",
+        "kind": "welcome",
+        "text": "準備できた？ さあ、いい勝負にしよう！"
+      },
+      {
+        "id": "welcome-03",
+        "kind": "welcome",
+        "text": "来てくれてうれしいな。最後まで、全力でいくよ！"
+      },
+      {
+        "id": "welcome-04",
+        "kind": "welcome",
+        "text": "おかえり！ 続きも、元気にいこう！"
+      },
+      {
+        "id": "deal-01",
+        "kind": "deal",
+        "text": "次のハンドだよ。気持ちを切り替えて、いこう！"
+      },
+      {
+        "id": "deal-02",
+        "kind": "deal",
+        "text": "新しいカード！ まずは、しっかり見てみよう。"
+      },
+      {
+        "id": "deal-03",
+        "kind": "deal",
+        "text": "よし、次の勝負！ どんな一手を見せてくれるかな？"
+      },
+      {
+        "id": "deal-04",
+        "kind": "deal",
+        "text": "カードを配ったよ。自分のペースでいこうね。"
+      },
+      {
+        "id": "win-01",
+        "kind": "win",
+        "text": "ナイス！ その一手、ばっちり決まったね。"
+      },
+      {
+        "id": "win-02",
+        "kind": "win",
+        "text": "おお、あなたの勝ち！ いいプレーだったね。"
+      },
+      {
+        "id": "win-03",
+        "kind": "win",
+        "text": "やられた！ 次は、私も負けないよ。"
+      },
+      {
+        "id": "win-04",
+        "kind": "win",
+        "text": "すごいね！ 思わず、拍手しちゃいそう。"
+      },
+      {
+        "id": "win-05",
+        "kind": "win",
+        "text": "きれいに決まったね。ナイスファイト！"
+      },
+      {
+        "id": "win-06",
+        "kind": "win",
+        "text": "おめでとう！ 次の勝負も、楽しみだね。"
+      },
+      {
+        "id": "loss-01",
+        "kind": "loss",
+        "text": "よし、今回は私の勝ち！ 次も、全力でいこう。"
+      },
+      {
+        "id": "loss-02",
+        "kind": "loss",
+        "text": "惜しかったね。次のチャンスを、つかもう！"
+      },
+      {
+        "id": "loss-03",
+        "kind": "loss",
+        "text": "大丈夫！ 焦らず、自分のペースでね。"
+      },
+      {
+        "id": "loss-04",
+        "kind": "loss",
+        "text": "今回は、こっちに流れが来たね。いい勝負だったよ！"
+      },
+      {
+        "id": "loss-05",
+        "kind": "loss",
+        "text": "最後まで、いいプレーだったよ。次も、いこう！"
+      },
+      {
+        "id": "loss-06",
+        "kind": "loss",
+        "text": "勝負は、まだこれから！ 一緒に楽しもう。"
+      },
+      {
+        "id": "tie-01",
+        "kind": "tie",
+        "text": "引き分け！ お互い、いい勝負だったね。"
+      },
+      {
+        "id": "tie-02",
+        "kind": "tie",
+        "text": "互角だね！ 次で、決着をつけよう。"
+      },
+      {
+        "id": "tie-03",
+        "kind": "tie",
+        "text": "今回は、半分ずつ！ 次も、フェアにいこうね。"
+      },
+      {
+        "id": "draw-01",
+        "kind": "draw",
+        "text": "交換するカードを選ぼう！ じっくり見てね。"
+      },
+      {
+        "id": "draw-02",
+        "kind": "draw",
+        "text": "そのままでも、交換してもオッケー！ 自分で決めよう。"
+      },
+      {
+        "id": "draw-03",
+        "kind": "draw",
+        "text": "どのカードを残す？ チャンスを、つかもう！"
+      },
+      {
+        "id": "reveal-01",
+        "kind": "reveal",
+        "text": "カードがそろったよ。さあ、最後の一手！"
+      },
+      {
+        "id": "reveal-02",
+        "kind": "reveal",
+        "text": "ここが、勝負どころ！ 集中して、いこう。"
+      },
+      {
+        "id": "reveal-03",
+        "kind": "reveal",
+        "text": "ラストの判断だね。自分を信じて、どうぞ！"
+      },
+      {
+        "id": "raise-01",
+        "kind": "raise",
+        "text": "おっ、勝負に出たね！ 私も、気合いが入るよ。"
+      },
+      {
+        "id": "raise-02",
+        "kind": "raise",
+        "text": "強気のレイズ！ 面白くなってきたね。"
+      },
+      {
+        "id": "raise-03",
+        "kind": "raise",
+        "text": "いいね、そのチャレンジ！ さて、どうしようかな。"
+      },
+      {
+        "id": "streakWin-01",
+        "kind": "streakWin",
+        "text": "また、あなたの勝ち！ 今日は、絶好調だね。"
+      },
+      {
+        "id": "streakWin-02",
+        "kind": "streakWin",
+        "text": "連勝、おめでとう！ この調子で、楽しもう。"
+      },
+      {
+        "id": "streakWin-03",
+        "kind": "streakWin",
+        "text": "強いなあ！ 次こそ、私も食らいつくよ。"
+      },
+      {
+        "id": "streakLoss-01",
+        "kind": "streakLoss",
+        "text": "ちょっと、深呼吸しよう。焦らなくて、大丈夫！"
+      },
+      {
+        "id": "streakLoss-02",
+        "kind": "streakLoss",
+        "text": "流れが来ないね。でも、無理せずいこう！"
+      },
+      {
+        "id": "streakLoss-03",
+        "kind": "streakLoss",
+        "text": "次は、気持ちを切り替えて！ 応援してるよ。"
+      },
+      {
+        "id": "fold-01",
+        "kind": "fold",
+        "text": "ここは、ひと休み！ 次のチャンスに備えよう。"
+      },
+      {
+        "id": "fold-02",
+        "kind": "fold",
+        "text": "降りるのも、いい判断だね。次のハンド、いこう！"
+      }
+    ]
+  },
+  {
+    "character": "rina",
+    "game": "baccarat",
+    "module": "frontend/baccarat/rina-reward-lines.js",
+    "manifest": "baccarat/assets/voice-rina/reward-manifest.json",
+    "lines": [
+      {
+        "id": "reward-01",
+        "kind": "reward",
+        "text": "ナイス、2,000チップ達成！ バカラの勝負、楽しめたかな？ 夏服で、ひと休みだ。次も全力でいこう！"
+      }
+    ]
+  },
+  {
+    "character": "shizue",
+    "game": "baccarat",
+    "module": "frontend/baccarat/shizue-voice-lines.js",
+    "manifest": "baccarat/assets/voice-shizue/manifest.json",
+    "lines": [
+      {
+        "id": "welcome-01",
+        "kind": "welcome",
+        "text": "ラウンジへようおこしやす。今夜は、ゆっくり楽しんでいっておくれやす。"
+      },
+      {
+        "id": "welcome-02",
+        "kind": "welcome",
+        "text": "いらっしゃいませ。お会いできて、うれしいどす。"
+      },
+      {
+        "id": "welcome-03",
+        "kind": "welcome",
+        "text": "準備はいいですか？ それでは、始めましょう。"
+      },
+      {
+        "id": "welcome-04",
+        "kind": "welcome",
+        "text": "お帰りなさい。続きを、ご一緒しまひょ。"
+      },
+      {
+        "id": "deal-01",
+        "kind": "deal",
+        "text": "新しいカードどす。どんな一手になるか、楽しみどすね。"
+      },
+      {
+        "id": "deal-02",
+        "kind": "deal",
+        "text": "次のハンドへ。今度は、どう攻めますか？"
+      },
+      {
+        "id": "deal-03",
+        "kind": "deal",
+        "text": "カードを配りました。慌てず、見てみてください。"
+      },
+      {
+        "id": "deal-04",
+        "kind": "deal",
+        "text": "さて、次の勝負どす。よろしくお願いします。"
+      },
+      {
+        "id": "win-01",
+        "kind": "win",
+        "text": "お見事どす。きれいに決まりましたね。"
+      },
+      {
+        "id": "win-02",
+        "kind": "win",
+        "text": "あなたの勝ちどす。さすがどすね。"
+      },
+      {
+        "id": "win-03",
+        "kind": "win",
+        "text": "あら、負けちゃいました。いい勝負でしたね。"
+      },
+      {
+        "id": "win-04",
+        "kind": "win",
+        "text": "その一手、素敵でした。次はうちも頑張ります。"
+      },
+      {
+        "id": "win-05",
+        "kind": "win",
+        "text": "やられましたね。思わず見入ってしまいました。"
+      },
+      {
+        "id": "win-06",
+        "kind": "win",
+        "text": "おめでとうございます。次の勝負も、楽しみどす。"
+      },
+      {
+        "id": "loss-01",
+        "kind": "loss",
+        "text": "今回は、うちの勝ちどすね。もう一度、いかがですか？"
+      },
+      {
+        "id": "loss-02",
+        "kind": "loss",
+        "text": "惜しかったどすね。次のカードに、期待しまひょ。"
+      },
+      {
+        "id": "loss-03",
+        "kind": "loss",
+        "text": "焦らなくて大丈夫。ゆっくりいきましょうね。"
+      },
+      {
+        "id": "loss-04",
+        "kind": "loss",
+        "text": "今回は、こちらに流れが来たみたいどす。"
+      },
+      {
+        "id": "loss-05",
+        "kind": "loss",
+        "text": "いい勝負でした。次は、どうなるでしょうね。"
+      },
+      {
+        "id": "loss-06",
+        "kind": "loss",
+        "text": "勝負は、まだまだこれから。お付き合いおくれやす。"
+      },
+      {
+        "id": "tie-01",
+        "kind": "tie",
+        "text": "引き分けどすね。なんだか、息がぴったりどす。"
+      },
+      {
+        "id": "tie-02",
+        "kind": "tie",
+        "text": "互角の勝負でしたね。次こそ、決着でしょうか。"
+      },
+      {
+        "id": "tie-03",
+        "kind": "tie",
+        "text": "今回は、仲良く半分ずつ。次も楽しみどすね。"
+      },
+      {
+        "id": "draw-01",
+        "kind": "draw",
+        "text": "交換するカードを、選んでおくれやす。"
+      },
+      {
+        "id": "draw-02",
+        "kind": "draw",
+        "text": "そのままでも、交換しても大丈夫。お任せします。"
+      },
+      {
+        "id": "draw-03",
+        "kind": "draw",
+        "text": "どのカードを残しますか？ じっくり考えてください。"
+      },
+      {
+        "id": "reveal-01",
+        "kind": "reveal",
+        "text": "カードがそろいました。最後の一手、どうしますか？"
+      },
+      {
+        "id": "reveal-02",
+        "kind": "reveal",
+        "text": "ここが、勝負どころどすね。うちは、準備できています。"
+      },
+      {
+        "id": "reveal-03",
+        "kind": "reveal",
+        "text": "最後の判断どす。納得のいく一手を、どうぞ。"
+      },
+      {
+        "id": "raise-01",
+        "kind": "raise",
+        "text": "あら、強気どすね。こちらも、気が抜けません。"
+      },
+      {
+        "id": "raise-02",
+        "kind": "raise",
+        "text": "勝負に出ましたね。面白くなってきました。"
+      },
+      {
+        "id": "raise-03",
+        "kind": "raise",
+        "text": "そのレイズ、気になりますね。さて、どうしまひょ。"
+      },
+      {
+        "id": "streakWin-01",
+        "kind": "streakWin",
+        "text": "また、あなたの勝ちどすね。今日は手強いなあ。"
+      },
+      {
+        "id": "streakWin-02",
+        "kind": "streakWin",
+        "text": "連勝どすね。すっかり、調子が出てきましたね。"
+      },
+      {
+        "id": "streakWin-03",
+        "kind": "streakWin",
+        "text": "お強いどすね。次こそ、うちも負けませんよ。"
+      },
+      {
+        "id": "streakLoss-01",
+        "kind": "streakLoss",
+        "text": "少し、ひと息つきましょうか。急がなくて大丈夫どすよ。"
+      },
+      {
+        "id": "streakLoss-02",
+        "kind": "streakLoss",
+        "text": "なかなか、流れが来ませんね。無理せず、いきましょう。"
+      },
+      {
+        "id": "streakLoss-03",
+        "kind": "streakLoss",
+        "text": "次の勝負は、気持ちを切り替えて。応援しています。"
+      },
+      {
+        "id": "fold-01",
+        "kind": "fold",
+        "text": "ここは、ひと休みどすね。次のチャンスを待ちましょう。"
+      },
+      {
+        "id": "fold-02",
+        "kind": "fold",
+        "text": "降りるのも、大切な判断どす。次のハンドへ、いきましょう。"
+      }
+    ]
+  },
+  {
+    "character": "shizue",
+    "game": "baccarat",
+    "module": "frontend/baccarat/shizue-reward-lines.js",
+    "manifest": "baccarat/assets/voice-shizue/reward-manifest.json",
+    "lines": [
+      {
+        "id": "reward-01",
+        "kind": "reward",
+        "text": "2,000チップ達成、おめでとうございます。バカラのテーブル、楽しんでいただけましたか？ お祝いに、夏服でご挨拶どす。"
+      }
+    ]
+  },
+  {
+    "character": "kathy",
+    "game": "baccarat",
+    "module": "frontend/baccarat/kathy-voice-lines.js",
+    "manifest": "baccarat/assets/voice-kathy/manifest.json",
+    "lines": [
+      {
+        "id": "welcome-01",
+        "kind": "welcome",
+        "text": "ラウンジへようこそ。今夜は、ゆっくり楽しんでいってくださいね。"
+      },
+      {
+        "id": "welcome-02",
+        "kind": "welcome",
+        "text": "いらっしゃいませ。お会いできて、うれしいです。"
+      },
+      {
+        "id": "welcome-03",
+        "kind": "welcome",
+        "text": "準備はいいですか？ それでは、始めましょう。"
+      },
+      {
+        "id": "welcome-04",
+        "kind": "welcome",
+        "text": "お帰りなさい。続きを、ご一緒しましょう。"
+      },
+      {
+        "id": "deal-01",
+        "kind": "deal",
+        "text": "新しいカードです。どんな一手になるか、楽しみですね。"
+      },
+      {
+        "id": "deal-02",
+        "kind": "deal",
+        "text": "次のハンドへ。今度は、どう攻めますか？"
+      },
+      {
+        "id": "deal-03",
+        "kind": "deal",
+        "text": "カードを配りました。慌てず、見てみてください。"
+      },
+      {
+        "id": "deal-04",
+        "kind": "deal",
+        "text": "さて、次の勝負です。よろしくお願いします。"
+      },
+      {
+        "id": "win-01",
+        "kind": "win",
+        "text": "お見事です。きれいに決まりましたね。"
+      },
+      {
+        "id": "win-02",
+        "kind": "win",
+        "text": "あなたの勝ちです。さすがですね。"
+      },
+      {
+        "id": "win-03",
+        "kind": "win",
+        "text": "あら、負けちゃいました。いい勝負でしたね。"
+      },
+      {
+        "id": "win-04",
+        "kind": "win",
+        "text": "その一手、素敵でした。次は私も頑張ります。"
+      },
+      {
+        "id": "win-05",
+        "kind": "win",
+        "text": "やられましたね。思わず見入ってしまいました。"
+      },
+      {
+        "id": "win-06",
+        "kind": "win",
+        "text": "おめでとうございます。次の勝負も、楽しみです。"
+      },
+      {
+        "id": "loss-01",
+        "kind": "loss",
+        "text": "今回は、私の勝ちですね。もう一度、いかがですか？"
+      },
+      {
+        "id": "loss-02",
+        "kind": "loss",
+        "text": "惜しかったですね。次のカードに、期待しましょう。"
+      },
+      {
+        "id": "loss-03",
+        "kind": "loss",
+        "text": "焦らなくて大丈夫。ゆっくりいきましょうね。"
+      },
+      {
+        "id": "loss-04",
+        "kind": "loss",
+        "text": "今回は、こちらに流れが来たみたいです。"
+      },
+      {
+        "id": "loss-05",
+        "kind": "loss",
+        "text": "いい勝負でした。次は、どうなるでしょうね。"
+      },
+      {
+        "id": "loss-06",
+        "kind": "loss",
+        "text": "勝負は、まだまだこれから。お付き合いくださいね。"
+      },
+      {
+        "id": "tie-01",
+        "kind": "tie",
+        "text": "引き分けですね。なんだか、息がぴったりです。"
+      },
+      {
+        "id": "tie-02",
+        "kind": "tie",
+        "text": "互角の勝負でしたね。次こそ、決着でしょうか。"
+      },
+      {
+        "id": "tie-03",
+        "kind": "tie",
+        "text": "今回は、仲良く半分ずつ。次も楽しみですね。"
+      },
+      {
+        "id": "draw-01",
+        "kind": "draw",
+        "text": "交換するカードを、選んでくださいね。"
+      },
+      {
+        "id": "draw-02",
+        "kind": "draw",
+        "text": "そのままでも、交換しても大丈夫。お任せします。"
+      },
+      {
+        "id": "draw-03",
+        "kind": "draw",
+        "text": "どのカードを残しますか？ じっくり考えてください。"
+      },
+      {
+        "id": "reveal-01",
+        "kind": "reveal",
+        "text": "カードがそろいました。最後の一手、どうしますか？"
+      },
+      {
+        "id": "reveal-02",
+        "kind": "reveal",
+        "text": "ここが、勝負どころですね。私は、準備できています。"
+      },
+      {
+        "id": "reveal-03",
+        "kind": "reveal",
+        "text": "最後の判断です。納得のいく一手を、どうぞ。"
+      },
+      {
+        "id": "raise-01",
+        "kind": "raise",
+        "text": "あら、強気ですね。こちらも、気が抜けません。"
+      },
+      {
+        "id": "raise-02",
+        "kind": "raise",
+        "text": "勝負に出ましたね。面白くなってきました。"
+      },
+      {
+        "id": "raise-03",
+        "kind": "raise",
+        "text": "そのレイズ、気になりますね。さて、どうしましょう。"
+      },
+      {
+        "id": "streakWin-01",
+        "kind": "streakWin",
+        "text": "また、あなたの勝ちですね。今日は手強いなあ。"
+      },
+      {
+        "id": "streakWin-02",
+        "kind": "streakWin",
+        "text": "連勝ですね。すっかり、調子が出てきましたね。"
+      },
+      {
+        "id": "streakWin-03",
+        "kind": "streakWin",
+        "text": "お強いですね。次こそ、私も負けませんよ。"
+      },
+      {
+        "id": "streakLoss-01",
+        "kind": "streakLoss",
+        "text": "少し、ひと息つきましょうか。急がなくて大丈夫ですよ。"
+      },
+      {
+        "id": "streakLoss-02",
+        "kind": "streakLoss",
+        "text": "なかなか、流れが来ませんね。無理せず、いきましょう。"
+      },
+      {
+        "id": "streakLoss-03",
+        "kind": "streakLoss",
+        "text": "次の勝負は、気持ちを切り替えて。応援しています。"
+      },
+      {
+        "id": "fold-01",
+        "kind": "fold",
+        "text": "ここは、ひと休みですね。次のチャンスを待ちましょう。"
+      },
+      {
+        "id": "fold-02",
+        "kind": "fold",
+        "text": "降りるのも、大切な判断です。次のハンドへ、いきましょう。"
+      }
+    ]
+  },
+  {
+    "character": "kathy",
+    "game": "baccarat",
+    "module": "frontend/baccarat/kathy-reward-lines.js",
+    "manifest": "baccarat/assets/voice-kathy/reward-manifest.json",
+    "lines": [
+      {
+        "id": "reward-01",
+        "kind": "reward",
+        "text": "2,000チップ達成、おめでとうございます。バカラのテーブル、楽しんでいただけましたか？ お祝いに、夏服でご挨拶です。"
+      }
+    ]
+  },
+  {
+    "game": "",
+    "module": "frontend/lobby-lines.js",
+    "manifest": "lobby-voice/manifest.json",
+    "lines": [
+      {
+        "id": "misaki-poker",
+        "character": "misaki",
+        "game": "poker",
+        "text": "こんばんは。今夜のお相手は美咲です。趣味は読書とコーヒー。最近はジャズを聴きながら新しい豆を試すのにはまっています。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでくださいね。今夜はあなたと、ポーカーでじっくり駆け引きを楽しみたいですね。"
+      },
+      {
+        "id": "misaki-blackjack",
+        "character": "misaki",
+        "game": "blackjack",
+        "text": "こんばんは。今夜のお相手は美咲です。趣味は読書とコーヒー。最近はジャズを聴きながら新しい豆を試すのにはまっています。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでくださいね。今夜はあなたと、ブラックジャックで二十一を目指してみたいですね。"
+      },
+      {
+        "id": "misaki-baccarat",
+        "character": "misaki",
+        "game": "baccarat",
+        "text": "こんばんは。今夜のお相手は美咲です。趣味は読書とコーヒー。最近はジャズを聴きながら新しい豆を試すのにはまっています。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでくださいね。今夜はあなたと、バカラで運試しをしてみたいですね。"
+      },
+      {
+        "id": "ayaka-poker",
+        "character": "ayaka",
+        "game": "poker",
+        "text": "こんばんは、あやかです！ 今夜はいっしょに楽しく遊ぼうね。趣味は音楽を聴くことと、お菓子作り。最近はふわふわのパンケーキ作りにはまってるんだ。ポーカー、ブラックジャック、バカラ。三つのゲームから、好きなものを選んでね！今夜はあなたと、ポーカーで勝負したいな。どんな手が来るか、わくわくするね！"
+      },
+      {
+        "id": "ayaka-blackjack",
+        "character": "ayaka",
+        "game": "blackjack",
+        "text": "こんばんは、あやかです！ 今夜はいっしょに楽しく遊ぼうね。趣味は音楽を聴くことと、お菓子作り。最近はふわふわのパンケーキ作りにはまってるんだ。ポーカー、ブラックジャック、バカラ。三つのゲームから、好きなものを選んでね！今夜はあなたと、ブラックジャックで遊びたいな。二十一、いっしょに目指そう！"
+      },
+      {
+        "id": "ayaka-baccarat",
+        "character": "ayaka",
+        "game": "baccarat",
+        "text": "こんばんは、あやかです！ 今夜はいっしょに楽しく遊ぼうね。趣味は音楽を聴くことと、お菓子作り。最近はふわふわのパンケーキ作りにはまってるんだ。ポーカー、ブラックジャック、バカラ。三つのゲームから、好きなものを選んでね！今夜はあなたと、バカラで勝負したいな。どっちが勝つか、楽しみだね！"
+      },
+      {
+        "id": "rina-poker",
+        "character": "rina",
+        "game": "poker",
+        "text": "こんばんは、リナだよ！ 今夜の相手は私に任せて。趣味はランニングとバスケ。最近は朝のランニングで、新しいコースを探すのにはまってるんだ。ポーカー、ブラックジャック、バカラ。三つのゲームから、好きなのを選んでね。今夜はあなたと、ポーカーで真剣勝負したいな。お互い全力でいこう！"
+      },
+      {
+        "id": "rina-blackjack",
+        "character": "rina",
+        "game": "blackjack",
+        "text": "こんばんは、リナだよ！ 今夜の相手は私に任せて。趣味はランニングとバスケ。最近は朝のランニングで、新しいコースを探すのにはまってるんだ。ポーカー、ブラックジャック、バカラ。三つのゲームから、好きなのを選んでね。今夜はあなたと、ブラックジャックで勝負したいな。攻めるタイミングが大事だよね！"
+      },
+      {
+        "id": "rina-baccarat",
+        "character": "rina",
+        "game": "baccarat",
+        "text": "こんばんは、リナだよ！ 今夜の相手は私に任せて。趣味はランニングとバスケ。最近は朝のランニングで、新しいコースを探すのにはまってるんだ。ポーカー、ブラックジャック、バカラ。三つのゲームから、好きなのを選んでね。今夜はあなたと、バカラで勝負したいな。さあ、いい勝負にしよう！"
+      },
+      {
+        "id": "shizue-poker",
+        "character": "shizue",
+        "game": "poker",
+        "text": "こんばんは。静江と申します。趣味はお茶とお花どす。最近は季節の和菓子を探すのに夢中どす。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでおくれやす。今夜はうちと、ポーカーでゆっくり遊びまひょ。"
+      },
+      {
+        "id": "shizue-blackjack",
+        "character": "shizue",
+        "game": "blackjack",
+        "text": "こんばんは。静江と申します。趣味はお茶とお花どす。最近は季節の和菓子を探すのに夢中どす。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでおくれやす。今夜はうちと、ブラックジャックでゆっくり遊びまひょ。"
+      },
+      {
+        "id": "shizue-baccarat",
+        "character": "shizue",
+        "game": "baccarat",
+        "text": "こんばんは。静江と申します。趣味はお茶とお花どす。最近は季節の和菓子を探すのに夢中どす。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでおくれやす。今夜はうちと、バカラでゆっくり遊びまひょ。"
+      },
+      {
+        "id": "kathy-poker",
+        "character": "kathy",
+        "game": "poker",
+        "text": "こんばんは！ キャシーです。趣味は旅行とお菓子作り。最近は日本の喫茶店巡りにはまっています。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでくださいね。今夜は私と、ポーカーを楽しみましょう！"
+      },
+      {
+        "id": "kathy-blackjack",
+        "character": "kathy",
+        "game": "blackjack",
+        "text": "こんばんは！ キャシーです。趣味は旅行とお菓子作り。最近は日本の喫茶店巡りにはまっています。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでくださいね。今夜は私と、ブラックジャックを楽しみましょう！"
+      },
+      {
+        "id": "kathy-baccarat",
+        "character": "kathy",
+        "game": "baccarat",
+        "text": "こんばんは！ キャシーです。趣味は旅行とお菓子作り。最近は日本の喫茶店巡りにはまっています。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでくださいね。今夜は私と、バカラを楽しみましょう！"
+      }
+    ]
+  }
+]

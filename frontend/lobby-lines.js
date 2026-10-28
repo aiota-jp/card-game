@@ -1,0 +1,362 @@
+export const lobbyLines = [
+  {
+    "id": "misaki-poker",
+    "character": "misaki",
+    "game": "poker",
+    "text": "こんばんは。今夜のお相手は美咲です。趣味は読書とコーヒー。最近はジャズを聴きながら新しい豆を試すのにはまっています。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでくださいね。今夜はあなたと、ポーカーでじっくり駆け引きを楽しみたいですね。",
+    "files": {
+      "expressive": {
+        "path": "cast-voice/e7fcb347cb503aab17d871d9ff2ffbe4026dcf30d89b852a80040ec899631b6a.wav",
+        "sha256": "c4b632625e162bd8dddbc59191e696f3cf38d643337a5b3c68bc03cd1226ca7d",
+        "duration": 20.55827664399093,
+        "style_id": 1388823424,
+        "intonationScale": 0.9,
+        "postPitchScale": 1.1
+      },
+      "calm": {
+        "path": "cast-voice/141668c282803330d4a8be6a66f1e7f191fd60dacda178df71dada013d34d58c.wav",
+        "sha256": "bcad9360c33add872b2fe9020a1dd63e6ae3f93adb4e6c5dae2f655272cf5b50",
+        "duration": 20.56705215419501,
+        "style_id": 1388823424,
+        "intonationScale": 0.765,
+        "postPitchScale": 1.1
+      }
+    }
+  },
+  {
+    "id": "misaki-blackjack",
+    "character": "misaki",
+    "game": "blackjack",
+    "text": "こんばんは。今夜のお相手は美咲です。趣味は読書とコーヒー。最近はジャズを聴きながら新しい豆を試すのにはまっています。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでくださいね。今夜はあなたと、ブラックジャックで二十一を目指してみたいですね。",
+    "files": {
+      "expressive": {
+        "path": "cast-voice/9765cb608f101d362b1ced15c285caf92aa22d3ae7ace7bce37147873cc5b301.wav",
+        "sha256": "4e699b01a014aa63d0b1e157f95aaf5d5aa3a2f0d117a8e9fc70c609b9c7705a",
+        "duration": 21.232267573696145,
+        "style_id": 1388823424,
+        "intonationScale": 0.9,
+        "postPitchScale": 1.1
+      },
+      "calm": {
+        "path": "cast-voice/b7d04c0abab1177113747ace95e8bec5420552df60dad3e9bc24b8b646364a74.wav",
+        "sha256": "2d8c2c8e8926386654f523193dc4cf0abc470de86f51901b4dfcb45762cc1877",
+        "duration": 21.223786848072564,
+        "style_id": 1388823424,
+        "intonationScale": 0.765,
+        "postPitchScale": 1.1
+      }
+    }
+  },
+  {
+    "id": "misaki-baccarat",
+    "character": "misaki",
+    "game": "baccarat",
+    "text": "こんばんは。今夜のお相手は美咲です。趣味は読書とコーヒー。最近はジャズを聴きながら新しい豆を試すのにはまっています。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでくださいね。今夜はあなたと、バカラで運試しをしてみたいですね。",
+    "files": {
+      "expressive": {
+        "path": "cast-voice/0e36f02636589ba360dc2b259cd31d5f06fe76a3c74a1ed67c94078cdcd355be.wav",
+        "sha256": "e0cc7d40e7f62451ac8391f4f0a720caa4d7752b45322300d40fa91b42d6a410",
+        "duration": 20.47981859410431,
+        "style_id": 1388823424,
+        "intonationScale": 0.9,
+        "postPitchScale": 1.1
+      },
+      "calm": {
+        "path": "cast-voice/bd0fccbd484d3284ba9c9b4086610a9f015e403cf897ee8c11ecb2cbf5d494a8.wav",
+        "sha256": "d70a3fa012ddd6cdec6c473dd500375c9377269f1a3e0df113c809766ed73e05",
+        "duration": 20.400045351473924,
+        "style_id": 1388823424,
+        "intonationScale": 0.765,
+        "postPitchScale": 1.1
+      }
+    }
+  },
+  {
+    "id": "ayaka-poker",
+    "character": "ayaka",
+    "game": "poker",
+    "text": "こんばんは、あやかです！ 今夜はいっしょに楽しく遊ぼうね。趣味は音楽を聴くことと、お菓子作り。最近はふわふわのパンケーキ作りにはまってるんだ。ポーカー、ブラックジャック、バカラ。三つのゲームから、好きなものを選んでね！今夜はあなたと、ポーカーで勝負したいな。どんな手が来るか、わくわくするね！",
+    "files": {
+      "expressive": {
+        "path": "cast-voice/a3d74d65d8426a6cb9d008af3804ea220accc0198848a3e15a4d4e8527acafeb.wav",
+        "sha256": "e4a3b201fc32554b3d362c119a5c598d559cff9fbb86ab31ef900980ac71fd45",
+        "duration": 23.643333333333334,
+        "style_id": 888753761,
+        "intonationScale": 1.05,
+        "postPitchScale": 1.0
+      },
+      "calm": {
+        "path": "cast-voice/c296e45d791f026b1d58aff412aae0754d0fb62bd6f8a7320446dd8b06ee8053.wav",
+        "sha256": "dbd1b9c56ea093db79dac8b16402593923e4f54b63e0a7d5bf14062460e5bb19",
+        "duration": 23.77986394557823,
+        "style_id": 888753761,
+        "intonationScale": 0.8925,
+        "postPitchScale": 1.0
+      }
+    }
+  },
+  {
+    "id": "ayaka-blackjack",
+    "character": "ayaka",
+    "game": "blackjack",
+    "text": "こんばんは、あやかです！ 今夜はいっしょに楽しく遊ぼうね。趣味は音楽を聴くことと、お菓子作り。最近はふわふわのパンケーキ作りにはまってるんだ。ポーカー、ブラックジャック、バカラ。三つのゲームから、好きなものを選んでね！今夜はあなたと、ブラックジャックで遊びたいな。二十一、いっしょに目指そう！",
+    "files": {
+      "expressive": {
+        "path": "cast-voice/49a9d39ea8781c070189a25e50625ceb4c0ccd63f3f49619d5fe52f9f6738d52.wav",
+        "sha256": "f509db1f840d6b6020e5b2d0988b644b476aca3b836825701e305b6bf0be3b03",
+        "duration": 23.8959410430839,
+        "style_id": 888753761,
+        "intonationScale": 1.05,
+        "postPitchScale": 1.0
+      },
+      "calm": {
+        "path": "cast-voice/63af29e36a4355d5479c94438ac38416ec9aefc6a70415dc480efc3e14aff94b.wav",
+        "sha256": "86454c6e901ed214f27394217a32481369ae2967dbc3308b058d32ccd5bdb9ca",
+        "duration": 23.826303854875285,
+        "style_id": 888753761,
+        "intonationScale": 0.8925,
+        "postPitchScale": 1.0
+      }
+    }
+  },
+  {
+    "id": "ayaka-baccarat",
+    "character": "ayaka",
+    "game": "baccarat",
+    "text": "こんばんは、あやかです！ 今夜はいっしょに楽しく遊ぼうね。趣味は音楽を聴くことと、お菓子作り。最近はふわふわのパンケーキ作りにはまってるんだ。ポーカー、ブラックジャック、バカラ。三つのゲームから、好きなものを選んでね！今夜はあなたと、バカラで勝負したいな。どっちが勝つか、楽しみだね！",
+    "files": {
+      "expressive": {
+        "path": "cast-voice/e0d2a8a99d32cd5fdfeaece25fa3cd3ac529e90870f58ccbe95cd309a509aa06.wav",
+        "sha256": "916736c8085f006974181d737f0f43f1a68def6098f028f346e4a2ef86a8aa2b",
+        "duration": 23.791451247165533,
+        "style_id": 888753761,
+        "intonationScale": 1.05,
+        "postPitchScale": 1.0
+      },
+      "calm": {
+        "path": "cast-voice/4a49c441ba090df124d0b1c7ca181a87b55970afb00cedd64f97605666f2efea.wav",
+        "sha256": "b2b0b51b4f6ed03dfc3d4b8c565071e1240afe2734743cd814fa3fb8ac2c0783",
+        "duration": 23.814693877551022,
+        "style_id": 888753761,
+        "intonationScale": 0.8925,
+        "postPitchScale": 1.0
+      }
+    }
+  },
+  {
+    "id": "rina-poker",
+    "character": "rina",
+    "game": "poker",
+    "text": "こんばんは、リナだよ！ 今夜の相手は私に任せて。趣味はランニングとバスケ。最近は朝のランニングで、新しいコースを探すのにはまってるんだ。ポーカー、ブラックジャック、バカラ。三つのゲームから、好きなのを選んでね。今夜はあなたと、ポーカーで真剣勝負したいな。お互い全力でいこう！",
+    "files": {
+      "expressive": {
+        "path": "cast-voice/45848175bcab6c105cfb9fe58725a836388106a72f071ee00a9a0d7e0a0700dc.wav",
+        "sha256": "0c0d9fcacfcbd1adc5fb20c9aacb1a43536f263646bca3032e66e5b0ba3915cc",
+        "duration": 25.916371882086167,
+        "style_id": 1717361478,
+        "intonationScale": 1.12,
+        "postPitchScale": 1.0
+      },
+      "calm": {
+        "path": "cast-voice/ead92fd8eabaa1f8856b45ec02d18fa67c41e9d29fc00e308c62ad116d491f94.wav",
+        "sha256": "fabdd0f9a48399f32df5454023ed0cc633b9297868929c3e9a1dd2875314a229",
+        "duration": 25.184943310657598,
+        "style_id": 1717361478,
+        "intonationScale": 0.9520000000000001,
+        "postPitchScale": 1.0
+      }
+    }
+  },
+  {
+    "id": "rina-blackjack",
+    "character": "rina",
+    "game": "blackjack",
+    "text": "こんばんは、リナだよ！ 今夜の相手は私に任せて。趣味はランニングとバスケ。最近は朝のランニングで、新しいコースを探すのにはまってるんだ。ポーカー、ブラックジャック、バカラ。三つのゲームから、好きなのを選んでね。今夜はあなたと、ブラックジャックで勝負したいな。攻めるタイミングが大事だよね！",
+    "files": {
+      "expressive": {
+        "path": "cast-voice/0bb5c9bd544b9797eb551d80ce66e2bc6595f431fec5596fb48856aac71ed87a.wav",
+        "sha256": "6edc8542ff80fe9b1a1fb2f7539424e475025cdac0e6df2b562b701eedc041b9",
+        "duration": 25.904761904761905,
+        "style_id": 1717361478,
+        "intonationScale": 1.12,
+        "postPitchScale": 1.0
+      },
+      "calm": {
+        "path": "cast-voice/ef01dac34d325d2d90ee393a6c00c7d0322706f462808aa619e2ae6f56837fe4.wav",
+        "sha256": "139115582dd53d053b450b74e5b81a1d688e5afc3770bc6be4b09b7218e8569a",
+        "duration": 25.289433106575963,
+        "style_id": 1717361478,
+        "intonationScale": 0.9520000000000001,
+        "postPitchScale": 1.0
+      }
+    }
+  },
+  {
+    "id": "rina-baccarat",
+    "character": "rina",
+    "game": "baccarat",
+    "text": "こんばんは、リナだよ！ 今夜の相手は私に任せて。趣味はランニングとバスケ。最近は朝のランニングで、新しいコースを探すのにはまってるんだ。ポーカー、ブラックジャック、バカラ。三つのゲームから、好きなのを選んでね。今夜はあなたと、バカラで勝負したいな。さあ、いい勝負にしよう！",
+    "files": {
+      "expressive": {
+        "path": "cast-voice/ef6a7a4a51cbd71c5d13dba7d86c9a8dee8f146a1e95a4a5debc068192d67aea.wav",
+        "sha256": "86bc829f47441ccfdafde6f8746f8257cd5de91cc2b324a57d619d6b79a8b2b4",
+        "duration": 25.649319727891157,
+        "style_id": 1717361478,
+        "intonationScale": 1.12,
+        "postPitchScale": 1.0
+      },
+      "calm": {
+        "path": "cast-voice/e04974f21b5b68ceafe71a8aaf62a9ba8b9260dd813557f9551bee6bb0f98477.wav",
+        "sha256": "74bd973da789f78aef9c6377c233b248e3a18194dbbe5d7d04f4e866c24ae913",
+        "duration": 25.01079365079365,
+        "style_id": 1717361478,
+        "intonationScale": 0.9520000000000001,
+        "postPitchScale": 1.0
+      }
+    }
+  },
+  {
+    "id": "shizue-poker",
+    "character": "shizue",
+    "game": "poker",
+    "text": "こんばんは。静江と申します。趣味はお茶とお花どす。最近は季節の和菓子を探すのに夢中どす。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでおくれやす。今夜はうちと、ポーカーでゆっくり遊びまひょ。",
+    "files": {
+      "expressive": {
+        "path": "cast-voice/680864663adf11a451ee6fb47e6f74dcd656e9fb91c17a371f56a0e8d7980771.wav",
+        "sha256": "74e5a0dd1f0f9df5f75f315c7591f6b22d0d72d5f417d162566e0c55a228936e",
+        "duration": 19.939773242630384,
+        "style_id": 1431611904,
+        "intonationScale": 0.95,
+        "postPitchScale": 1.0
+      },
+      "calm": {
+        "path": "cast-voice/fb7473e23852cdcf0aac2c8e0d31975afbe3732edea45f28ca8f44c5048e2f38.wav",
+        "sha256": "4ed161b6dd7629d80c64be61948193ec9bdc46c5a996c13ba7fb0bd5a0edf94e",
+        "duration": 20.124625850340134,
+        "style_id": 1431611904,
+        "intonationScale": 0.8075,
+        "postPitchScale": 1.0
+      }
+    }
+  },
+  {
+    "id": "shizue-blackjack",
+    "character": "shizue",
+    "game": "blackjack",
+    "text": "こんばんは。静江と申します。趣味はお茶とお花どす。最近は季節の和菓子を探すのに夢中どす。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでおくれやす。今夜はうちと、ブラックジャックでゆっくり遊びまひょ。",
+    "files": {
+      "expressive": {
+        "path": "cast-voice/3806d6d6400a1856c15b68f6b5527299e6d2276c7bbbd65f45587844692c01ee.wav",
+        "sha256": "f07bc932d25d4552bb56e6cea4b74c86a23f0ad8fb230a058a88da4e50ce45f0",
+        "duration": 20.705668934240364,
+        "style_id": 1431611904,
+        "intonationScale": 0.95,
+        "postPitchScale": 1.0
+      },
+      "calm": {
+        "path": "cast-voice/09be00da6a12e21269a33a137cea7f7c3038c1a0c7b4482c72db9051a707f65a.wav",
+        "sha256": "e445bb7c0481cf5dc1b825cc9bbd93cbc555c27d79b55e8626e51a48c6910cac",
+        "duration": 20.80183673469388,
+        "style_id": 1431611904,
+        "intonationScale": 0.8075,
+        "postPitchScale": 1.0
+      }
+    }
+  },
+  {
+    "id": "shizue-baccarat",
+    "character": "shizue",
+    "game": "baccarat",
+    "text": "こんばんは。静江と申します。趣味はお茶とお花どす。最近は季節の和菓子を探すのに夢中どす。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでおくれやす。今夜はうちと、バカラでゆっくり遊びまひょ。",
+    "files": {
+      "expressive": {
+        "path": "cast-voice/541449968cdbe3712172415de69619a8a880ddb0b693779140597392623a4d5d.wav",
+        "sha256": "089e57b51daacc6bd1429c569c0fda3ba21655332156fb25db51ebcf6afea459",
+        "duration": 20.31310657596372,
+        "style_id": 1431611904,
+        "intonationScale": 0.95,
+        "postPitchScale": 1.0
+      },
+      "calm": {
+        "path": "cast-voice/dd33fd3d03818a3b73859f66c2b8269c538ff17bb8c3989851e691abeab7c6e2.wav",
+        "sha256": "46ff93ae6165da5a647414968c56a86aa50e22625b231801ca5403fa5ce77ba2",
+        "duration": 20.043378684807255,
+        "style_id": 1431611904,
+        "intonationScale": 0.8075,
+        "postPitchScale": 1.0
+      }
+    }
+  },
+  {
+    "id": "kathy-poker",
+    "character": "kathy",
+    "game": "poker",
+    "text": "こんばんは！ キャシーです。趣味は旅行とお菓子作り。最近は日本の喫茶店巡りにはまっています。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでくださいね。今夜は私と、ポーカーを楽しみましょう！",
+    "files": {
+      "expressive": {
+        "path": "cast-voice/8ad6635405470bf7fdfb9fdc714c0f73bf32792a86d10aa9d08c3c6b39821f54.wav",
+        "sha256": "a1c5fef11bd6a7e37ef17d8722b79ed598e950c11fca2e0382c44c1a55c542da",
+        "duration": 18.5778231292517,
+        "style_id": 1878365376,
+        "intonationScale": 1.03,
+        "postPitchScale": 1.0
+      },
+      "calm": {
+        "path": "cast-voice/1970d8200e7c323426bc7be7463b50b760f38104ee06c61c9ef6058c6f372d8c.wav",
+        "sha256": "e387bb40d6fd108d5390e6ebf5e939e24c783e675a6dfcb31c92bb1f6f4fb9a2",
+        "duration": 18.663061224489795,
+        "style_id": 1878365376,
+        "intonationScale": 0.8755,
+        "postPitchScale": 1.0
+      }
+    }
+  },
+  {
+    "id": "kathy-blackjack",
+    "character": "kathy",
+    "game": "blackjack",
+    "text": "こんばんは！ キャシーです。趣味は旅行とお菓子作り。最近は日本の喫茶店巡りにはまっています。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでくださいね。今夜は私と、ブラックジャックを楽しみましょう！",
+    "files": {
+      "expressive": {
+        "path": "cast-voice/530c5b4682b33ab3e30ce1a03e4326737ccb265982a2b97b6906971b24460237.wav",
+        "sha256": "4deb9728764822c4cbbf208b7ee13cff6777a590aa3f0bed2295c0db403db025",
+        "duration": 18.912131519274375,
+        "style_id": 1878365376,
+        "intonationScale": 1.03,
+        "postPitchScale": 1.0
+      },
+      "calm": {
+        "path": "cast-voice/7d63bf55b8264340403ca55ff68d303120d3069592404f1de66bf47e951f6a9e.wav",
+        "sha256": "76b8bfba8d4e9d68eb5100266ccaffbedf68d33b7530305ecc6de300af7c92df",
+        "duration": 18.85031746031746,
+        "style_id": 1878365376,
+        "intonationScale": 0.8755,
+        "postPitchScale": 1.0
+      }
+    }
+  },
+  {
+    "id": "kathy-baccarat",
+    "character": "kathy",
+    "game": "baccarat",
+    "text": "こんばんは！ キャシーです。趣味は旅行とお菓子作り。最近は日本の喫茶店巡りにはまっています。ポーカー、ブラックジャック、バカラ。三つのゲームから、お好きなものを選んでくださいね。今夜は私と、バカラを楽しみましょう！",
+    "files": {
+      "expressive": {
+        "path": "cast-voice/895f23c7a5effc4b58d65f09ba34c7e7a472aa7a2910abd000b4c8aa2dcf6748.wav",
+        "sha256": "5eac77ba7cd0cd6ed6e88a762a11ea11a4485a0cb138b4cc30ec3da7607ca52d",
+        "duration": 18.835102040816327,
+        "style_id": 1878365376,
+        "intonationScale": 1.03,
+        "postPitchScale": 1.0
+      },
+      "calm": {
+        "path": "cast-voice/8baf541590f866d7c27d23ea17f90cfcc8dd71b4a87063adb06baf4a8f01b49d.wav",
+        "sha256": "14e1ca7cc03139de4052e228346879c7c85b836875ddc0d06bf4f7f1af247b35",
+        "duration": 18.667006802721087,
+        "style_id": 1878365376,
+        "intonationScale": 0.8755,
+        "postPitchScale": 1.0
+      }
+    }
+  }
+];

@@ -1,0 +1,23 @@
+[
+  {
+    "game": "poker",
+    "home": true,
+    "busyGuard": true,
+    "dispose": true,
+    "sessionPreserved": true
+  },
+  {
+    "game": "blackjack",
+    "home": true,
+    "busyGuard": true,
+    "dispose": true,
+    "sessionPreserved": true
+  },
+  {
+    "game": "baccarat",
+    "home": true,
+    "busyGuard": true,
+    "dispose": true,
+    "sessionPreserved": true
+  }
+]

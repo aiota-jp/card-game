@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<script>window.go=window.parent.go;</script><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Poker Lab Lounge</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="layout.css"><link rel="stylesheet" href="experience.css"><link rel="stylesheet" href="home.css"><link rel="stylesheet" href="variants.css"><link rel="stylesheet" href="responsive.css"><link rel="stylesheet" href="multigame.css"><link rel="stylesheet" href="lounge.css?v=20261028-framing"><link rel="stylesheet" href="readability.css"><link rel="stylesheet" href="lobby.css?v=20261028-framing"><link rel="stylesheet" href="reward.css"><link rel="stylesheet" href="intro.css"><link rel="stylesheet" href="../card-size.css"></head>
+<body class="is-home is-catalog is-intro"><svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" style="position:absolute;pointer-events:none"><defs><filter id="character-clean-alpha" color-interpolation-filters="sRGB" x="-1%" y="-1%" width="102%" height="102%"><feComponentTransfer><feFuncA type="linear" slope="12.75" intercept="-11.5"/></feComponentTransfer></filter></defs></svg><style id="character-alpha-style">#host-image,.home-art img,.dealer-portrait,#reward-image{filter:url(#character-clean-alpha)!important}</style>
+ <section id="title-screen" class="title-screen" aria-labelledby="title-logo" aria-describedby="title-tagline">
+  <div class="title-glow" aria-hidden="true"></div><div class="title-content"><div class="title-emblem" aria-hidden="true">♠</div><p class="title-kicker">WELCOME TO THE TABLE</p><h1 id="title-logo">POKER <span>LOUNGE</span></h1><p class="title-japanese">ポーカーラウンジ</p><div class="title-suits" aria-hidden="true">♠ <span>♥</span> ♣ <span>♦</span></div><p id="title-tagline">カードを囲んで過ごすひととき</p><button id="title-continue" class="quiet">ゲーム選択へ →</button><p class="title-auto">約3秒でゲーム選択画面へ進みます</p></div>
+ </section>
+ <header class="topbar"><div class="brand"><span class="brand-icon">♠</span><div>POKER <b>LOUNGE</b><small>大人の時間をカードとともに。</small></div></div><div class="session"><span class="status-dot"></span> PRIVATE LOUNGE</div><div class="top-tools"><button id="home-button" class="quiet" data-game-only>← 開始画面</button><button data-game-only id="tutorial-launch" class="quiet tutorial-launch">チュートリアル</button><button data-game-only id="help" class="quiet">遊び方 <span>?</span></button><div class="sound-controls"><button id="sound-toggle" class="quiet" aria-pressed="true" title="効果音のオン／オフ">♫ 音 ON</button><label class="volume-label" for="sound-volume">音量 <output id="volume-value">40%</output></label><input id="sound-volume" type="range" min="0" max="100" step="5" value="40" aria-label="効果音の音量"></div><details class="music-settings"><summary aria-label="BGM設定">♫ BGM</summary><div class="music-popup"><strong>NIGHT TABLE</strong><small>オリジナル・インストゥルメンタル</small><button id="music-toggle" class="quiet" aria-pressed="true">BGM ON</button><label for="music-volume">BGM音量 <output id="music-value">25%</output></label><input id="music-volume" type="range" min="0" max="100" step="5" value="25" aria-label="BGMの音量"><small>効果音とは別に調整できます</small></div></details></div></header>
+ <section id="variant-screen" class="variant-screen" aria-labelledby="variant-title"><div class="lobby-layout"><aside class="lobby-host" aria-label="対戦相手 MISAKI"><button type="button" class="lobby-figure character-switch" aria-label="MISAKIの画像をクリックしてAYAKAに切り替える"><img src="assets/misaki-full.png" alt="対戦相手の美咲。黒いパンツスーツと緑のブラウスを着た全身の姿"></button><div class="lobby-host-name"><span>YOUR OPPONENT</span><div class="character-switch-hint">画像をクリックで AYAKAへ ↔</div><h2>MISAKI <small>美咲</small></h2><p class="lobby-greeting" aria-live="polite">お好きなゲームを選んでくださいね。</p></div></aside><div class="lobby-content">
+  <div class="catalog-heading"><div><span class="eyebrow">CHOOSE YOUR POKER</span><h1 id="variant-title" tabindex="-1">遊ぶポーカーを選ぼう。</h1><p>カードの配り方が変わると駆け引きも変わる。<br>6種類すべてチュートリアルとMISAKIとの対戦で楽しめます。</p></div><div class="catalog-count"><b>6</b><span>VARIANTS<br>ひとつのトランプいろいろな遊び方。</span></div></div>
+  <p id="catalog-resume-note" class="catalog-resume-note" hidden>各ゲームの手札とチップはそれぞれ保持したまま再開できます。</p>
+  <div id="variant-grid" class="variant-grid" aria-label="ポーカーの種類"></div>
+  <div class="catalog-note"><span>✦</span><p><strong>6種類すべてプレイできます。</strong><br>ゲームを選んだら専用のチュートリアルかMISAKIとの対戦へ。</p></div>
+ </div></div></section>
+ <section id="start-screen" class="start-screen" aria-labelledby="home-title" hidden><div class="lobby-layout"><aside class="lobby-host" aria-label="対戦相手 MISAKI"><button type="button" class="lobby-figure character-switch" aria-label="MISAKIの画像をクリックしてAYAKAに切り替える"><img src="assets/misaki-full.png" alt="対戦相手の美咲。黒いパンツスーツと緑のブラウスを着た全身の姿"></button><div class="lobby-host-name"><span>YOUR OPPONENT</span><div class="character-switch-hint">画像をクリックで AYAKAへ ↔</div><h2>MISAKI <small>美咲</small></h2><p class="lobby-greeting" aria-live="polite">準備ができたら始めましょう。</p></div></aside><div class="lobby-content">
+  <nav class="variant-breadcrumb" aria-label="ゲーム選択"><button id="choose-variant" class="text-button">← ゲームの種類を選ぶ</button><span>選択中 <b>♠ テキサスホールデム</b></span></nav>
+  <div class="home-hero">
+   <div class="home-intro"><span class="eyebrow">PLAY. DISCOVER. UNDERSTAND.</span><h1 id="home-title" tabindex="-1">一枚めくるたび<br>勝負が見えてくる。</h1><p class="home-description">MISAKIと気軽にポーカー対戦。<br>カードが出るたびに変わる勝率を見ながら<br>自分のペースで次の一手を選びましょう。</p><div class="home-tags"><span>♠ テキサスホールデム</span><span>MISAKIと1対1</span><span>仮想チップで練習</span></div></div>
+   <div class="home-art" aria-hidden="true"><div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><span class="art-spark spark-one">✦</span><span class="art-spark spark-two">＋</span><div class="art-card art-card-back">♠</div><div class="art-card art-card-king"><span>K<small>♠</small></span><b>♠</b></div><div class="art-card art-card-ace"><span>A<small>♠</small></span><b>♠</b></div><div class="art-caption"><i class="status-dot"></i> YOUR NEXT MOVE STARTS HERE</div></div>
+  </div>
+  <div class="home-choice-heading"><h2>どちらからはじめますか？</h2><span id="home-session-note">初めての方はチュートリアルがおすすめです</span></div>
+  <div class="home-choices" aria-label="開始方法を選択">
+   <button id="home-tutorial" class="home-choice lesson-choice"><span class="choice-icon">♧</span><span class="choice-content"><span class="choice-kicker" id="home-tutorial-badge">はじめての方へ · 約2分</span><strong>チュートリアル</strong><span>カードの見方と操作を7ステップで体験。</span><small>練習用の配札なのでチップは減りません</small></span><span class="choice-arrow">↗</span></button>
+   <button id="home-start" class="home-choice play-choice"><span class="choice-icon">♠</span><span class="choice-content"><span class="choice-kicker" id="home-play-kicker">準備ができたら</span><strong id="home-play-title">ゲーム開始</strong><span id="home-play-description">MISAKIとの1対1のテーブルへ。</span><small id="home-play-note">各1,000チップ · 勝率ガイド付き</small></span><span class="choice-arrow">→</span></button>
+  </div>
+  <section class="home-basics" aria-labelledby="home-basics-title"><div class="basics-heading"><span class="eyebrow">QUICK GUIDE</span><h2 id="home-basics-title">遊び方はこの3つ。</h2></div><ol><li><span>01</span><div><b>手札2枚を確認</b><p>自分だけに見えるカードです。</p></div></li><li><span>02</span><div><b>共有カードと組み合わせる</b><p>中央のカードが3枚 → 1枚 → 1枚と公開。</p></div></li><li><span>03</span><div><b>最も強い5枚で勝負</b><p>手札と共有カードの7枚から役を作ります。</p></div></li></ol></section>
+  <p class="home-equity-note"><span>✦</span> 勝率は判断のヒント。相手がランダムな手札の場合の推定値で勝利を保証するものではありません。</p>
+ </div></div></section>
+
+ <section id="reward-screen" class="reward-screen" aria-labelledby="reward-title" hidden>
+  <div class="reward-layout"><div class="reward-figure"><img id="reward-image" alt="対戦相手の全身画像"></div>
+  <div class="reward-content"><span class="eyebrow">SUMMER CELEBRATION</span><h1 id="reward-title" tabindex="-1">完全勝利おめでとう！</h1><p id="reward-opponent"></p><p id="reward-result"></p>
+  <div class="reward-dialogue"><p id="reward-line" aria-live="polite"></p><div class="reward-tools"><button id="reward-repeat" class="quiet">もう一度聞く</button><button id="reward-settings" class="quiet">セリフ設定</button></div></div>
+  <div class="reward-buttons"><button id="reward-next" class="primary">次のハンドへ →</button><button id="reward-table" class="quiet">勝負の結果を見る</button><button id="reward-home" class="text-button">開始画面へ戻る</button></div>
+  <p class="reward-note">チップと対戦結果はそのまま保持しています。</p></div></div>
+ </section>
+ <main id="game-screen" tabindex="-1" aria-label="ポーカー対戦画面" hidden>
+  <section class="play-area" aria-label="ポーカーテーブル">
+   <div class="section-heading"><div class="table-status"><span id="hand-number" class="pill">HAND —</span><span id="compact-equity" title="勝率＋引き分け率の半分">エクイティ —</span></div></div>
+   <div class="stage-track" aria-label="ゲームの進行"><span>01 <b>プリフロップ</b></span><i></i><span>02 <b>フロップ</b></span><i></i><span>03 <b>ターン</b></span><i></i><span>04 <b>リバー</b></span></div>
+   <section id="dealer-stage" class="dealer-stage" aria-label="ディーラー 美咲"><img class="dealer-portrait" src="assets/dealer.png" alt="ディーラー美咲。黒いジャケットと緑のブラウスの成人女性"><div class="dealer-dialogue"><small>MISAKI · YOUR OPPONENT</small><p id="dealer-line" aria-live="polite">ラウンジへようこそ。</p></div><button id="dealer-settings-open" class="quiet dealer-settings-open" aria-haspopup="dialog">セリフ設定</button></section><div class="table-wrap"><div class="table">
+    <div class="felt-mark">POKER LAB <small>TEXAS HOLD’EM · ONE ON ONE</small></div>
+    <div class="seat cpu-seat"><div class="seat-label"><span class="avatar">♟</span><div>MISAKI <span id="cpu-dealer" class="dealer">D</span><small id="cpu-name" class="hand-caption">非公開</small></div><strong id="cpu-stack">—</strong></div><div id="cpu-cards" class="cards compact" aria-label="MISAKIの手札"></div></div>
+    <div class="community"><div class="pot"><span class="chips">◉</span> POT <strong id="pot">—</strong></div><div id="board" class="cards" aria-label="共有カード"></div><span class="board-label">COMMUNITY CARDS</span></div>
+    <div class="seat player-seat"><div id="player-cards" class="cards" aria-label="あなたの手札"></div><small id="hand-name" class="hand-caption">—</small><div class="seat-label"><span class="avatar you">♠</span><div>あなた <span id="player-dealer" class="dealer">D</span><small>YOUR HAND</small></div><strong id="player-stack">—</strong></div></div>
+    <div id="cpu-bet" class="table-bet cpu-bet"></div><div id="player-bet" class="table-bet player-bet"></div>
+   </div></div>
+   <div class="action-panel"><div class="turn-heading"><span id="turn-label" class="turn-label">接続中…</span><span id="action-hint">Goの計算エンジンを待っています</span></div><div id="actions" class="actions"><button disabled>起動しています…</button></div><div class="action-foot"><span>増額：前半10 / 後半20 · 各ラウンド合計40まで</span><button id="reset" class="text-button">セッションをリセット ↗</button></div></div>
+  </section>
+  <aside>
+   <section class="equity-panel panel"><div class="panel-title"><h2>あなたの勝率</h2><span class="live"><span class="status-dot"></span> SIMULATION</span></div><p class="muted">見えているカードから次を予測。</p><div class="equity-main"><div class="ring" id="ring"><div><span id="share">—</span><small>エクイティ %</small></div></div><div class="equity-detail"><div><span><i class="legend win"></i>勝ち</span><b id="win">—</b></div><div><span><i class="legend tie"></i>引き分け</span><b id="tie">—</b></div><div><span><i class="legend loss"></i>負け</span><b id="loss">—</b></div></div></div><div class="probability-bar"><i id="win-bar"></i><i id="tie-bar"></i><i id="loss-bar"></i></div><div class="estimate-note" id="estimate-note">モンテカルロ法で計算</div><div class="assumption">相手1人・ランダムな手札を想定。<br>MISAKIの実際の手札は計算に使いません。</div></section>
+   <details id="secondary-panels" class="secondary-panels" open><summary>勝率の推移・テーブルログ</summary><section class="panel history-panel"><div class="panel-title"><h2>勝率の変化</h2><span class="subtle">EQUITY</span></div><div id="history" class="history"></div><p class="muted small">カードが公開されるたびに更新</p></section>
+   <section class="panel log-panel"><div class="panel-title"><h2>テーブルログ</h2><span class="subtle">THIS HAND</span></div><ol id="log" aria-live="polite"></ol></section>
+   </details><div class="learning-note"><span>✦</span><p>勝率は判断のヒント。<br><strong>次のカードで景色が変わる。</strong></p></div>
+  </aside>
+ </main>
+ <footer><span>♧ 練習用の仮想チップ · オフラインで動作</span><span>GO × WAILS / POKER LAB</span></footer>
+ <div id="error" class="error" role="alert" hidden></div>
+ <div id="busy" class="busy" hidden><span class="spinner"></span>カードと勝率を計算中…</div>
+ <dialog id="help-dialog"><div class="dialog-top"><span class="eyebrow">HOW TO PLAY</span><button id="close-help" class="quiet" aria-label="閉じる">✕</button></div><h2>2枚の手札から勝ち筋を探そう。</h2><p>自分の手札2枚と共有カード5枚から最も強い5枚の役を作る2人対戦です。各プレイヤーは1,000チップから開始します。</p><ol><li><b>プリフロップ：</b>手札2枚で判断。ブラインドは5 / 10。</li><li><b>フロップ：</b>共有カード3枚が公開されます。</li><li><b>ターン → リバー：</b>1枚ずつ追加され毎回勝率を更新します。</li><li><b>ショーダウン：</b>最後まで残ったら手札を比較して精算します。</li></ol><div class="help-grid"><p><b>チェック</b>追加せずに進める</p><p><b>コール</b>相手の額に合わせる</p><p><b>ベット / レイズ</b>賭け額を増やす</p><p><b>フォールド</b>このハンドを降りる</p></div><p>練習用の固定リミットです。増額はプリフロップ10共有カード公開後20各ラウンドの合計上限は40。短いスタックでは双方が払える額が上限です。オールイン後は残りのカードを自動公開します。</p><p><b>エクイティ</b>は「勝率＋引き分け率の半分」。誤差表示はシミュレーションの誤差で相手の戦略の不確実さは含みません。MISAKIは簡易ルールで行動します。</p><button id="start-playing" class="primary">テーブルに戻る →</button></dialog>
+ <dialog id="tutorial-dialog" class="tutorial-dialog" aria-labelledby="tutorial-title" aria-describedby="tutorial-text">
+  <div class="dialog-top"><span class="eyebrow">GUIDED PRACTICE <b id="tutorial-counter"></b></span><div class="tutorial-top-actions"><button id="tutorial-sound" class="quiet" aria-pressed="true">♫ 音 ON</button><button id="close-tutorial" class="quiet" aria-label="チュートリアルを閉じて対戦に戻る">✕</button></div></div>
+  <progress id="tutorial-progress" max="7" value="1" aria-label="チュートリアルの進み具合"></progress>
+  <p id="tutorial-subtitle" class="lesson-subtitle"></p><h2 id="tutorial-title" tabindex="-1"></h2><p id="tutorial-text"></p>
+  <div class="practice-table" aria-label="練習用のカード。実際の対戦には影響しません">
+   <span class="practice-badge">PRACTICE · 練習用の配札</span><div class="practice-cpu"><small id="tutorial-cpu-label"></small><div id="tutorial-cpu" class="cards compact"></div></div>
+   <div class="practice-board"><div id="tutorial-pot"></div><div id="tutorial-board" class="cards"></div></div>
+   <div class="practice-player"><div id="tutorial-player" class="cards"></div><small id="tutorial-player-label">あなた · 自分だけの手札</small></div>
+  </div>
+  <div id="tutorial-focus" class="lesson-focus" aria-live="polite"></div><p id="tutorial-note" class="lesson-note"></p>
+  <div class="lesson-buttons"><button id="tutorial-back" class="quiet">← 戻る</button><button id="tutorial-next" class="primary"></button></div>
+ </dialog>
+ <dialog id="dealer-settings" class="dealer-settings" aria-labelledby="dealer-settings-title"><div class="dialog-top"><h2 id="dealer-settings-title">セリフ設定</h2><button id="dealer-settings-close" class="quiet" aria-label="セリフ設定を閉じる">✕</button></div><p>美咲の声と話し方を調整できます。</p><div class="dealer-settings-controls"><button id="dealer-voice" class="quiet" aria-pressed="true">音声 ON</button><label for="dealer-volume">セリフ音量 <output id="dealer-volume-value">30%</output></label><input id="dealer-volume" type="range" min="0" max="100" step="5" value="30" aria-label="ディーラーの音声音量"><label for="dealer-rate">セリフ速度 <output id="dealer-rate-value">1.0倍</output></label><input id="dealer-rate" type="range" min="0.8" max="2.5" step="0.001" value="1.0" aria-label="セリフの再生速度"><button id="dealer-expression" class="quiet" aria-pressed="true">抑揚 ON</button><small>通常40種類と勝利のお祝いセリフを再生します。OFFでは落ち着いた話し方になります。</small><button id="dealer-repeat" class="primary">もう一度聞く</button><small id="dealer-voice-note"></small></div></dialog><script type="module" src="app.js?v=20261028-audit"></script>
+</body></html>
+
+
+
+
+
+

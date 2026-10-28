@@ -1,0 +1,13 @@
+{
+  "title": "Five at the Lounge",
+  "original": true,
+  "bpm": 96,
+  "key": "F major",
+  "bars": 16,
+  "duration": 40.0,
+  "sampleRate": 32000,
+  "channels": 2,
+  "sha256": "b1f4d69fda2d1e589fd2963a33698b34cd523550f4d881c1fd1aed5df7b8fcd8",
+  "source": "scripts/build-lobby-bgm.py",
+  "samples": "synthesized oscillators and seeded noise only"
+}

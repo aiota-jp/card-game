@@ -1,0 +1,1471 @@
+{
+  "credit": "VOICEVOX:九州そら",
+  "core": "0.17.0",
+  "styleId": 16,
+  "lines": [
+    {
+      "id": "welcome-01",
+      "kind": "welcome",
+      "text": "ラウンジへようこそ。今夜は、ゆっくり楽しんでいってくださいね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/welcome-01-expressive.wav",
+          "duration": 5.931,
+          "pauses": [
+            {
+              "before": 1.0235,
+              "after": 0.4
+            },
+            {
+              "before": 1.088,
+              "after": 0.4
+            }
+          ],
+          "sha256": "fa69a3c6df988c6b131c21c4a3b72f9bd383030639d776a152ab191568442e09"
+        },
+        "calm": {
+          "path": "assets/voice/welcome-01-calm.wav",
+          "duration": 5.909,
+          "pauses": [
+            {
+              "before": 1.0235,
+              "after": 0.4
+            },
+            {
+              "before": 1.088,
+              "after": 0.4
+            }
+          ],
+          "sha256": "337050ae456157c231d1f828dd73c07b277f8f10bc3fc54a922f101607d996cf"
+        }
+      }
+    },
+    {
+      "id": "welcome-02",
+      "kind": "welcome",
+      "text": "いらっしゃいませ。お会いできて、うれしいです。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/welcome-02-expressive.wav",
+          "duration": 4.096,
+          "pauses": [
+            {
+              "before": 1.0713,
+              "after": 0.4
+            },
+            {
+              "before": 1.2802,
+              "after": 0.4
+            }
+          ],
+          "sha256": "f263744c1e66db568395f6515da0aaa949618777fc80ede9d868afec619dbb1e"
+        },
+        "calm": {
+          "path": "assets/voice/welcome-02-calm.wav",
+          "duration": 4.085,
+          "pauses": [
+            {
+              "before": 1.0713,
+              "after": 0.4
+            },
+            {
+              "before": 1.2802,
+              "after": 0.4
+            }
+          ],
+          "sha256": "e9a449672d5e919b4cb3f04776c109df65a0c3da81dd6e7899e589b8f623e7ad"
+        }
+      }
+    },
+    {
+      "id": "welcome-03",
+      "kind": "welcome",
+      "text": "準備はいいですか？ それでは、始めましょう。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/welcome-03-expressive.wav",
+          "duration": 4.448,
+          "pauses": [
+            {
+              "before": 1.09,
+              "after": 0.4
+            },
+            {
+              "before": 1.0326,
+              "after": 0.4
+            }
+          ],
+          "sha256": "6f56aa28072603bfdf637804dac67741c06bc2a59a6c4adb3a01858ae45de6c3"
+        },
+        "calm": {
+          "path": "assets/voice/welcome-03-calm.wav",
+          "duration": 4.437,
+          "pauses": [
+            {
+              "before": 1.09,
+              "after": 0.4
+            },
+            {
+              "before": 1.0326,
+              "after": 0.4
+            }
+          ],
+          "sha256": "c2a7d9314a6a00ce64093e28d5e3fc9fab29bc9ff5a944aca6e7b490a9cc6191"
+        }
+      }
+    },
+    {
+      "id": "welcome-04",
+      "kind": "welcome",
+      "text": "お帰りなさい。続きを、ご一緒しましょう。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/welcome-04-expressive.wav",
+          "duration": 4.085,
+          "pauses": [
+            {
+              "before": 0.9805,
+              "after": 0.4
+            },
+            {
+              "before": 0.7079,
+              "after": 0.3186
+            }
+          ],
+          "sha256": "2b6fbc0e88fe45036d49dbff01083d3d3970b61db6f637d86c0f75b6ace587f9"
+        },
+        "calm": {
+          "path": "assets/voice/welcome-04-calm.wav",
+          "duration": 4.075,
+          "pauses": [
+            {
+              "before": 0.9805,
+              "after": 0.4
+            },
+            {
+              "before": 0.7079,
+              "after": 0.3186
+            }
+          ],
+          "sha256": "5013f2ad5b307ad160b2aa6b1cb7d55cbad77277e429ad8e6fa563fe29f3eeb6"
+        }
+      }
+    },
+    {
+      "id": "deal-01",
+      "kind": "deal",
+      "text": "新しいカードです。どんな一手になるか、楽しみですね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/deal-01-expressive.wav",
+          "duration": 5.141,
+          "pauses": [
+            {
+              "before": 1.3421,
+              "after": 0.4
+            },
+            {
+              "before": 1.1481,
+              "after": 0.4
+            }
+          ],
+          "sha256": "24049c0499038d6e7eacb5882e9ef1cc92473abbfc0dd3da97c71b4485b6ffa3"
+        },
+        "calm": {
+          "path": "assets/voice/deal-01-calm.wav",
+          "duration": 5.397,
+          "pauses": [
+            {
+              "before": 1.3421,
+              "after": 0.4
+            },
+            {
+              "before": 1.1481,
+              "after": 0.4
+            }
+          ],
+          "sha256": "e6b0a754de7feca396da240919f78a0ce949a42cfb269a409c124ee2e21882bb"
+        }
+      }
+    },
+    {
+      "id": "deal-02",
+      "kind": "deal",
+      "text": "次のハンドへ。今度は、どう攻めますか？",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/deal-02-expressive.wav",
+          "duration": 3.861,
+          "pauses": [
+            {
+              "before": 0.8562,
+              "after": 0.3853
+            },
+            {
+              "before": 0.9315,
+              "after": 0.4
+            }
+          ],
+          "sha256": "b2bc23dde28ae4acc4843657fb7e77afb400bd894db92f465210ff64ed6372ef"
+        },
+        "calm": {
+          "path": "assets/voice/deal-02-calm.wav",
+          "duration": 4.085,
+          "pauses": [
+            {
+              "before": 0.8562,
+              "after": 0.3853
+            },
+            {
+              "before": 0.9315,
+              "after": 0.4
+            }
+          ],
+          "sha256": "93dbb02085b1654fec6ea2b42c680641144667208e8ae3cea17da3fdf72e7451"
+        }
+      }
+    },
+    {
+      "id": "deal-03",
+      "kind": "deal",
+      "text": "カードを配りました。慌てず、見てみてください。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/deal-03-expressive.wav",
+          "duration": 4.224,
+          "pauses": [
+            {
+              "before": 0.7428,
+              "after": 0.3343
+            },
+            {
+              "before": 1.3114,
+              "after": 0.4
+            }
+          ],
+          "sha256": "0764f830de399da3194f953c2ff9cb0c8928c6688cef59e8f0c62d90fda5953e"
+        },
+        "calm": {
+          "path": "assets/voice/deal-03-calm.wav",
+          "duration": 4.48,
+          "pauses": [
+            {
+              "before": 0.7428,
+              "after": 0.3343
+            },
+            {
+              "before": 1.3114,
+              "after": 0.4
+            }
+          ],
+          "sha256": "228adc8d8b55456a08ed0be60dd454a2271abda653fbdd9def303bc2f7811456"
+        }
+      }
+    },
+    {
+      "id": "deal-04",
+      "kind": "deal",
+      "text": "さて、次の勝負です。よろしくお願いします。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/deal-04-expressive.wav",
+          "duration": 4.363,
+          "pauses": [
+            {
+              "before": 0.8395,
+              "after": 0.3778
+            },
+            {
+              "before": 1.5797,
+              "after": 0.4
+            }
+          ],
+          "sha256": "22107f84c61dfca6eb0ea0ee5c6c0df2a81b341f99c20430a73b85897e4dcec2"
+        },
+        "calm": {
+          "path": "assets/voice/deal-04-calm.wav",
+          "duration": 4.587,
+          "pauses": [
+            {
+              "before": 0.8395,
+              "after": 0.3778
+            },
+            {
+              "before": 1.5797,
+              "after": 0.4
+            }
+          ],
+          "sha256": "c3eb6fe30b0dfc201d502fdc9dc86ae61c28c956b31b1c577a121f9d4011cc78"
+        }
+      }
+    },
+    {
+      "id": "win-01",
+      "kind": "win",
+      "text": "お見事です。きれいに決まりましたね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/win-01-expressive.wav",
+          "duration": 3.019,
+          "pauses": [
+            {
+              "before": 1.3271,
+              "after": 0.4
+            }
+          ],
+          "sha256": "47998f598a8ffb79473be88b788719150a7eddcc045793f3cf4a4b4854b9baae"
+        },
+        "calm": {
+          "path": "assets/voice/win-01-calm.wav",
+          "duration": 3.285,
+          "pauses": [
+            {
+              "before": 1.3271,
+              "after": 0.4
+            }
+          ],
+          "sha256": "3e033f7c3b6c8afff1df891f50cdf46fa7fd00e6a83fd8a42a8ce3d26fdc508a"
+        }
+      }
+    },
+    {
+      "id": "win-02",
+      "kind": "win",
+      "text": "あなたの勝ちです。さすがですね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/win-02-expressive.wav",
+          "duration": 2.795,
+          "pauses": [
+            {
+              "before": 1.3169,
+              "after": 0.4
+            }
+          ],
+          "sha256": "24b1a25ba5a8e6a905aefb8b921e12b96b15a2673f4f5d90365013d0acfaad19"
+        },
+        "calm": {
+          "path": "assets/voice/win-02-calm.wav",
+          "duration": 3.019,
+          "pauses": [
+            {
+              "before": 1.3169,
+              "after": 0.4
+            }
+          ],
+          "sha256": "84a3543cc63ac42eb405d3fd1138a50826ae0c9c64593f7fcf064d4320341083"
+        }
+      }
+    },
+    {
+      "id": "win-03",
+      "kind": "win",
+      "text": "あら、負けちゃいました。いい勝負でしたね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/win-03-expressive.wav",
+          "duration": 3.584,
+          "pauses": [
+            {
+              "before": 0.903,
+              "after": 0.4
+            },
+            {
+              "before": 1.0479,
+              "after": 0.4
+            }
+          ],
+          "sha256": "febc50444b389eafd31dc6a3f1ef447360a3e46cbbe909292b41fa5145801be3"
+        },
+        "calm": {
+          "path": "assets/voice/win-03-calm.wav",
+          "duration": 3.883,
+          "pauses": [
+            {
+              "before": 0.903,
+              "after": 0.4
+            },
+            {
+              "before": 1.0479,
+              "after": 0.4
+            }
+          ],
+          "sha256": "e5e00ca4f70aa526addc43167e5f7e3cd2268152a5570d68900b23f351c1cda7"
+        }
+      }
+    },
+    {
+      "id": "win-04",
+      "kind": "win",
+      "text": "その一手、素敵でした。次は私も頑張ります。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/win-04-expressive.wav",
+          "duration": 4.736,
+          "pauses": [
+            {
+              "before": 1.0455,
+              "after": 0.4
+            },
+            {
+              "before": 0.8871,
+              "after": 0.3992
+            }
+          ],
+          "sha256": "469539c016ca698649214a5bec4e7a507c6c06cfb4ead32b54cf24a19382086f"
+        },
+        "calm": {
+          "path": "assets/voice/win-04-calm.wav",
+          "duration": 5.12,
+          "pauses": [
+            {
+              "before": 1.0455,
+              "after": 0.4
+            },
+            {
+              "before": 0.8871,
+              "after": 0.3992
+            }
+          ],
+          "sha256": "e76c95f894e6e6f0d36cb76cb974366f0b24cf1a07c9a7683cf0b6b5888cb657"
+        }
+      }
+    },
+    {
+      "id": "win-05",
+      "kind": "win",
+      "text": "やられましたね。思わず見入ってしまいました。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/win-05-expressive.wav",
+          "duration": 3.712,
+          "pauses": [
+            {
+              "before": 1.2274,
+              "after": 0.4
+            }
+          ],
+          "sha256": "89782ae4eb7a7a05b23f0da41dce5cb760f28504a4f1179d895ae570d5b1d077"
+        },
+        "calm": {
+          "path": "assets/voice/win-05-calm.wav",
+          "duration": 4.021,
+          "pauses": [
+            {
+              "before": 1.2274,
+              "after": 0.4
+            }
+          ],
+          "sha256": "a4f9de29b6c5737168491cee759c749eb87d60d50a6e45ae807ecb37bd0459bf"
+        }
+      }
+    },
+    {
+      "id": "win-06",
+      "kind": "win",
+      "text": "おめでとうございます。次の勝負も、楽しみです。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/win-06-expressive.wav",
+          "duration": 4.501,
+          "pauses": [
+            {
+              "before": 1.2273,
+              "after": 0.4
+            },
+            {
+              "before": 1.0747,
+              "after": 0.4
+            }
+          ],
+          "sha256": "03d48a252cdc35ba8b153675229bda1512475a8e60b633140be548951c82309c"
+        },
+        "calm": {
+          "path": "assets/voice/win-06-calm.wav",
+          "duration": 4.896,
+          "pauses": [
+            {
+              "before": 1.2273,
+              "after": 0.4
+            },
+            {
+              "before": 1.0747,
+              "after": 0.4
+            }
+          ],
+          "sha256": "26fbf951ab93efc0da632daefba3a53cfcaed01048d0ba3078b22fe83bf60bbc"
+        }
+      }
+    },
+    {
+      "id": "loss-01",
+      "kind": "loss",
+      "text": "今回は、私の勝ちですね。もう一度、いかがですか？",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/loss-01-expressive.wav",
+          "duration": 5.899,
+          "pauses": [
+            {
+              "before": 1.1654,
+              "after": 0.4
+            },
+            {
+              "before": 0.9634,
+              "after": 0.4
+            },
+            {
+              "before": 0.9751,
+              "after": 0.4
+            }
+          ],
+          "sha256": "a1306c230eb520afb2efdf51cb4bda8759daf931ee5c0171d1d56ccadd5b7474"
+        },
+        "calm": {
+          "path": "assets/voice/loss-01-calm.wav",
+          "duration": 5.856,
+          "pauses": [
+            {
+              "before": 1.1654,
+              "after": 0.4
+            },
+            {
+              "before": 0.9634,
+              "after": 0.4
+            },
+            {
+              "before": 0.9751,
+              "after": 0.4
+            }
+          ],
+          "sha256": "6f7478b7c312470eab3e589af5dc4ed259fa73599c4d0d3e987e68bda23014e7"
+        }
+      }
+    },
+    {
+      "id": "loss-02",
+      "kind": "loss",
+      "text": "惜しかったですね。次のカードに、期待しましょう。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/loss-02-expressive.wav",
+          "duration": 4.693,
+          "pauses": [
+            {
+              "before": 0.9103,
+              "after": 0.4
+            },
+            {
+              "before": 0.7498,
+              "after": 0.3374
+            }
+          ],
+          "sha256": "2a00e89a1252234a2bfd1f27ebbc6f49d50c374e80c123e5303821186040faeb"
+        },
+        "calm": {
+          "path": "assets/voice/loss-02-calm.wav",
+          "duration": 4.672,
+          "pauses": [
+            {
+              "before": 0.9103,
+              "after": 0.4
+            },
+            {
+              "before": 0.7498,
+              "after": 0.3374
+            }
+          ],
+          "sha256": "af7f93163af06bc1d64754e46475b43e0a71c1e0709dd08fd34585e52c518294"
+        }
+      }
+    },
+    {
+      "id": "loss-03",
+      "kind": "loss",
+      "text": "焦らなくて大丈夫。ゆっくりいきましょうね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/loss-03-expressive.wav",
+          "duration": 3.872,
+          "pauses": [
+            {
+              "before": 1.2263,
+              "after": 0.4
+            }
+          ],
+          "sha256": "944e8f5a2433424744e51dae400af83e21100c8f2154ef85c4db666c652591bf"
+        },
+        "calm": {
+          "path": "assets/voice/loss-03-calm.wav",
+          "duration": 3.851,
+          "pauses": [
+            {
+              "before": 1.2263,
+              "after": 0.4
+            }
+          ],
+          "sha256": "70b9c40b46ab67caf64c87174bbe468d4ea9f5228549becd155624988212c626"
+        }
+      }
+    },
+    {
+      "id": "loss-04",
+      "kind": "loss",
+      "text": "今回は、こちらに流れが来たみたいです。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/loss-04-expressive.wav",
+          "duration": 3.915,
+          "pauses": [
+            {
+              "before": 1.0018,
+              "after": 0.4
+            }
+          ],
+          "sha256": "c6f94ee91bad317845f464ae5e2f3790010fb44ce735414c9897fc3b3e2d8239"
+        },
+        "calm": {
+          "path": "assets/voice/loss-04-calm.wav",
+          "duration": 3.893,
+          "pauses": [
+            {
+              "before": 1.0018,
+              "after": 0.4
+            }
+          ],
+          "sha256": "5cac3a408f933ebe4adc57ec4ddb356cb840df0260bcf82c9d10b897ff9e4984"
+        }
+      }
+    },
+    {
+      "id": "loss-05",
+      "kind": "loss",
+      "text": "いい勝負でした。次は、どうなるでしょうね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/loss-05-expressive.wav",
+          "duration": 4.181,
+          "pauses": [
+            {
+              "before": 0.8871,
+              "after": 0.3992
+            },
+            {
+              "before": 0.9939,
+              "after": 0.4
+            }
+          ],
+          "sha256": "9fd23a0e8ac285dcb83a8156af91e653c1e3b63d58d22384e7e2f3f70463ba06"
+        },
+        "calm": {
+          "path": "assets/voice/loss-05-calm.wav",
+          "duration": 4.139,
+          "pauses": [
+            {
+              "before": 0.8871,
+              "after": 0.3992
+            },
+            {
+              "before": 0.9939,
+              "after": 0.4
+            }
+          ],
+          "sha256": "1d623240068b43992828171c38096ee8c56d05008b2685fd330f610c9ff8d198"
+        }
+      }
+    },
+    {
+      "id": "loss-06",
+      "kind": "loss",
+      "text": "勝負は、まだまだこれから。お付き合いくださいね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/loss-06-expressive.wav",
+          "duration": 4.501,
+          "pauses": [
+            {
+              "before": 1.1665,
+              "after": 0.4
+            },
+            {
+              "before": 0.6544,
+              "after": 0.2945
+            }
+          ],
+          "sha256": "9fc9d0a10b4ab18bae2066f5d5c37d64fde57221238be12f6e5f53e15712a197"
+        },
+        "calm": {
+          "path": "assets/voice/loss-06-calm.wav",
+          "duration": 4.459,
+          "pauses": [
+            {
+              "before": 1.1665,
+              "after": 0.4
+            },
+            {
+              "before": 0.6544,
+              "after": 0.2945
+            }
+          ],
+          "sha256": "d14938afe000cdf0bf4001c737bde1f90e4dc1a579e7e69c3cb2dd300303c39d"
+        }
+      }
+    },
+    {
+      "id": "tie-01",
+      "kind": "tie",
+      "text": "引き分けですね。なんだか、息がぴったりです。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/tie-01-expressive.wav",
+          "duration": 4.363,
+          "pauses": [
+            {
+              "before": 1.1246,
+              "after": 0.4
+            },
+            {
+              "before": 0.9861,
+              "after": 0.4
+            }
+          ],
+          "sha256": "ca1291a4bacf1948f98ac2e74398a5a43b83386cee0c1696dd78e18826173989"
+        },
+        "calm": {
+          "path": "assets/voice/tie-01-calm.wav",
+          "duration": 4.427,
+          "pauses": [
+            {
+              "before": 1.1246,
+              "after": 0.4
+            },
+            {
+              "before": 0.9861,
+              "after": 0.4
+            }
+          ],
+          "sha256": "7db73a14ae155a15da0c4951cb5e36a4b3629a078ab110326c8d03936972e3f6"
+        }
+      }
+    },
+    {
+      "id": "tie-02",
+      "kind": "tie",
+      "text": "互角の勝負でしたね。次こそ、決着でしょうか。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/tie-02-expressive.wav",
+          "duration": 4.875,
+          "pauses": [
+            {
+              "before": 0.908,
+              "after": 0.4
+            },
+            {
+              "before": 1.0633,
+              "after": 0.4
+            }
+          ],
+          "sha256": "c58bbd47a213fdedd82ce6f6009296ccd343cdf1224b169e9147eb1e413f90e8"
+        },
+        "calm": {
+          "path": "assets/voice/tie-02-calm.wav",
+          "duration": 4.96,
+          "pauses": [
+            {
+              "before": 0.908,
+              "after": 0.4
+            },
+            {
+              "before": 1.0633,
+              "after": 0.4
+            }
+          ],
+          "sha256": "51733db50504d6eb1c35e879a9db4234e83ef5112cf165cd48b7e5f70f520267"
+        }
+      }
+    },
+    {
+      "id": "tie-03",
+      "kind": "tie",
+      "text": "今回は、仲良く半分ずつ。次も楽しみですね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/tie-03-expressive.wav",
+          "duration": 5.28,
+          "pauses": [
+            {
+              "before": 1.2857,
+              "after": 0.4
+            },
+            {
+              "before": 1.0865,
+              "after": 0.4
+            }
+          ],
+          "sha256": "7d489c0e87c7b8e34191f5227b3fcbd831191a60ac78688191d733236e951b0f"
+        },
+        "calm": {
+          "path": "assets/voice/tie-03-calm.wav",
+          "duration": 5.344,
+          "pauses": [
+            {
+              "before": 1.2857,
+              "after": 0.4
+            },
+            {
+              "before": 1.0865,
+              "after": 0.4
+            }
+          ],
+          "sha256": "0138592ada8fb5df6b43c73ef7df2805ffe0ec524e1fbd03386c0e207a6d51ee"
+        }
+      }
+    },
+    {
+      "id": "draw-01",
+      "kind": "draw",
+      "text": "交換するカードを、選んでくださいね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/draw-01-expressive.wav",
+          "duration": 3.541,
+          "pauses": [
+            {
+              "before": 0.926,
+              "after": 0.4
+            }
+          ],
+          "sha256": "71ea76a241f381e11b0f00341885a4f842e7e0510ef3359c71e0616caaf1ab48"
+        },
+        "calm": {
+          "path": "assets/voice/draw-01-calm.wav",
+          "duration": 3.52,
+          "pauses": [
+            {
+              "before": 0.926,
+              "after": 0.4
+            }
+          ],
+          "sha256": "8b816097f74ab80a3fa3dd87af07245042427d949d76bb9f23c6cd45be6439a4"
+        }
+      }
+    },
+    {
+      "id": "draw-02",
+      "kind": "draw",
+      "text": "そのままでも、交換しても大丈夫。お任せします。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/draw-02-expressive.wav",
+          "duration": 5.099,
+          "pauses": [
+            {
+              "before": 0.9205,
+              "after": 0.4
+            },
+            {
+              "before": 1.0265,
+              "after": 0.4
+            }
+          ],
+          "sha256": "324e233fa0617fc3d66c7ab8057d5f947f7180d9bc70b467d16f76eca731a29e"
+        },
+        "calm": {
+          "path": "assets/voice/draw-02-calm.wav",
+          "duration": 5.077,
+          "pauses": [
+            {
+              "before": 0.9205,
+              "after": 0.4
+            },
+            {
+              "before": 1.0265,
+              "after": 0.4
+            }
+          ],
+          "sha256": "356c1b51e5d97a0e7defa854fe6f9c6456a17e41d4ff2089133d020947107874"
+        }
+      }
+    },
+    {
+      "id": "draw-03",
+      "kind": "draw",
+      "text": "どのカードを残しますか？ じっくり考えてください。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/draw-03-expressive.wav",
+          "duration": 4.629,
+          "pauses": [
+            {
+              "before": 0.9734,
+              "after": 0.4
+            }
+          ],
+          "sha256": "ff0b99c0c1e2cd445e56bde931e016d12df8185cae44f6a6436bf6c64725be8e"
+        },
+        "calm": {
+          "path": "assets/voice/draw-03-calm.wav",
+          "duration": 4.619,
+          "pauses": [
+            {
+              "before": 0.9734,
+              "after": 0.4
+            }
+          ],
+          "sha256": "f006aec95d64687c33573897bb4d845429c2cb2276477f5e013fb8d8d3a1e0e5"
+        }
+      }
+    },
+    {
+      "id": "reveal-01",
+      "kind": "reveal",
+      "text": "カードがそろいました。最後の一手、どうしますか？",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/reveal-01-expressive.wav",
+          "duration": 4.875,
+          "pauses": [
+            {
+              "before": 0.7644,
+              "after": 0.344
+            },
+            {
+              "before": 1.0113,
+              "after": 0.4
+            }
+          ],
+          "sha256": "20523aa7526ed4165668e691f53046edbcc8a5ec2d43e250b88cc0ae6701a994"
+        },
+        "calm": {
+          "path": "assets/voice/reveal-01-calm.wav",
+          "duration": 4.864,
+          "pauses": [
+            {
+              "before": 0.7644,
+              "after": 0.344
+            },
+            {
+              "before": 1.0113,
+              "after": 0.4
+            }
+          ],
+          "sha256": "f49c39178d4e11b551b1d94b35af8daea0dd6159b7d86ee277bd9a48e3d99b25"
+        }
+      }
+    },
+    {
+      "id": "reveal-02",
+      "kind": "reveal",
+      "text": "ここが、勝負どころですね。私は、準備できています。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/reveal-02-expressive.wav",
+          "duration": 5.579,
+          "pauses": [
+            {
+              "before": 0.8003,
+              "after": 0.3601
+            },
+            {
+              "before": 1.1953,
+              "after": 0.4
+            },
+            {
+              "before": 0.9836,
+              "after": 0.4
+            }
+          ],
+          "sha256": "e1fb57b7a130b34ec7b9fd7b9cb29f29f14b2f1f8100f34896b26f61e9942675"
+        },
+        "calm": {
+          "path": "assets/voice/reveal-02-calm.wav",
+          "duration": 5.547,
+          "pauses": [
+            {
+              "before": 0.8003,
+              "after": 0.3601
+            },
+            {
+              "before": 1.1953,
+              "after": 0.4
+            },
+            {
+              "before": 0.9836,
+              "after": 0.4
+            }
+          ],
+          "sha256": "344b15876f40e0c50ffe4fd237753684ef62267540f23a10e2b04fd55e81e17f"
+        }
+      }
+    },
+    {
+      "id": "reveal-03",
+      "kind": "reveal",
+      "text": "最後の判断です。納得のいく一手を、どうぞ。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/reveal-03-expressive.wav",
+          "duration": 5.013,
+          "pauses": [
+            {
+              "before": 1.258,
+              "after": 0.4
+            },
+            {
+              "before": 0.8309,
+              "after": 0.3739
+            }
+          ],
+          "sha256": "0d2b3f90283adf2bfe2d5c74d92684912001976cba6d03aacce462965473f23f"
+        },
+        "calm": {
+          "path": "assets/voice/reveal-03-calm.wav",
+          "duration": 4.971,
+          "pauses": [
+            {
+              "before": 1.258,
+              "after": 0.4
+            },
+            {
+              "before": 0.8309,
+              "after": 0.3739
+            }
+          ],
+          "sha256": "00709512d9f465dcc433a1495d5769b0c7198246a8067728b5630fba6ac46e98"
+        }
+      }
+    },
+    {
+      "id": "raise-01",
+      "kind": "raise",
+      "text": "あら、強気ですね。こちらも、気が抜けません。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/raise-01-expressive.wav",
+          "duration": 4.501,
+          "pauses": [
+            {
+              "before": 0.8419,
+              "after": 0.3789
+            },
+            {
+              "before": 1.0417,
+              "after": 0.4
+            },
+            {
+              "before": 0.9031,
+              "after": 0.4
+            }
+          ],
+          "sha256": "da1b5bcdd528993e71074fbfe990b4406a8c159975ef017dba9aa15648d2cae7"
+        },
+        "calm": {
+          "path": "assets/voice/raise-01-calm.wav",
+          "duration": 4.715,
+          "pauses": [
+            {
+              "before": 0.8419,
+              "after": 0.3789
+            },
+            {
+              "before": 1.0417,
+              "after": 0.4
+            },
+            {
+              "before": 0.9031,
+              "after": 0.4
+            }
+          ],
+          "sha256": "8a1bc4a80474a28ac55536627339d69b0b6d75ce14f6de2a502047ba03ab1f57"
+        }
+      }
+    },
+    {
+      "id": "raise-02",
+      "kind": "raise",
+      "text": "勝負に出ましたね。面白くなってきました。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/raise-02-expressive.wav",
+          "duration": 3.765,
+          "pauses": [
+            {
+              "before": 1.2227,
+              "after": 0.4
+            }
+          ],
+          "sha256": "8739e802e5177d63b87e1a4d26276fc78af61ee1769c7519c8fe8890087207a7"
+        },
+        "calm": {
+          "path": "assets/voice/raise-02-calm.wav",
+          "duration": 3.989,
+          "pauses": [
+            {
+              "before": 1.2227,
+              "after": 0.4
+            }
+          ],
+          "sha256": "c3b76a4d52a4bc2f7ff8036cdf2a2fb1540e1f755f550a2ab649e938c212005e"
+        }
+      }
+    },
+    {
+      "id": "raise-03",
+      "kind": "raise",
+      "text": "そのレイズ、気になりますね。さて、どうしましょう。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/raise-03-expressive.wav",
+          "duration": 4.704,
+          "pauses": [
+            {
+              "before": 1.2907,
+              "after": 0.4
+            },
+            {
+              "before": 1.0711,
+              "after": 0.4
+            },
+            {
+              "before": 1.007,
+              "after": 0.4
+            }
+          ],
+          "sha256": "3ead93bfd1cc508b24d58c72fa4a0f6e106f35207bce2c24f7922744e0a365de"
+        },
+        "calm": {
+          "path": "assets/voice/raise-03-calm.wav",
+          "duration": 4.971,
+          "pauses": [
+            {
+              "before": 1.2907,
+              "after": 0.4
+            },
+            {
+              "before": 1.0711,
+              "after": 0.4
+            },
+            {
+              "before": 1.007,
+              "after": 0.4
+            }
+          ],
+          "sha256": "9e4b96851f1c2eabeea073ba4a441aed25354b56cfd9ad4a71cfa03d88411dbc"
+        }
+      }
+    },
+    {
+      "id": "streakWin-01",
+      "kind": "streakWin",
+      "text": "また、あなたの勝ちですね。今日は手強いなあ。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/streakWin-01-expressive.wav",
+          "duration": 4.053,
+          "pauses": [
+            {
+              "before": 1.0349,
+              "after": 0.4
+            },
+            {
+              "before": 0.8291,
+              "after": 0.3731
+            }
+          ],
+          "sha256": "8165e1150ce6266c520a4a21280cd4d11ae046f39855b03c5beabd7e91af9abd"
+        },
+        "calm": {
+          "path": "assets/voice/streakWin-01-calm.wav",
+          "duration": 4.331,
+          "pauses": [
+            {
+              "before": 1.0349,
+              "after": 0.4
+            },
+            {
+              "before": 0.8291,
+              "after": 0.3731
+            }
+          ],
+          "sha256": "31701a12373719d28ad959c05b0e3c2fe34170b02a436b55dc5ae37cda472dc6"
+        }
+      }
+    },
+    {
+      "id": "streakWin-02",
+      "kind": "streakWin",
+      "text": "連勝ですね。すっかり、調子が出てきましたね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/streakWin-02-expressive.wav",
+          "duration": 4.48,
+          "pauses": [
+            {
+              "before": 0.9599,
+              "after": 0.4
+            },
+            {
+              "before": 0.9993,
+              "after": 0.4
+            }
+          ],
+          "sha256": "c7de2164b944eaa60500b7fd80d6001da09e231da1fd978b910624e924a0568c"
+        },
+        "calm": {
+          "path": "assets/voice/streakWin-02-calm.wav",
+          "duration": 4.757,
+          "pauses": [
+            {
+              "before": 0.9599,
+              "after": 0.4
+            },
+            {
+              "before": 0.9993,
+              "after": 0.4
+            }
+          ],
+          "sha256": "1c26abc7623bba217e65d18bff05ece57e5baa5fe08504dcb849e65600b48d44"
+        }
+      }
+    },
+    {
+      "id": "streakWin-03",
+      "kind": "streakWin",
+      "text": "お強いですね。次こそ、私も負けませんよ。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/streakWin-03-expressive.wav",
+          "duration": 4.32,
+          "pauses": [
+            {
+              "before": 0.9179,
+              "after": 0.4
+            },
+            {
+              "before": 1.2182,
+              "after": 0.4
+            }
+          ],
+          "sha256": "bea5382ed7ce636219235a91c6e1b3a84ccf7a73baa4b527431d9a86e0f30f9f"
+        },
+        "calm": {
+          "path": "assets/voice/streakWin-03-calm.wav",
+          "duration": 4.619,
+          "pauses": [
+            {
+              "before": 0.9179,
+              "after": 0.4
+            },
+            {
+              "before": 1.2182,
+              "after": 0.4
+            }
+          ],
+          "sha256": "92b2688c5abc935b161a4fe1d5b635d2a32a927abe10801d46806a943d209462"
+        }
+      }
+    },
+    {
+      "id": "streakLoss-01",
+      "kind": "streakLoss",
+      "text": "少し、ひと息つきましょうか。急がなくて大丈夫ですよ。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/streakLoss-01-expressive.wav",
+          "duration": 5.621,
+          "pauses": [
+            {
+              "before": 1.0049,
+              "after": 0.4
+            },
+            {
+              "before": 0.8941,
+              "after": 0.4
+            }
+          ],
+          "sha256": "42b3f26f9777b9d73c77f19bdb4b9a9b2c2f32611af9887b8b0c912788202ba3"
+        },
+        "calm": {
+          "path": "assets/voice/streakLoss-01-calm.wav",
+          "duration": 5.557,
+          "pauses": [
+            {
+              "before": 1.0049,
+              "after": 0.4
+            },
+            {
+              "before": 0.8941,
+              "after": 0.4
+            }
+          ],
+          "sha256": "2ef622cd6638a0958bb8f2c7c1e24f09e4c39bc8dfc3cf3398bd3bc171a68f45"
+        }
+      }
+    },
+    {
+      "id": "streakLoss-02",
+      "kind": "streakLoss",
+      "text": "なかなか、流れが来ませんね。無理せず、いきましょう。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/streakLoss-02-expressive.wav",
+          "duration": 5.259,
+          "pauses": [
+            {
+              "before": 1.2501,
+              "after": 0.4
+            },
+            {
+              "before": 0.9921,
+              "after": 0.4
+            },
+            {
+              "before": 1.3603,
+              "after": 0.4
+            }
+          ],
+          "sha256": "875136c9371bf9d4ef9f81ec589a464e160bdc6ca0f2f6edc8d53f26f6c6887e"
+        },
+        "calm": {
+          "path": "assets/voice/streakLoss-02-calm.wav",
+          "duration": 5.195,
+          "pauses": [
+            {
+              "before": 1.2501,
+              "after": 0.4
+            },
+            {
+              "before": 0.9921,
+              "after": 0.4
+            },
+            {
+              "before": 1.3603,
+              "after": 0.4
+            }
+          ],
+          "sha256": "e165ec8aa5d1e79a73abce6a137147de98c7bb68c7c4bb7698c93f27f969f75f"
+        }
+      }
+    },
+    {
+      "id": "streakLoss-03",
+      "kind": "streakLoss",
+      "text": "次の勝負は、気持ちを切り替えて。応援しています。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/streakLoss-03-expressive.wav",
+          "duration": 5.205,
+          "pauses": [
+            {
+              "before": 1.0906,
+              "after": 0.4
+            },
+            {
+              "before": 1.0348,
+              "after": 0.4
+            }
+          ],
+          "sha256": "a51979f2b8a2a4ea0d0b5da8d43805802e62e2a52a323cf6fa2f99e8d259f9f6"
+        },
+        "calm": {
+          "path": "assets/voice/streakLoss-03-calm.wav",
+          "duration": 5.152,
+          "pauses": [
+            {
+              "before": 1.0906,
+              "after": 0.4
+            },
+            {
+              "before": 1.0348,
+              "after": 0.4
+            }
+          ],
+          "sha256": "d04192068ce69c280c526c09586e8fc21b28b63b03c3f97c0b307acfee8e8e9e"
+        }
+      }
+    },
+    {
+      "id": "fold-01",
+      "kind": "fold",
+      "text": "ここは、ひと休みですね。次のチャンスを待ちましょう。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/fold-01-expressive.wav",
+          "duration": 5.109,
+          "pauses": [
+            {
+              "before": 0.9318,
+              "after": 0.4
+            },
+            {
+              "before": 0.9103,
+              "after": 0.4
+            }
+          ],
+          "sha256": "de00b821863a9ed55b269caf1f0c476340e2e9f3007fdd1fd7ed15e1e2364773"
+        },
+        "calm": {
+          "path": "assets/voice/fold-01-calm.wav",
+          "duration": 5.077,
+          "pauses": [
+            {
+              "before": 0.9318,
+              "after": 0.4
+            },
+            {
+              "before": 0.9103,
+              "after": 0.4
+            }
+          ],
+          "sha256": "2a43f3cb745f80b10323cc67532f9b6ec79fd2ecc8834c87c85b7ddc4c79d7c4"
+        }
+      }
+    },
+    {
+      "id": "fold-02",
+      "kind": "fold",
+      "text": "降りるのも、大切な判断です。次のハンドへ、いきましょう。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/fold-02-expressive.wav",
+          "duration": 5.963,
+          "pauses": [
+            {
+              "before": 0.9128,
+              "after": 0.4
+            },
+            {
+              "before": 1.1945,
+              "after": 0.4
+            },
+            {
+              "before": 1.0158,
+              "after": 0.4
+            }
+          ],
+          "sha256": "e351cebb67a2b5a016d39cda4359010342da883591bf3ff9255143de94af24a9"
+        },
+        "calm": {
+          "path": "assets/voice/fold-02-calm.wav",
+          "duration": 5.931,
+          "pauses": [
+            {
+              "before": 0.9128,
+              "after": 0.4
+            },
+            {
+              "before": 1.1945,
+              "after": 0.4
+            },
+            {
+              "before": 1.0158,
+              "after": 0.4
+            }
+          ],
+          "sha256": "2e6391e1adc0d617b838bea9d4724e578beccca91182342f6796efe3aff4f195"
+        }
+      }
+    }
+  ]
+}

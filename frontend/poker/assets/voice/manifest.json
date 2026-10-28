@@ -1,0 +1,993 @@
+{
+  "provider": "AivisSpeech",
+  "license": "ACML 1.0",
+  "profiles": {
+    "misaki": {
+      "speaker": "凛音エル",
+      "style": "ノーマル",
+      "style_id": 1388823424,
+      "credit": "AivisSpeech: 凛音エル",
+      "license": "ACML 1.0",
+      "model_url": "https://hub.aivis-project.com/aivm-models/f5017410-fbb5-49e1-97cb-e785f42e15f5",
+      "parameters": {
+        "speedScale": 0.95,
+        "intonationScale": 0.9
+      },
+      "postPitchScale": 1.1
+    },
+    "ayaka": {
+      "speaker": "まお",
+      "style": "ふつー",
+      "style_id": 888753761,
+      "credit": "AivisSpeech: まお",
+      "license": "ACML 1.0",
+      "model_url": "https://hub.aivis-project.com/aivm-models/a59cb814-0083-4369-8542-f51a29e72af7",
+      "parameters": {
+        "speedScale": 1.0,
+        "intonationScale": 1.05
+      },
+      "postPitchScale": 1.0
+    },
+    "rina": {
+      "speaker": "みちのくあいり",
+      "style": "喜び",
+      "style_id": 1717361478,
+      "credit": "AivisSpeech: みちのくあいり",
+      "license": "ACML 1.0",
+      "model_url": "https://hub.aivis-project.com/aivm-models/1b2830f4-8cf1-4184-a0d9-3a1bace3a844",
+      "parameters": {
+        "speedScale": 1.06,
+        "intonationScale": 1.12
+      },
+      "postPitchScale": 1.0
+    },
+    "shizue": {
+      "speaker": "まい",
+      "style": "ノーマル",
+      "style_id": 1431611904,
+      "credit": "AivisSpeech: まい",
+      "license": "ACML 1.0",
+      "model_url": "https://hub.aivis-project.com/aivm-models/e9339137-2ae3-4d41-9394-fb757a7e61e6",
+      "parameters": {
+        "speedScale": 0.92,
+        "intonationScale": 0.95
+      },
+      "postPitchScale": 1.0
+    },
+    "kathy": {
+      "speaker": "コハク",
+      "style": "ノーマル",
+      "style_id": 1878365376,
+      "credit": "AivisSpeech: コハク",
+      "license": "ACML 1.0",
+      "model_url": "https://hub.aivis-project.com/aivm-models/22e8ed77-94fe-4ef2-871f-a86f94e9a579",
+      "parameters": {
+        "speedScale": 1.0,
+        "intonationScale": 1.03
+      },
+      "postPitchScale": 1.0
+    }
+  },
+  "lines": [
+    {
+      "id": "welcome-01",
+      "kind": "welcome",
+      "text": "ラウンジへようこそ。今夜は、ゆっくり楽しんでいってくださいね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/welcome-01-expressive.wav",
+          "sha256": "31d7bbcf0753d424752ff4b1249da79c27b282176fed8b4782610605f9c006ec",
+          "duration": 4.894263038548753,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/welcome-01-calm.wav",
+          "sha256": "da8d766e55549b2e5c4d5563fd676f2ddf4018b9cf048a6a37ed3ff94d199370",
+          "duration": 4.8321768707483,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "welcome-02",
+      "kind": "welcome",
+      "text": "いらっしゃいませ。お会いできて、うれしいです。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/welcome-02-expressive.wav",
+          "sha256": "f97c81f22c16b6bc6278b1ccb577f76acae58d617579be1b670a7c64e4074208",
+          "duration": 3.526802721088435,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/welcome-02-calm.wav",
+          "sha256": "d906289246c5be1e1a4bbb407e6c650b34d78d37a02b94b4183bc6595cfdc073",
+          "duration": 3.4848979591836735,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "welcome-03",
+      "kind": "welcome",
+      "text": "準備はいいですか？ それでは、始めましょう。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/welcome-03-expressive.wav",
+          "sha256": "79eb600d255207139d9e519a2f3cef89205650d3f5bd4a26c2b7443cc50cf312",
+          "duration": 3.6328798185941045,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/welcome-03-calm.wav",
+          "sha256": "e733d54409c96f141bd50536e55890327d18a5b33b4a5468bfeac0f16142bbd0",
+          "duration": 3.6263945578231294,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "welcome-04",
+      "kind": "welcome",
+      "text": "お帰りなさい。続きを、ご一緒しましょう。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/welcome-04-expressive.wav",
+          "sha256": "c5c74d06f183805a9263c9286484071b778faab68427f261ab88214b99279cb9",
+          "duration": 3.546077097505669,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/welcome-04-calm.wav",
+          "sha256": "d4cb824361e341073f742e41e68126db31d522f47b4f8817db8129c453533f68",
+          "duration": 3.5226757369614514,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "deal-01",
+      "kind": "deal",
+      "text": "新しいカードです。どんな一手になるか、楽しみですね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/deal-01-expressive.wav",
+          "sha256": "21d45968a7e47c863006cc9612a3537b188eb252ac2ebca73b2d2f16b25a42d4",
+          "duration": 4.519478458049886,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/deal-01-calm.wav",
+          "sha256": "3652d38def43ed40be18346e8b38346f8666bd920f85a533ceea6683e861b9e7",
+          "duration": 4.490045351473923,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "deal-02",
+      "kind": "deal",
+      "text": "次のハンドへ。今度は、どう攻めますか？",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/deal-02-expressive.wav",
+          "sha256": "413f5ec7000f89059c4af4e986a5643acc3aaf5ebf1f22eb03e1265f9a473c26",
+          "duration": 3.520453514739229,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/deal-02-calm.wav",
+          "sha256": "ee66045a59bfcc48926a466e486c21485770794b7a77b1e9de295a77dea1c663",
+          "duration": 3.4492517006802723,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "deal-03",
+      "kind": "deal",
+      "text": "カードを配りました。慌てず、見てみてください。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/deal-03-expressive.wav",
+          "sha256": "815edc2659f4fb97451d01e5296fd4a8a45d565b0b81fe18c86692a5e5b34aba",
+          "duration": 3.900045351473923,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/deal-03-calm.wav",
+          "sha256": "20c20cb149e1ca3a6582b109ca86a5c2cda5298002adae35f05511f6cf5adc08",
+          "duration": 3.865215419501134,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "deal-04",
+      "kind": "deal",
+      "text": "さて、次の勝負です。よろしくお願いします。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/deal-04-expressive.wav",
+          "sha256": "f6aa1d4e1dcc9099029d824b2b77de6c05b99cf915a74b7ef6a4c01f0ea89f03",
+          "duration": 3.7824489795918366,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/deal-04-calm.wav",
+          "sha256": "fdf1178e79d4d2e0c97cf00bb4aed837bf4aab3fd9b5dded5e15b64883eb12e3",
+          "duration": 3.7718367346938777,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "win-01",
+      "kind": "win",
+      "text": "お見事です。きれいに決まりましたね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/win-01-expressive.wav",
+          "sha256": "5e62658976c8066d03a748c050cfd152f1e90ec9db04e193c2b66d588bdf941d",
+          "duration": 3.0298639455782315,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/win-01-calm.wav",
+          "sha256": "8e607b9b255affbdac8d682c1a79f9a4930985bf971305473101f1e91eca63ce",
+          "duration": 3.107800453514739,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "win-02",
+      "kind": "win",
+      "text": "あなたの勝ちです。さすがですね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/win-02-expressive.wav",
+          "sha256": "8acd9c4ec086577902c441acd7bff546d9331ea3cf5a73c389b51137eb899219",
+          "duration": 2.5836507936507935,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/win-02-calm.wav",
+          "sha256": "891fd892998899e7ce7a9753e7ee5c74c368931c34fb5305a08e6730c2085501",
+          "duration": 2.733968253968254,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "win-03",
+      "kind": "win",
+      "text": "あら、負けちゃいました。いい勝負でしたね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/win-03-expressive.wav",
+          "sha256": "160e7350f7d49bf32a8050d9cca901f872c8f823a406d06baa9ffe37a3620d4b",
+          "duration": 3.4450566893424037,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/win-03-calm.wav",
+          "sha256": "85563db2453231b9452f156a1478a427b2e691649951d02c05976f890c84ab11",
+          "duration": 3.446575963718821,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "win-04",
+      "kind": "win",
+      "text": "その一手、素敵でした。次は私も頑張ります。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/win-04-expressive.wav",
+          "sha256": "2040f439f081b71419bbbb5f7430364163e28c72a0d779a1bbd016cd6d53e862",
+          "duration": 4.25501133786848,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/win-04-calm.wav",
+          "sha256": "b6654bbef3f9f4ca8cc17e15b8e45792840ff4fffc7a6ab788193c5190b477c6",
+          "duration": 4.205102040816326,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "win-05",
+      "kind": "win",
+      "text": "やられましたね。思わず見入ってしまいました。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/win-05-expressive.wav",
+          "sha256": "9abaf35244dbcabb83100adfa2189a6b942320ae578809ef4f8d1b61e30c3e41",
+          "duration": 3.4730385487528346,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/win-05-calm.wav",
+          "sha256": "fefb3d0d5b462ac1ac380860bb70a80fb394e26e9d6c0e48349e8a59a486b211",
+          "duration": 3.399863945578231,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "win-06",
+      "kind": "win",
+      "text": "おめでとうございます。次の勝負も、楽しみです。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/win-06-expressive.wav",
+          "sha256": "fb7a82ffeb1b2d95388a83b6fa9cc274686f0b0f7d68ff4a9cc14d62148f5ad4",
+          "duration": 4.110453514739229,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/win-06-calm.wav",
+          "sha256": "3b5796934d6f4d77ff0b656c1c6d99b11a6214e3971bfad8b854829a24c22679",
+          "duration": 4.013219954648526,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "loss-01",
+      "kind": "loss",
+      "text": "今回は、私の勝ちですね。もう一度、いかがですか？",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/loss-01-expressive.wav",
+          "sha256": "6b9f1796c5aec8122bcbac0227d411263a85dea86624eb268ad105232ecb0aed",
+          "duration": 5.089455782312926,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/loss-01-calm.wav",
+          "sha256": "7624cd70b4571b2a6bffbdede70649a6618a87c3de0bac86eda57d7f11c35eda",
+          "duration": 5.047301587301587,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "loss-02",
+      "kind": "loss",
+      "text": "惜しかったですね。次のカードに、期待しましょう。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/loss-02-expressive.wav",
+          "sha256": "af5ebf57448ae15be600934ef93518ee2a70eb0b81ba2d8ee7b50348ac2cf464",
+          "duration": 3.9317913832199545,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/loss-02-calm.wav",
+          "sha256": "5a886eca9aa56fa8a1e29ab19cb310aad661393c0df7c428c83d2c35ee034b68",
+          "duration": 3.947278911564626,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "loss-03",
+      "kind": "loss",
+      "text": "焦らなくて大丈夫。ゆっくりいきましょうね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/loss-03-expressive.wav",
+          "sha256": "080010e6a631515abb114de238329a1a5a005f8d4dfc0090e72a79ef2e5e3294",
+          "duration": 3.283333333333333,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/loss-03-calm.wav",
+          "sha256": "3cab5bc1d868e12e17f2393d4a918a64db714d199c9af0ba20dfa671316eb64c",
+          "duration": 3.2378684807256235,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "loss-04",
+      "kind": "loss",
+      "text": "今回は、こちらに流れが来たみたいです。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/loss-04-expressive.wav",
+          "sha256": "7c4db24d62ae615e0069001a696e1451d7f2bb2b68d5ce040086e476838f2222",
+          "duration": 3.103469387755102,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/loss-04-calm.wav",
+          "sha256": "ed2cc0dd9cc674b9542f344200fe58dbeb2c7c4d17a44fb9466e7f166b88c3e3",
+          "duration": 3.1040362811791384,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "loss-05",
+      "kind": "loss",
+      "text": "いい勝負でした。次は、どうなるでしょうね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/loss-05-expressive.wav",
+          "sha256": "e568c850d30070e0cd59c1298ad0c91f15be04a3704644da11717d3ffa5aac47",
+          "duration": 3.5734467120181406,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/loss-05-calm.wav",
+          "sha256": "6d2f6bc248d5458a967c4774cb00faf8a52db831346d2909d1ea02b42201b619",
+          "duration": 3.550498866213152,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "loss-06",
+      "kind": "loss",
+      "text": "勝負は、まだまだこれから。お付き合いくださいね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/loss-06-expressive.wav",
+          "sha256": "29a76cab13b8a8011f5450be67e2fc867d12075e5af8903c744045de029a7b27",
+          "duration": 4.055283446712018,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/loss-06-calm.wav",
+          "sha256": "3c67bf56b0d36bada0351c9f4a99f5512ea037d43ad67efcee599a6ccfa89900",
+          "duration": 4.107392290249433,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "tie-01",
+      "kind": "tie",
+      "text": "引き分けですね。なんだか、息がぴったりです。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/tie-01-expressive.wav",
+          "sha256": "35732b9acfd18f8c943e7bd79f3fb6a38c1f516941ad0f9287961668344cde7e",
+          "duration": 3.8756916099773244,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/tie-01-calm.wav",
+          "sha256": "0ba62e8435cafb74fa657ed4e9cea24c54c8112091d3a62d68f93faaadf45fed",
+          "duration": 3.859455782312925,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "tie-02",
+      "kind": "tie",
+      "text": "互角の勝負でしたね。次こそ、決着でしょうか。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/tie-02-expressive.wav",
+          "sha256": "6035b4dadab469ae7a090feb5e0b62a5fd3464115c93e4bdc325b0568aa670f1",
+          "duration": 4.160975056689343,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/tie-02-calm.wav",
+          "sha256": "a9584a4cda05f8f4ccf69ce77cdcacbf69cb21a3fdd1ddd1677c0facc12a39a9",
+          "duration": 4.061791383219955,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "tie-03",
+      "kind": "tie",
+      "text": "今回は、仲良く半分ずつ。次も楽しみですね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/tie-03-expressive.wav",
+          "sha256": "0fd69f05c903f656e782ced1f9c7a233afbe2d873d4643d7656d6a0006851e0e",
+          "duration": 4.459795918367347,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/tie-03-calm.wav",
+          "sha256": "9f85263e9686ae6793cff7458446b57df56f6cfa9717eefab978fe2004b6c19b",
+          "duration": 4.498730158730159,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "draw-01",
+      "kind": "draw",
+      "text": "交換するカードを、選んでくださいね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/draw-01-expressive.wav",
+          "sha256": "4af1df47ce6fc7061ff1b75cecbab9685f8005c36b16965ebd7f6f758e2992a8",
+          "duration": 2.9451927437641725,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/draw-01-calm.wav",
+          "sha256": "2b076a9700f9c35322bba5681371bc1cac58809ffea518a25eeca18fc770be79",
+          "duration": 2.969455782312925,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "draw-02",
+      "kind": "draw",
+      "text": "そのままでも、交換しても大丈夫。お任せします。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/draw-02-expressive.wav",
+          "sha256": "3ea5e7b6d5768369c844dc7a241587cf8215e462d8863aaf380d155711cf57ee",
+          "duration": 4.523786848072563,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/draw-02-calm.wav",
+          "sha256": "b29d4d25f51ebaa1bd52b8bd6f3e35d693d8d842d706d03b16d4372921484ea3",
+          "duration": 4.581950113378685,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "draw-03",
+      "kind": "draw",
+      "text": "どのカードを残しますか？ じっくり考えてください。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/draw-03-expressive.wav",
+          "sha256": "9ede074f736623c4748c397018b4f0200baa90d8327d04309118acd7db20789f",
+          "duration": 3.784716553287982,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/draw-03-calm.wav",
+          "sha256": "a63678ffadd4e4b02f83a5910cce30ba2c24ff76f6f918b039bec3dc3346d6ba",
+          "duration": 3.895578231292517,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "reveal-01",
+      "kind": "reveal",
+      "text": "カードがそろいました。最後の一手、どうしますか？",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/reveal-01-expressive.wav",
+          "sha256": "dcfa33be7b7255ee0b49b22a999f019a47393ebd5f2a279bb9934d56b54a7c6b",
+          "duration": 4.043945578231292,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/reveal-01-calm.wav",
+          "sha256": "aa08b1d04a52185e17a8051041856e18d032aa9e6aba4dda1473e3205d8b812c",
+          "duration": 4.083106575963718,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "reveal-02",
+      "kind": "reveal",
+      "text": "ここが、勝負どころですね。私は、準備できています。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/reveal-02-expressive.wav",
+          "sha256": "9ac7def23e359becc9644e52ad98152298ba7fbde005bf79559c6f0614b7dc8f",
+          "duration": 5.160589569160997,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/reveal-02-calm.wav",
+          "sha256": "17130757b9c42581cc1486aaefb7db3f7e76e27410b76ed6e9606e17b1e51f53",
+          "duration": 5.076916099773243,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "reveal-03",
+      "kind": "reveal",
+      "text": "最後の判断です。納得のいく一手を、どうぞ。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/reveal-03-expressive.wav",
+          "sha256": "f53ca0012d108f9f9e85e3597afe284372412bcfe90b3ed3053ffe75d0b494f8",
+          "duration": 3.7487074829931974,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/reveal-03-calm.wav",
+          "sha256": "7f141f0d6abdede00d271ea3b231e4531f7d1ee8819d07aac930dc6886a9454c",
+          "duration": 3.699659863945578,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "raise-01",
+      "kind": "raise",
+      "text": "あら、強気ですね。こちらも、気が抜けません。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/raise-01-expressive.wav",
+          "sha256": "5ee882f0bb5487b2fb0956a65ec41c03ba65c3d6d3d396f1d2dee7f1af042607",
+          "duration": 4.546848072562359,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/raise-01-calm.wav",
+          "sha256": "c4931ac9310173f59b1b78f20bbcb9507cf6ffabc3e12403a531f09950406d91",
+          "duration": 4.5745124716553285,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "raise-02",
+      "kind": "raise",
+      "text": "勝負に出ましたね。面白くなってきました。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/raise-02-expressive.wav",
+          "sha256": "11ed55923ffdf4cf858664acd0642d81a72df55f47223f5ada24e2f29b1b858c",
+          "duration": 3.424875283446712,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/raise-02-calm.wav",
+          "sha256": "aee2a407d3bb5959d2ef785036cd6bdb39ebed7d999cbc90fd139b6ac8337b3d",
+          "duration": 3.3226984126984127,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "raise-03",
+      "kind": "raise",
+      "text": "そのレイズ、気になりますね。さて、どうしましょう。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/raise-03-expressive.wav",
+          "sha256": "778f2588edd7212fce5561cb15c010546edab7dba17dc9c17a29e13107bfbd46",
+          "duration": 4.574852607709751,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/raise-03-calm.wav",
+          "sha256": "06bdf59146bf85970515fb6f44f85bfd46ff387781947e8f07b42158ee1bf493",
+          "duration": 4.532312925170068,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "streakWin-01",
+      "kind": "streakWin",
+      "text": "また、あなたの勝ちですね。今日は手強いなあ。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/streakWin-01-expressive.wav",
+          "sha256": "50092f2eade552e82ebf4b3c1eeb447240a2a92471e480cf777b8ad96839064e",
+          "duration": 4.1959410430839,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/streakWin-01-calm.wav",
+          "sha256": "7dd7d966ba83ee37e5acfdb1a14f58ccad380523d76dd7c01dc0645c7fb8f78c",
+          "duration": 4.209818594104308,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "streakWin-02",
+      "kind": "streakWin",
+      "text": "連勝ですね。すっかり、調子が出てきましたね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/streakWin-02-expressive.wav",
+          "sha256": "55140a5896211709c0f17dc431032a4cf4d74b9863d8074f05a041fe74589e75",
+          "duration": 3.873968253968254,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/streakWin-02-calm.wav",
+          "sha256": "3a792f1d18076c9cd1c75817e62ef582421952af581d102f95ccfaedaac7b7cb",
+          "duration": 3.908140589569161,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "streakWin-03",
+      "kind": "streakWin",
+      "text": "お強いですね。次こそ、私も負けませんよ。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/streakWin-03-expressive.wav",
+          "sha256": "aae5f13c774e883796ba0c8e5ff07d371a92dd96d4dafc49892498835ce17d19",
+          "duration": 4.036825396825397,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/streakWin-03-calm.wav",
+          "sha256": "cbbaec68f5a58e79cccb0e4f60cee9c7d8d306b0872848342126af4da64f07a8",
+          "duration": 4.039818594104308,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "streakLoss-01",
+      "kind": "streakLoss",
+      "text": "少し、ひと息つきましょうか。急がなくて大丈夫ですよ。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/streakLoss-01-expressive.wav",
+          "sha256": "c4202e67e04eb8794a7e0953e19c9bca7ec0f2c4c44693b25f63faa2f8459be7",
+          "duration": 4.585034013605442,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/streakLoss-01-calm.wav",
+          "sha256": "87eb51d9e0973184f287028b5d3acd72037bafda83e771fbcf6445d91e03bafd",
+          "duration": 4.511995464852608,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "streakLoss-02",
+      "kind": "streakLoss",
+      "text": "なかなか、流れが来ませんね。無理せず、いきましょう。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/streakLoss-02-expressive.wav",
+          "sha256": "30d558088b699f0fb34ec40fbe00f7c08ad4ca5ce5b7ab576db0cc38c689af9e",
+          "duration": 4.796757369614513,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/streakLoss-02-calm.wav",
+          "sha256": "179b4b3b0c9d9715981c42302e5750d5ca993d5cf30068ff702c7a1d8f4f1c3e",
+          "duration": 4.87469387755102,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "streakLoss-03",
+      "kind": "streakLoss",
+      "text": "次の勝負は、気持ちを切り替えて。応援しています。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/streakLoss-03-expressive.wav",
+          "sha256": "a8a254985361532813f80c9ac782f2841487a053f3bf9cfa3495f47ae2f763e2",
+          "duration": 4.046462585034013,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/streakLoss-03-calm.wav",
+          "sha256": "80188f8df064dcfbfae7db6a2b7d813cfafb7f1e5e8cc3f072e7223522ff1cf7",
+          "duration": 4.031587301587302,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "fold-01",
+      "kind": "fold",
+      "text": "ここは、ひと休みですね。次のチャンスを待ちましょう。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/fold-01-expressive.wav",
+          "sha256": "197b7ef463a307d9ee11758083b082b0608999e0ecb1a5475bdeacdb3d4fa316",
+          "duration": 4.246439909297052,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/fold-01-calm.wav",
+          "sha256": "c07f8bd897744b34abc8a5a266696f1d531f41da7b11d6570ad07a8354de04c3",
+          "duration": 4.357641723356009,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    },
+    {
+      "id": "fold-02",
+      "kind": "fold",
+      "text": "降りるのも、大切な判断です。次のハンドへ、いきましょう。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice/fold-02-expressive.wav",
+          "sha256": "ae67e98711fc316e2ad94e5976c0ee3bc45bd923566689bb14883a2e0c2839dd",
+          "duration": 4.828979591836735,
+          "style_id": 1388823424,
+          "intonationScale": 0.9,
+          "postPitchScale": 1.1
+        },
+        "calm": {
+          "path": "assets/voice/fold-02-calm.wav",
+          "sha256": "8dd4a81e759581fe41e250a38f629346133774f30342ae89833f99386b1ff8b6",
+          "duration": 4.851972789115647,
+          "style_id": 1388823424,
+          "intonationScale": 0.765,
+          "postPitchScale": 1.1
+        }
+      }
+    }
+  ]
+}

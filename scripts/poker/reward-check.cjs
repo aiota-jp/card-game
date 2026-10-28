@@ -1,0 +1,33 @@
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright'),fs=require('fs'),path=require('path'),{spawn}=require('child_process'),readline=require('readline');const root=path.resolve(__dirname,'..'),server=spawn(path.join(root,'build/ui-test.exe'),['-test.run=^TestUIBridge$'],{env:{...process.env,POKER_UI_TEST:'1'},stdio:['pipe','pipe','inherit']}),pending=[];readline.createInterface({input:server.stdout}).on('line',line=>{if(line.startsWith('{')){const p=pending.shift(),v=JSON.parse(line);if(p)v.error?p.reject(Error(v.error)):p.resolve(v.result)}});const rpc=(method,args=[])=>new Promise((resolve,reject)=>{pending.push({resolve,reject});server.stdin.write(JSON.stringify({method,args})+'\n')});
+(async()=>{let browser;try{
+ const initial=await rpc('OpenGame',['texas']);browser=await chromium.launch({channel:'chrome',headless:true});const reports=[];
+ for(const character of ['misaki','ayaka','rina']){
+  const page=await browser.newPage({viewport:{width:1024,height:700}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+  let current=structuredClone(initial),outcome='win',bust=false;current.done=false;current.actions=['check'];current.hand=1;
+  await page.addInitScript(char=>{localStorage.setItem('poker.lounge.character',char);localStorage.setItem('poker.music.enabled','false');window.played=[];const Native=window.Audio;window.Audio=function(...args){const a=new Native(...args);a.addEventListener('playing',()=>window.played.push(a.getAttribute('src')));return a}},character);
+  await page.exposeFunction('pokerBridge',async(method,args)=>{
+   if(method==='Act'){current={...current,done:true,outcome,canNext:!bust,result:outcome==='win'?'あなたの勝利':outcome==='loss'?'相手の勝利':'引き分け',stacks:outcome==='win'?(bust?[2000,0]:[1030,970]):outcome==='loss'?[0,2000]:[1000,1000],actions:[]}}
+   if(method==='NextHand'||method==='Reset'){current={...current,hand:method==='Reset'?1:current.hand+1,stacks:method==='Reset'?[1000,1000]:current.stacks,done:false,outcome:'',actions:['check']}}
+   return current;
+  });
+  await page.route('http://reward.test/**',async route=>{
+   const n=new URL(route.request().url()).pathname.slice(1)||'index.html';if(!/^(?:assets\/[\w-]+\.png|assets\/voice(?:-(?:ayaka|rina))?\/[\w-]+\.wav|[\w.-]+\.(?:html|css|js))$/.test(n))return route.fulfill({status:404,body:''});
+   let body=fs.readFileSync(path.join(root,'frontend',n));if(n==='index.html')body=body.toString('utf8').replace('<script type="module"',`<script>window.go={main:{App:{}}};for(const n of ['Snapshot','Act','NextHand','Reset','OpenGame','Draw'])window.go.main.App[n]=(...a)=>window.pokerBridge(n,a);</script><script type="module"`);
+   await route.fulfill({body,contentType:n.endsWith('.png')?'image/png':n.endsWith('.wav')?'audio/wav':n.endsWith('.css')?'text/css':n.endsWith('.js')?'application/javascript':'text/html; charset=utf-8'});
+  });
+  await page.goto('http://reward.test/');await page.locator('#variant-texas').click();await page.locator('#home-start').click();await page.locator('[data-action="check"]').click();await page.waitForTimeout(1100);if(await page.locator('#reward-screen').isVisible())throw Error('Ordinary hand win showed reward');await page.locator('[data-action="next"]').click();bust=true;await page.locator('[data-action="check"]').click();await page.locator('#reward-screen').waitFor({state:'visible'});
+  if(!(await page.locator('#reward-opponent').innerText()).includes(character.toUpperCase()))throw Error('Wrong reward character');
+  await page.locator('#reward-image').evaluate(el=>el.decode());const expected=`assets/${character}-summer.png`;if(await page.locator('#reward-image').getAttribute('src')!==expected)throw Error('Wrong full-body picture');
+  const voice=character==='misaki'?'assets/voice/reward-01-':`assets/voice-${character}/reward-01-`;await page.waitForFunction(prefix=>window.played.some(x=>x.startsWith(prefix)),voice);
+  const line=JSON.parse(fs.readFileSync(path.join(root,'scripts',character+'-reward-lines.json'),'utf8'))[0].text;if(await page.locator('#reward-line').innerText()!==line)throw Error('Text and voice mismatch');
+  await page.screenshot({path:path.join(root,'docs/reward-'+character+'.png'),fullPage:true});
+  for(const size of [{width:640,height:600},{width:390,height:700}]){await page.setViewportSize(size);if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth))throw Error('Horizontal overflow');await page.locator('#reward-settings').click();await page.locator('#dealer-settings').waitFor({state:'visible'});await page.keyboard.press('Escape')}
+  await page.setViewportSize({width:1024,height:700});await page.locator('#reward-table').click();if(!await page.locator('#game-screen').isVisible()||current.stacks[0]!==2000)throw Error('Result not preserved');
+  await page.waitForTimeout(1100);if(await page.locator('#reward-screen').isVisible())throw Error('Reward repeated');
+  await page.locator('[data-action="reset"]').click();await page.locator('[data-action="check"]').click();await page.locator('#reward-screen').waitFor({state:'visible'});if(await page.locator('#reward-next').innerText()!=='新しいセッション →')throw Error('Missing rematch button');await page.locator('#reward-next').click();if(!await page.locator('#game-screen').isVisible()||current.hand!==1||current.stacks[0]!==1000||current.stacks[1]!==1000)throw Error('Rematch reset failed');
+  for(const value of ['loss','tie']){outcome=value;await page.locator('[data-action="check"]').click();await page.waitForTimeout(1100);if(await page.locator('#reward-screen').isVisible())throw Error('Non-win reward');await page.locator('[data-action="reset"]').click()}
+  outcome='win';await page.locator('[data-action="check"]').click();await page.locator('#home-button').click();await page.waitForTimeout(1100);if(await page.locator('#reward-screen').isVisible())throw Error('Canceled reward timer fired');
+  if(errors.length)throw Error(errors.join(';'));reports.push({character,onlyOpponentZeroReward:true,ordinaryHandWinNoReward:true,voicePlayed:true,summerFullBody:true,rematchResetsTo1000:true,resultAndChipsPreserved:true,noRewardOnLossOrTie:true,navigationCancelsTimer:true,widths:[1024,640,390],errors});await page.close();
+ }
+ fs.writeFileSync(path.join(root,'docs/reward-check.json'),JSON.stringify({mode:'Chrome UI with controlled win/loss/tie snapshots based on Go App snapshot',reports},null,2));console.log(JSON.stringify(reports));
+}finally{if(browser)await browser.close();server.kill()}})().catch(e=>{console.error(e);server.kill();process.exitCode=1});

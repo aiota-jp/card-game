@@ -1,0 +1,96 @@
+{
+  "provider": "AivisSpeech",
+  "license": "ACML 1.0",
+  "profiles": {
+    "misaki": {
+      "speaker": "凛音エル",
+      "style": "ノーマル",
+      "style_id": 1388823424,
+      "credit": "AivisSpeech: 凛音エル",
+      "license": "ACML 1.0",
+      "model_url": "https://hub.aivis-project.com/aivm-models/f5017410-fbb5-49e1-97cb-e785f42e15f5",
+      "parameters": {
+        "speedScale": 0.95,
+        "intonationScale": 0.9
+      },
+      "postPitchScale": 1.1
+    },
+    "ayaka": {
+      "speaker": "まお",
+      "style": "ふつー",
+      "style_id": 888753761,
+      "credit": "AivisSpeech: まお",
+      "license": "ACML 1.0",
+      "model_url": "https://hub.aivis-project.com/aivm-models/a59cb814-0083-4369-8542-f51a29e72af7",
+      "parameters": {
+        "speedScale": 1.0,
+        "intonationScale": 1.05
+      },
+      "postPitchScale": 1.0
+    },
+    "rina": {
+      "speaker": "みちのくあいり",
+      "style": "喜び",
+      "style_id": 1717361478,
+      "credit": "AivisSpeech: みちのくあいり",
+      "license": "ACML 1.0",
+      "model_url": "https://hub.aivis-project.com/aivm-models/1b2830f4-8cf1-4184-a0d9-3a1bace3a844",
+      "parameters": {
+        "speedScale": 1.06,
+        "intonationScale": 1.12
+      },
+      "postPitchScale": 1.0
+    },
+    "shizue": {
+      "speaker": "まい",
+      "style": "ノーマル",
+      "style_id": 1431611904,
+      "credit": "AivisSpeech: まい",
+      "license": "ACML 1.0",
+      "model_url": "https://hub.aivis-project.com/aivm-models/e9339137-2ae3-4d41-9394-fb757a7e61e6",
+      "parameters": {
+        "speedScale": 0.92,
+        "intonationScale": 0.95
+      },
+      "postPitchScale": 1.0
+    },
+    "kathy": {
+      "speaker": "コハク",
+      "style": "ノーマル",
+      "style_id": 1878365376,
+      "credit": "AivisSpeech: コハク",
+      "license": "ACML 1.0",
+      "model_url": "https://hub.aivis-project.com/aivm-models/22e8ed77-94fe-4ef2-871f-a86f94e9a579",
+      "parameters": {
+        "speedScale": 1.0,
+        "intonationScale": 1.03
+      },
+      "postPitchScale": 1.0
+    }
+  },
+  "lines": [
+    {
+      "id": "reward-01",
+      "kind": "reward",
+      "text": "2,000チップ達成、おめでとうございます。お祝いに、涼しげな夏服に着替えてみました。ブラックジャックも、お上手どすね。",
+      "files": {
+        "expressive": {
+          "path": "assets/voice-shizue/reward-01-expressive.wav",
+          "sha256": "f6453b3fea4aa55c56ff305a416b34dda7f31f06e5becbb21aeff9a448180eed",
+          "duration": 10.543151927437641,
+          "style_id": 1431611904,
+          "intonationScale": 0.95,
+          "postPitchScale": 1.0
+        },
+        "calm": {
+          "path": "assets/voice-shizue/reward-01-calm.wav",
+          "sha256": "e7e4820274b15bce36eeccb0847dca24b3d7468876662509c84c275fa5ad8c89",
+          "duration": 10.740634920634921,
+          "style_id": 1431611904,
+          "intonationScale": 0.8075,
+          "postPitchScale": 1.0
+        }
+      }
+    }
+  ]
+}

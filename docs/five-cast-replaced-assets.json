@@ -1,0 +1,1472 @@
+[
+  {
+    "path": "shared/061fa3ff684cb0297a661f944d96fb2ef90c0bad3f5871acac79c6ba9a2c4b00.wav",
+    "bytes": 194604,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\061fa3ff684cb0297a661f944d96fb2ef90c0bad3f5871acac79c6ba9a2c4b00.wav"
+  },
+  {
+    "path": "shared/b5f308a755a2d303bc0d188b3f0647f31a736c4c31accd4d4f7b8f7c84b0794b.wav",
+    "bytes": 276012,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\b5f308a755a2d303bc0d188b3f0647f31a736c4c31accd4d4f7b8f7c84b0794b.wav"
+  },
+  {
+    "path": "shared/f6970031c8490fb4948dd55d90bc0e332774dafe57839a67606bd91f0ad3e572.wav",
+    "bytes": 196140,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\f6970031c8490fb4948dd55d90bc0e332774dafe57839a67606bd91f0ad3e572.wav"
+  },
+  {
+    "path": "shared/c9fb99df2ff520ffe6a7be42121c8ae3e8b14a2cfbb2bfc3a3c8b3f8110c3cb3.wav",
+    "bytes": 230444,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c9fb99df2ff520ffe6a7be42121c8ae3e8b14a2cfbb2bfc3a3c8b3f8110c3cb3.wav"
+  },
+  {
+    "path": "shared/5f11dec10afaa6fe437572987d94283ec52ef9759f36370990647be69251f22c.wav",
+    "bytes": 212524,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\5f11dec10afaa6fe437572987d94283ec52ef9759f36370990647be69251f22c.wav"
+  },
+  {
+    "path": "shared/2797910c74325732671377ad623034fee6988f5007fa17c8408f3e63d13c0ecf.wav",
+    "bytes": 222252,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\2797910c74325732671377ad623034fee6988f5007fa17c8408f3e63d13c0ecf.wav"
+  },
+  {
+    "path": "shared/9c301e3fe7c4aef137372c3dff1b208d314a8c561d4adfa0d21d8321a9103862.wav",
+    "bytes": 235052,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\9c301e3fe7c4aef137372c3dff1b208d314a8c561d4adfa0d21d8321a9103862.wav"
+  },
+  {
+    "path": "shared/fd62bb0b63e0a29c532f214b53f9cb6f46851a35c05ab8414a58d55568857a10.wav",
+    "bytes": 169516,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\fd62bb0b63e0a29c532f214b53f9cb6f46851a35c05ab8414a58d55568857a10.wav"
+  },
+  {
+    "path": "shared/6dec4e76bfafe0c0a509b45f4cdd4f4de22e3adaf2f8eb18615810812c33bc11.wav",
+    "bytes": 275500,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\6dec4e76bfafe0c0a509b45f4cdd4f4de22e3adaf2f8eb18615810812c33bc11.wav"
+  },
+  {
+    "path": "shared/e406b9e87191d84cb75ece0b752b0ba58d88456ad997d6386a368b305c9f7d68.wav",
+    "bytes": 257068,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\e406b9e87191d84cb75ece0b752b0ba58d88456ad997d6386a368b305c9f7d68.wav"
+  },
+  {
+    "path": "shared/d147b74e973400bee2ed16928eb4df7d24d5bd9d5e7df4743385866191e4d680.wav",
+    "bytes": 183852,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\d147b74e973400bee2ed16928eb4df7d24d5bd9d5e7df4743385866191e4d680.wav"
+  },
+  {
+    "path": "shared/09db099f3099c9b305dd657c9ab5e88066594b348b7415c199f04f692143eff0.wav",
+    "bytes": 212524,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\09db099f3099c9b305dd657c9ab5e88066594b348b7415c199f04f692143eff0.wav"
+  },
+  {
+    "path": "shared/bffd0cac732c7ffcc7056183694ee20d422bab7e6dd1ce9b876d0a6c8c5fa3a0.wav",
+    "bytes": 500780,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\bffd0cac732c7ffcc7056183694ee20d422bab7e6dd1ce9b876d0a6c8c5fa3a0.wav"
+  },
+  {
+    "path": "shared/1cc880d28f05d8fdf1db61821adca24d2b3511aaf604545a65a9b92f0379a8a7.wav",
+    "bytes": 245804,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\1cc880d28f05d8fdf1db61821adca24d2b3511aaf604545a65a9b92f0379a8a7.wav"
+  },
+  {
+    "path": "shared/8283a52e185ba6d9ea49c04acb640d2543e5bb7876b08a97602cfde98b98b6ea.wav",
+    "bytes": 214572,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\8283a52e185ba6d9ea49c04acb640d2543e5bb7876b08a97602cfde98b98b6ea.wav"
+  },
+  {
+    "path": "shared/ebc989478c0197db48c1a31cc8a8059ff2b6c45f1a185adffd5f6644689f59eb.wav",
+    "bytes": 153644,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\ebc989478c0197db48c1a31cc8a8059ff2b6c45f1a185adffd5f6644689f59eb.wav"
+  },
+  {
+    "path": "shared/5da8d781641386898bc033c89d9417d4956eb46b23dd122f22850bec78826507.wav",
+    "bytes": 238636,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\5da8d781641386898bc033c89d9417d4956eb46b23dd122f22850bec78826507.wav"
+  },
+  {
+    "path": "shared/c842aa3b8e7aa9fc84d8d9205b5a622a9199b70bbdbe53b653ecff7056b635d6.wav",
+    "bytes": 324140,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c842aa3b8e7aa9fc84d8d9205b5a622a9199b70bbdbe53b653ecff7056b635d6.wav"
+  },
+  {
+    "path": "shared/6fd9aa206ae03dcafbc39b3b5d221815338a6575f77a6330c4c48d0d7dc07c09.wav",
+    "bytes": 268844,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\6fd9aa206ae03dcafbc39b3b5d221815338a6575f77a6330c4c48d0d7dc07c09.wav"
+  },
+  {
+    "path": "shared/454b4018d0e016f120ce7e032244a11fb901fff038b8944beb0b4e5dfb13a63f.wav",
+    "bytes": 233516,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\454b4018d0e016f120ce7e032244a11fb901fff038b8944beb0b4e5dfb13a63f.wav"
+  },
+  {
+    "path": "shared/34f4697bcfb1d04c233be39a92faf36156eaac0d7579dfd77f69e37d107904f7.wav",
+    "bytes": 186412,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\34f4697bcfb1d04c233be39a92faf36156eaac0d7579dfd77f69e37d107904f7.wav"
+  },
+  {
+    "path": "shared/cd2397c2be2bf9849eb53601a3c8d46fceb503b7f63498caf2bf4ddc0ee6c652.wav",
+    "bytes": 281132,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\cd2397c2be2bf9849eb53601a3c8d46fceb503b7f63498caf2bf4ddc0ee6c652.wav"
+  },
+  {
+    "path": "shared/652c3792fc5aac7ecec86261c87411b9cce947d932c0eb5aee1f9af88801a81b.wav",
+    "bytes": 259116,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\652c3792fc5aac7ecec86261c87411b9cce947d932c0eb5aee1f9af88801a81b.wav"
+  },
+  {
+    "path": "shared/c638eae6d4bedba23d67839b0cab47badb142386ae5c9d9ad772c8cfccffe8ca.wav",
+    "bytes": 290348,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c638eae6d4bedba23d67839b0cab47badb142386ae5c9d9ad772c8cfccffe8ca.wav"
+  },
+  {
+    "path": "shared/4b5482cd2b868c533a8d3f5de2196d55c5244933fff323646f349381123e781e.wav",
+    "bytes": 267308,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\4b5482cd2b868c533a8d3f5de2196d55c5244933fff323646f349381123e781e.wav"
+  },
+  {
+    "path": "shared/31a9a36d47c0ebb6f8891febf1ed8b98f3cec4e43c047de6f2d9fa763e0cfcff.wav",
+    "bytes": 278572,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\31a9a36d47c0ebb6f8891febf1ed8b98f3cec4e43c047de6f2d9fa763e0cfcff.wav"
+  },
+  {
+    "path": "shared/3bbba7b32ae252327484fdffd2a027edbc8afd783ab1c4575b9e789c243247a5.wav",
+    "bytes": 247340,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\3bbba7b32ae252327484fdffd2a027edbc8afd783ab1c4575b9e789c243247a5.wav"
+  },
+  {
+    "path": "shared/dabd82e7d56b9b0b62a2f9ad988aa50a0b7a011eda04b79adc2952ed71a073d7.wav",
+    "bytes": 208940,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\dabd82e7d56b9b0b62a2f9ad988aa50a0b7a011eda04b79adc2952ed71a073d7.wav"
+  },
+  {
+    "path": "shared/25de2834914c8953c0c7410b28bc38e477964c5d3612bf3eefaecd5bb02a78d6.wav",
+    "bytes": 198188,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\25de2834914c8953c0c7410b28bc38e477964c5d3612bf3eefaecd5bb02a78d6.wav"
+  },
+  {
+    "path": "shared/ba420f97db68a7cabcb5c045db2d100876f8f3d8bc791648ec5e2bed0dc96cd4.wav",
+    "bytes": 153132,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\ba420f97db68a7cabcb5c045db2d100876f8f3d8bc791648ec5e2bed0dc96cd4.wav"
+  },
+  {
+    "path": "shared/d46e1a6cc1261ecc1fb93f34610981b78a6b359fffdbbba56ddd0101568220d8.wav",
+    "bytes": 213548,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\d46e1a6cc1261ecc1fb93f34610981b78a6b359fffdbbba56ddd0101568220d8.wav"
+  },
+  {
+    "path": "shared/cd6895db2f18cb6f6d2f66d828bd4dcba126abad95c44388eab588659cdcca9b.wav",
+    "bytes": 186924,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\cd6895db2f18cb6f6d2f66d828bd4dcba126abad95c44388eab588659cdcca9b.wav"
+  },
+  {
+    "path": "shared/894614c6b2e2bc7db96dfdddf30d516761ed8ab12959c5f28ee12f71985bbedf.wav",
+    "bytes": 243756,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\894614c6b2e2bc7db96dfdddf30d516761ed8ab12959c5f28ee12f71985bbedf.wav"
+  },
+  {
+    "path": "shared/c750463a32ea96ff8358524a0eddf93789b229d07c5a96e872f833cd2ed19f6c.wav",
+    "bytes": 224300,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c750463a32ea96ff8358524a0eddf93789b229d07c5a96e872f833cd2ed19f6c.wav"
+  },
+  {
+    "path": "shared/19671cfe310dfc3329b7cc3081c011ae02b1ea88ba40878445d5c9f2aac0fe64.wav",
+    "bytes": 273964,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\19671cfe310dfc3329b7cc3081c011ae02b1ea88ba40878445d5c9f2aac0fe64.wav"
+  },
+  {
+    "path": "shared/e891780046c7a675b49bdd9b74ba66feeb650f26b3b3cc29ee55f3ba9d37d104.wav",
+    "bytes": 231980,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\e891780046c7a675b49bdd9b74ba66feeb650f26b3b3cc29ee55f3ba9d37d104.wav"
+  },
+  {
+    "path": "shared/7e1cf75285cd75473ed6f434a3c64e7b2715befa0c81d018f4acd869b0c4cea3.wav",
+    "bytes": 225836,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\7e1cf75285cd75473ed6f434a3c64e7b2715befa0c81d018f4acd869b0c4cea3.wav"
+  },
+  {
+    "path": "shared/0eb3b8dad2b0b391a70a510f0b77c0fb891f23b8ae0275f989df509870a5f928.wav",
+    "bytes": 302636,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\0eb3b8dad2b0b391a70a510f0b77c0fb891f23b8ae0275f989df509870a5f928.wav"
+  },
+  {
+    "path": "shared/f7cca541ef9d00921143445187b91ad55f2c8ad44ecabb2a927705afa476d9d8.wav",
+    "bytes": 251436,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\f7cca541ef9d00921143445187b91ad55f2c8ad44ecabb2a927705afa476d9d8.wav"
+  },
+  {
+    "path": "shared/8be7e59d838f9edf39e8cf239a89ca8ec502541084e94043e6c7cb9e346fdb82.wav",
+    "bytes": 149548,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\8be7e59d838f9edf39e8cf239a89ca8ec502541084e94043e6c7cb9e346fdb82.wav"
+  },
+  {
+    "path": "shared/14ae76b33261171f6552bf993953446844a02e7ad2cefc120b5c1aee6debbeb9.wav",
+    "bytes": 211500,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\14ae76b33261171f6552bf993953446844a02e7ad2cefc120b5c1aee6debbeb9.wav"
+  },
+  {
+    "path": "shared/c235c46d82d99b89c347665401d645b5188c96bd0796cacf64b4b9a7ee30a290.wav",
+    "bytes": 215084,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c235c46d82d99b89c347665401d645b5188c96bd0796cacf64b4b9a7ee30a290.wav"
+  },
+  {
+    "path": "shared/2afbc8d514e104d9c6f817253caca0ccacd11a4b14c611536a5041cd121e6a38.wav",
+    "bytes": 554540,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\2afbc8d514e104d9c6f817253caca0ccacd11a4b14c611536a5041cd121e6a38.wav"
+  },
+  {
+    "path": "shared/dfe933b86b50eb6884f5402c77ecf582691dcf5741107aabab477c75d8133557.wav",
+    "bytes": 244780,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\dfe933b86b50eb6884f5402c77ecf582691dcf5741107aabab477c75d8133557.wav"
+  },
+  {
+    "path": "shared/90cb86e96cab9aa434c5aa5468be2e08257f15b613187a0d20798391c70991e7.json",
+    "bytes": 2268,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\90cb86e96cab9aa434c5aa5468be2e08257f15b613187a0d20798391c70991e7.json"
+  },
+  {
+    "path": "shared/c245d402d379c8f41034e39fd5021bc0e2ab548e3b286ac8ac2d4476060c178d.wav",
+    "bytes": 134188,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c245d402d379c8f41034e39fd5021bc0e2ab548e3b286ac8ac2d4476060c178d.wav"
+  },
+  {
+    "path": "shared/09e2b9e33d9e663e6b1c11317fbd9cb0e4760524a8a67e86b2745a3f45354d99.wav",
+    "bytes": 244780,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\09e2b9e33d9e663e6b1c11317fbd9cb0e4760524a8a67e86b2745a3f45354d99.wav"
+  },
+  {
+    "path": "shared/913dc3bf07e2aabfb40fa4f5181afa379494bdbc15120806372eab878356971b.wav",
+    "bytes": 256044,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\913dc3bf07e2aabfb40fa4f5181afa379494bdbc15120806372eab878356971b.wav"
+  },
+  {
+    "path": "shared/59a9626b7131b75f594ab0a50e97e294a856f6bd79a8eaec69db48c042d0fb73.wav",
+    "bytes": 257068,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\59a9626b7131b75f594ab0a50e97e294a856f6bd79a8eaec69db48c042d0fb73.wav"
+  },
+  {
+    "path": "shared/ad45a0d07168cf0955ab6077631d9427b36b3544217d5d623310296383449955.wav",
+    "bytes": 477740,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\ad45a0d07168cf0955ab6077631d9427b36b3544217d5d623310296383449955.wav"
+  },
+  {
+    "path": "shared/bc18b766e216f6ca64037a5ac2c6e01d2c255627f6b4aef80493beba2af3e3e2.wav",
+    "bytes": 205868,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\bc18b766e216f6ca64037a5ac2c6e01d2c255627f6b4aef80493beba2af3e3e2.wav"
+  },
+  {
+    "path": "shared/12b25e616f3aadc306bc6194807c571c75f6d5eb0311722b93eb5df8c7d92633.wav",
+    "bytes": 235052,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\12b25e616f3aadc306bc6194807c571c75f6d5eb0311722b93eb5df8c7d92633.wav"
+  },
+  {
+    "path": "shared/fbf74d9f9b87364abbfd38813a9364fbbdb3608809355116740ab88036a8b18c.wav",
+    "bytes": 304172,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\fbf74d9f9b87364abbfd38813a9364fbbdb3608809355116740ab88036a8b18c.wav"
+  },
+  {
+    "path": "shared/27d4fc0f8640ad8a9a0a6a1ae77139f42335d2fb6e0d8f04a9f72313888cc66a.wav",
+    "bytes": 207916,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\27d4fc0f8640ad8a9a0a6a1ae77139f42335d2fb6e0d8f04a9f72313888cc66a.wav"
+  },
+  {
+    "path": "shared/832a64cb61a41c4d1d61a62cc48b90ee9a7625faa8e014a5e08a94d6e75591b5.wav",
+    "bytes": 526892,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\832a64cb61a41c4d1d61a62cc48b90ee9a7625faa8e014a5e08a94d6e75591b5.wav"
+  },
+  {
+    "path": "shared/d7a60821d0679e3dc9b159ef18933af85196614e6f326fbdfe243c76442c1aa4.wav",
+    "bytes": 169516,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\d7a60821d0679e3dc9b159ef18933af85196614e6f326fbdfe243c76442c1aa4.wav"
+  },
+  {
+    "path": "shared/108dc11e46d05e843a9436ac8912da8a448079f279e00821c6bfa3bb57a17c1b.wav",
+    "bytes": 206892,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\108dc11e46d05e843a9436ac8912da8a448079f279e00821c6bfa3bb57a17c1b.wav"
+  },
+  {
+    "path": "shared/d68f504b6e6965b871cc3f2ae3cb7c7ab4b45cfd3e08be65980e5c88aa254a9b.wav",
+    "bytes": 242732,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\d68f504b6e6965b871cc3f2ae3cb7c7ab4b45cfd3e08be65980e5c88aa254a9b.wav"
+  },
+  {
+    "path": "shared/fdb0d4335b35155a9c668cd5e742725d5da6d64c8aa58f0e2144e96ac5a02ca8.wav",
+    "bytes": 234028,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\fdb0d4335b35155a9c668cd5e742725d5da6d64c8aa58f0e2144e96ac5a02ca8.wav"
+  },
+  {
+    "path": "shared/efebd5c2cb1565ab1189603e3c4fb97b4f10271cf3bc85ca0281ec651bd24a8e.wav",
+    "bytes": 222252,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\efebd5c2cb1565ab1189603e3c4fb97b4f10271cf3bc85ca0281ec651bd24a8e.wav"
+  },
+  {
+    "path": "shared/a940c311d1866a2316331994fa2e9fec91dffd443fc371aaa530240af495bde2.wav",
+    "bytes": 290348,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\a940c311d1866a2316331994fa2e9fec91dffd443fc371aaa530240af495bde2.wav"
+  },
+  {
+    "path": "shared/4d3e1518cf023c6e61c1dc3c469a90bf26d4308bca3a260f17d491df84605602.wav",
+    "bytes": 226348,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\4d3e1518cf023c6e61c1dc3c469a90bf26d4308bca3a260f17d491df84605602.wav"
+  },
+  {
+    "path": "shared/a1dc85d93f896c6fbc42f7d93d9292bcd810f40753a12eb750fc98f8f6a31846.wav",
+    "bytes": 196652,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\a1dc85d93f896c6fbc42f7d93d9292bcd810f40753a12eb750fc98f8f6a31846.wav"
+  },
+  {
+    "path": "shared/5a9df26f5af96ef74b73d958c4ebc0e5d6f95a7f56a86f62b3ba61fcd2e11e8a.wav",
+    "bytes": 220204,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\5a9df26f5af96ef74b73d958c4ebc0e5d6f95a7f56a86f62b3ba61fcd2e11e8a.wav"
+  },
+  {
+    "path": "shared/cb011a35b5b356df1f8fdb5946ce431dcf6b5e52590c2d89993ca88d670a1e98.wav",
+    "bytes": 162860,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\cb011a35b5b356df1f8fdb5946ce431dcf6b5e52590c2d89993ca88d670a1e98.wav"
+  },
+  {
+    "path": "shared/3f7d8e9190cf443c89edb154feab816c23555bb14cbbe8cb3a33b0fb3a5f831e.wav",
+    "bytes": 234540,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\3f7d8e9190cf443c89edb154feab816c23555bb14cbbe8cb3a33b0fb3a5f831e.wav"
+  },
+  {
+    "path": "shared/3d8cacdf1b86cf0d94e8dfeab8d5e5a5d6e6ccc4a00e7bc331de29eda0814f55.wav",
+    "bytes": 273964,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\3d8cacdf1b86cf0d94e8dfeab8d5e5a5d6e6ccc4a00e7bc331de29eda0814f55.wav"
+  },
+  {
+    "path": "shared/9fbc26caf2f6cbc59f0b182338cc4ae4b43f097dc4eef0f62d5477ad6f5617aa.wav",
+    "bytes": 284716,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\9fbc26caf2f6cbc59f0b182338cc4ae4b43f097dc4eef0f62d5477ad6f5617aa.wav"
+  },
+  {
+    "path": "shared/5cb6ce05b3c339190fb0563c229ed92c546a8dc0abe72db22ead8b43e3f691d0.wav",
+    "bytes": 471084,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\5cb6ce05b3c339190fb0563c229ed92c546a8dc0abe72db22ead8b43e3f691d0.wav"
+  },
+  {
+    "path": "shared/3288efeaefb85e66323ea1ee6a11edf37e03408048a88427db8d44652552675e.wav",
+    "bytes": 327724,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\3288efeaefb85e66323ea1ee6a11edf37e03408048a88427db8d44652552675e.wav"
+  },
+  {
+    "path": "shared/9a435516433416f42ee898189972df053e6772709c828257968288adb64f8729.wav",
+    "bytes": 167980,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\9a435516433416f42ee898189972df053e6772709c828257968288adb64f8729.wav"
+  },
+  {
+    "path": "shared/a7805dcad7d6a089d23c927db684553dab1baf6b06577ca7db2c9ea004fc3051.wav",
+    "bytes": 566828,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\a7805dcad7d6a089d23c927db684553dab1baf6b06577ca7db2c9ea004fc3051.wav"
+  },
+  {
+    "path": "shared/59a358e411502d092505d617c2798872cbb68640466bbda6dc04b14178eab4d0.wav",
+    "bytes": 184364,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\59a358e411502d092505d617c2798872cbb68640466bbda6dc04b14178eab4d0.wav"
+  },
+  {
+    "path": "shared/6d7b31a4ccf4e6816336b1ca76e1c334b727328ec64a9b5ffd991d76e29cfd5c.wav",
+    "bytes": 181292,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\6d7b31a4ccf4e6816336b1ca76e1c334b727328ec64a9b5ffd991d76e29cfd5c.wav"
+  },
+  {
+    "path": "shared/41a247cc34c58020e2f357b20d2624e67d6340314607ed0ab50d062874c95bd0.wav",
+    "bytes": 294444,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\41a247cc34c58020e2f357b20d2624e67d6340314607ed0ab50d062874c95bd0.wav"
+  },
+  {
+    "path": "shared/198ad74c44bfe6f39e3c15c8ccd013b13483882b05dd743637ed2b655ee86509.wav",
+    "bytes": 266284,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\198ad74c44bfe6f39e3c15c8ccd013b13483882b05dd743637ed2b655ee86509.wav"
+  },
+  {
+    "path": "shared/37377ed8d525f586d6ee4786d05f1be9fbe205445ded1e106fa2d71445261ca3.wav",
+    "bytes": 215084,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\37377ed8d525f586d6ee4786d05f1be9fbe205445ded1e106fa2d71445261ca3.wav"
+  },
+  {
+    "path": "shared/cf7a96ff8756036c0036972afe48672f0ec3db99dd5056242caa42e140745c96.wav",
+    "bytes": 266284,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\cf7a96ff8756036c0036972afe48672f0ec3db99dd5056242caa42e140745c96.wav"
+  },
+  {
+    "path": "shared/584a7aec84e57af02f1cdfe3e229b0b74bf98fa547e93a44d24d4919c6689e5a.wav",
+    "bytes": 225836,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\584a7aec84e57af02f1cdfe3e229b0b74bf98fa547e93a44d24d4919c6689e5a.wav"
+  },
+  {
+    "path": "shared/d44542ae35f6134815784170a78d015d6557df64ac246249e1b00ce644e47af9.wav",
+    "bytes": 160300,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\d44542ae35f6134815784170a78d015d6557df64ac246249e1b00ce644e47af9.wav"
+  },
+  {
+    "path": "shared/dd7eb4d79c78a1a31d5a28a96bf1e8514dae97347eae86434e9674bbd59aa86c.wav",
+    "bytes": 184876,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\dd7eb4d79c78a1a31d5a28a96bf1e8514dae97347eae86434e9674bbd59aa86c.wav"
+  },
+  {
+    "path": "shared/00575894e74e8c2422c570b622afef6ccd93b0ec8c0f633b73b0ae3702c3fc84.wav",
+    "bytes": 270892,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\00575894e74e8c2422c570b622afef6ccd93b0ec8c0f633b73b0ae3702c3fc84.wav"
+  },
+  {
+    "path": "shared/bdab0eb44dd942048fe1713bc3e61c7d03b52c8d3ce70119ccdc43916a74479f.wav",
+    "bytes": 196652,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\bdab0eb44dd942048fe1713bc3e61c7d03b52c8d3ce70119ccdc43916a74479f.wav"
+  },
+  {
+    "path": "shared/c27b37e019ec78b3722e8bd7a3d4b61e91338ac22e48683b97d6306c2c71ae16.json",
+    "bytes": 42494,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c27b37e019ec78b3722e8bd7a3d4b61e91338ac22e48683b97d6306c2c71ae16.json"
+  },
+  {
+    "path": "shared/6735c7889aa7e83093920da4b54ee1724c096b9054a38e4641d6dad15346a717.json",
+    "bytes": 2377,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\6735c7889aa7e83093920da4b54ee1724c096b9054a38e4641d6dad15346a717.json"
+  },
+  {
+    "path": "shared/850ec9588ff9610fd238acb87a73865e90b4468e761ae83eaf7bea0845f78be2.wav",
+    "bytes": 175148,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\850ec9588ff9610fd238acb87a73865e90b4468e761ae83eaf7bea0845f78be2.wav"
+  },
+  {
+    "path": "shared/55332580fcd71f6e56a542411246da6298cd50e27ac722a748004c4ff110a333.wav",
+    "bytes": 198700,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\55332580fcd71f6e56a542411246da6298cd50e27ac722a748004c4ff110a333.wav"
+  },
+  {
+    "path": "shared/29c87343ba8540c952f589f2b6f732d9b0d3fd0667169a9240eee49b3c7da7cf.wav",
+    "bytes": 217644,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\29c87343ba8540c952f589f2b6f732d9b0d3fd0667169a9240eee49b3c7da7cf.wav"
+  },
+  {
+    "path": "shared/594a7381924a627cb4a9f80e387bfa16985f5a8e96c469183e600afb58fce6ff.wav",
+    "bytes": 200748,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\594a7381924a627cb4a9f80e387bfa16985f5a8e96c469183e600afb58fce6ff.wav"
+  },
+  {
+    "path": "shared/be98fc601902aaa9e23eec6c27615a2092397e80d6e8d4c6d08bef6285242ddf.wav",
+    "bytes": 225324,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\be98fc601902aaa9e23eec6c27615a2092397e80d6e8d4c6d08bef6285242ddf.wav"
+  },
+  {
+    "path": "shared/7f4cad8c6f6ed8da138499bdc0b20c557d39b3081f24aea09d05a01d0b85ba73.wav",
+    "bytes": 562220,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\7f4cad8c6f6ed8da138499bdc0b20c557d39b3081f24aea09d05a01d0b85ba73.wav"
+  },
+  {
+    "path": "shared/11419d79ce5b6c0055c2fb62e973b516397d7eca5c301ae766d465d5eb828d12.wav",
+    "bytes": 176684,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\11419d79ce5b6c0055c2fb62e973b516397d7eca5c301ae766d465d5eb828d12.wav"
+  },
+  {
+    "path": "shared/845a1d24b7965b01848137888b8d6e81feccc63b73502bd37a03289392c516a5.wav",
+    "bytes": 243756,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\845a1d24b7965b01848137888b8d6e81feccc63b73502bd37a03289392c516a5.wav"
+  },
+  {
+    "path": "shared/830317c2f8c772f16ac67682bdf9e0a38386b6ed0339f13c5c14e15f61d48702.wav",
+    "bytes": 185900,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\830317c2f8c772f16ac67682bdf9e0a38386b6ed0339f13c5c14e15f61d48702.wav"
+  },
+  {
+    "path": "shared/51306d187e6a81ede110b3fbe06d293d9ed828cb990e1e8c2c4bbc362bde16ec.wav",
+    "bytes": 280108,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\51306d187e6a81ede110b3fbe06d293d9ed828cb990e1e8c2c4bbc362bde16ec.wav"
+  },
+  {
+    "path": "shared/c0f77e516d199e71674ad8e796b2fd6cc97c76bc2853269d37dd8f2d4c34da72.wav",
+    "bytes": 274988,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c0f77e516d199e71674ad8e796b2fd6cc97c76bc2853269d37dd8f2d4c34da72.wav"
+  },
+  {
+    "path": "shared/e7abc3d4af127a19222203a587e1e6a95ca1010340c7aacf467185ba7fe96471.wav",
+    "bytes": 287788,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\e7abc3d4af127a19222203a587e1e6a95ca1010340c7aacf467185ba7fe96471.wav"
+  },
+  {
+    "path": "shared/82df0b3893d4ad527dc61bafc8481ef564b80fcc61036b014edb9aa37fb6d6c6.wav",
+    "bytes": 286764,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\82df0b3893d4ad527dc61bafc8481ef564b80fcc61036b014edb9aa37fb6d6c6.wav"
+  },
+  {
+    "path": "shared/d52daa150b623cb305239339ff08910bea485497e9efd53d98c935cd71f92c76.wav",
+    "bytes": 286252,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\d52daa150b623cb305239339ff08910bea485497e9efd53d98c935cd71f92c76.wav"
+  },
+  {
+    "path": "shared/95276c96bdfd849649dcaf2d2c29bcd82faef36c4e665e59365fd631ca75b2d7.json",
+    "bytes": 42095,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\95276c96bdfd849649dcaf2d2c29bcd82faef36c4e665e59365fd631ca75b2d7.json"
+  },
+  {
+    "path": "shared/dc2e3a58f285a198a9456151531f095185a925e3da3825957d2b735d8f6bbea0.wav",
+    "bytes": 237100,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\dc2e3a58f285a198a9456151531f095185a925e3da3825957d2b735d8f6bbea0.wav"
+  },
+  {
+    "path": "shared/b932c4170823dd2d96a79ec67939bd5e67eb35026cb0649ecd90172aa0d2c9f8.wav",
+    "bytes": 249900,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\b932c4170823dd2d96a79ec67939bd5e67eb35026cb0649ecd90172aa0d2c9f8.wav"
+  },
+  {
+    "path": "shared/1b22f49ce582ded1625981543e7f1f2e9c31acf769b7dfa4890002e44a0e0c57.wav",
+    "bytes": 226348,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\1b22f49ce582ded1625981543e7f1f2e9c31acf769b7dfa4890002e44a0e0c57.wav"
+  },
+  {
+    "path": "shared/8ee1e21bd40bd77a3d6af90bb8590be3ac57a9d14a335f3285d6ebd8f135df7a.wav",
+    "bytes": 192556,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\8ee1e21bd40bd77a3d6af90bb8590be3ac57a9d14a335f3285d6ebd8f135df7a.wav"
+  },
+  {
+    "path": "shared/d21938e38d635da2d67c8a538bee4c5b363fc63560f83dd89e589805381917fc.wav",
+    "bytes": 170028,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\d21938e38d635da2d67c8a538bee4c5b363fc63560f83dd89e589805381917fc.wav"
+  },
+  {
+    "path": "shared/f74edc195880d837d5028467b73fb67be33f2b2a5577fcc93be74f9cd09bcc46.wav",
+    "bytes": 238636,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\f74edc195880d837d5028467b73fb67be33f2b2a5577fcc93be74f9cd09bcc46.wav"
+  },
+  {
+    "path": "shared/4f9af9a0ff540ccc252c08bd03721e1f5cff11ca568b66acac5122249f02eef6.wav",
+    "bytes": 194092,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\4f9af9a0ff540ccc252c08bd03721e1f5cff11ca568b66acac5122249f02eef6.wav"
+  },
+  {
+    "path": "shared/b27a1694f61399c02dd5320dc7fc9022bbb7aa25e9d2c5e91e929aaf7d1c035c.wav",
+    "bytes": 196140,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\b27a1694f61399c02dd5320dc7fc9022bbb7aa25e9d2c5e91e929aaf7d1c035c.wav"
+  },
+  {
+    "path": "shared/783757389fefde7a75a8f52a7580b908be5287095273917f9012a3f74b68422f.wav",
+    "bytes": 259628,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\783757389fefde7a75a8f52a7580b908be5287095273917f9012a3f74b68422f.wav"
+  },
+  {
+    "path": "shared/03c1af897cb0ba85089cb2a7fd013414b441532d6b75918196346a43da1d5d6a.wav",
+    "bytes": 266796,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\03c1af897cb0ba85089cb2a7fd013414b441532d6b75918196346a43da1d5d6a.wav"
+  },
+  {
+    "path": "shared/e6cd943171e73a9770a650eeda071f4e9d445982d1fd7a03a7fcbac0540e8107.wav",
+    "bytes": 238124,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\e6cd943171e73a9770a650eeda071f4e9d445982d1fd7a03a7fcbac0540e8107.wav"
+  },
+  {
+    "path": "shared/6f4b792b46a85e179dc891be0ed6b4285a7b133bc5620c28157d81a598a700d5.wav",
+    "bytes": 530476,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\6f4b792b46a85e179dc891be0ed6b4285a7b133bc5620c28157d81a598a700d5.wav"
+  },
+  {
+    "path": "shared/1a36729d57b32677f6ce4c62d6a19573b7da8eb6e89dbdd6f724e1e378f1a00d.wav",
+    "bytes": 266284,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\1a36729d57b32677f6ce4c62d6a19573b7da8eb6e89dbdd6f724e1e378f1a00d.wav"
+  },
+  {
+    "path": "shared/e2f6176598d14092b9b7832275f4b898f9c22038a2d4aabdf4b82912e5693eaa.wav",
+    "bytes": 185388,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\e2f6176598d14092b9b7832275f4b898f9c22038a2d4aabdf4b82912e5693eaa.wav"
+  },
+  {
+    "path": "shared/f8abee33d1f9be9ff6f0c1ebd34fa176ff13bc68976b08084b956cc943de7bc0.json",
+    "bytes": 1956,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\f8abee33d1f9be9ff6f0c1ebd34fa176ff13bc68976b08084b956cc943de7bc0.json"
+  },
+  {
+    "path": "shared/df492c9a5efa8c8cd23e67812ccfa65bdc43d2c1d0465e18da4c18a969d2d4e8.wav",
+    "bytes": 465452,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\df492c9a5efa8c8cd23e67812ccfa65bdc43d2c1d0465e18da4c18a969d2d4e8.wav"
+  },
+  {
+    "path": "shared/941447b06acc33600aa03750a8f35fde29cb2617553d4ca510bbff6ff2d1ec6b.wav",
+    "bytes": 494124,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\941447b06acc33600aa03750a8f35fde29cb2617553d4ca510bbff6ff2d1ec6b.wav"
+  },
+  {
+    "path": "shared/8437867651d12aef30d594e7aad40dc0cb98f926e8e8cadff59e0dbf55afe795.wav",
+    "bytes": 261164,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\8437867651d12aef30d594e7aad40dc0cb98f926e8e8cadff59e0dbf55afe795.wav"
+  },
+  {
+    "path": "shared/3dc247a3f96218d5337c48a866d79da1836e49b48ae257e64f329be66fa0f119.json",
+    "bytes": 2173,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\3dc247a3f96218d5337c48a866d79da1836e49b48ae257e64f329be66fa0f119.json"
+  },
+  {
+    "path": "shared/057ac4a103f18572582e84447bc90950c8aa409d7ea06aee46b1c31da58ad56a.wav",
+    "bytes": 188460,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\057ac4a103f18572582e84447bc90950c8aa409d7ea06aee46b1c31da58ad56a.wav"
+  },
+  {
+    "path": "shared/decf1f3cc04a56b9ae021a5169fed4bf052ee9ab2570bffd862a2a0474ecf91a.json",
+    "bytes": 59523,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\decf1f3cc04a56b9ae021a5169fed4bf052ee9ab2570bffd862a2a0474ecf91a.json"
+  },
+  {
+    "path": "shared/07b6429cc0e367c0de46f06e9df4ad0fc7e438791d90cf142958e5950735a34b.wav",
+    "bytes": 227372,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\07b6429cc0e367c0de46f06e9df4ad0fc7e438791d90cf142958e5950735a34b.wav"
+  },
+  {
+    "path": "shared/5880b8a66e00b9f00037b4f9278ca8b5792128743e56bcb2aba3c48656b12380.wav",
+    "bytes": 314924,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\5880b8a66e00b9f00037b4f9278ca8b5792128743e56bcb2aba3c48656b12380.wav"
+  },
+  {
+    "path": "shared/26eff6c2a6723b76e66d9b3032ffbf2555bc00e9b4bc2fe1275de1e44d373463.wav",
+    "bytes": 173100,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\26eff6c2a6723b76e66d9b3032ffbf2555bc00e9b4bc2fe1275de1e44d373463.wav"
+  },
+  {
+    "path": "shared/d76df338565dd87f054a371fa3b7987b0d6d6a557420478082c64de5965fe789.wav",
+    "bytes": 562220,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\d76df338565dd87f054a371fa3b7987b0d6d6a557420478082c64de5965fe789.wav"
+  },
+  {
+    "path": "shared/1d810e64ada5673a013eba8abe824eb9a1c8412d67d211af03f3215b8ddac9ae.wav",
+    "bytes": 243756,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\1d810e64ada5673a013eba8abe824eb9a1c8412d67d211af03f3215b8ddac9ae.wav"
+  },
+  {
+    "path": "shared/6257e15d02915eeaf0b23b16456b0f7ced0a789dc1a6a0e3775695e6f9239ea2.wav",
+    "bytes": 202284,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\6257e15d02915eeaf0b23b16456b0f7ced0a789dc1a6a0e3775695e6f9239ea2.wav"
+  },
+  {
+    "path": "shared/2ff5afb411fb17340bd49b3a9c4670dfee2d62aa4e828e43cc58b680c38c3150.wav",
+    "bytes": 158252,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\2ff5afb411fb17340bd49b3a9c4670dfee2d62aa4e828e43cc58b680c38c3150.wav"
+  },
+  {
+    "path": "shared/3d2a85309fe6ca98ef9674a7a9d4a7ed1c86e5a720b56e9d2e41fbc31c6290b3.wav",
+    "bytes": 220204,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\3d2a85309fe6ca98ef9674a7a9d4a7ed1c86e5a720b56e9d2e41fbc31c6290b3.wav"
+  },
+  {
+    "path": "shared/b00104912e63951a1f8896c8664f5e2caac3adf2300777d313cce7826da6118d.wav",
+    "bytes": 222252,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\b00104912e63951a1f8896c8664f5e2caac3adf2300777d313cce7826da6118d.wav"
+  },
+  {
+    "path": "shared/edc294f17eb9cf7c1be998e95ab8af7976f5c34e007a430757e05afd92e1b717.wav",
+    "bytes": 201772,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\edc294f17eb9cf7c1be998e95ab8af7976f5c34e007a430757e05afd92e1b717.wav"
+  },
+  {
+    "path": "shared/855d0f145c45913c5dd47a8a1b2ee604b8e604b7add3ab2b2dfe4262418881b7.wav",
+    "bytes": 144940,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\855d0f145c45913c5dd47a8a1b2ee604b8e604b7add3ab2b2dfe4262418881b7.wav"
+  },
+  {
+    "path": "shared/630f2ecc776f3f7dc339048082c7378798a58378e74907a2f18801027baf8692.wav",
+    "bytes": 279084,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\630f2ecc776f3f7dc339048082c7378798a58378e74907a2f18801027baf8692.wav"
+  },
+  {
+    "path": "shared/c690d98a6c458fe07223bbbeec534c0746c8af383ff8276c498bef513c69d437.wav",
+    "bytes": 169004,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c690d98a6c458fe07223bbbeec534c0746c8af383ff8276c498bef513c69d437.wav"
+  },
+  {
+    "path": "shared/71808d2c69d291fc1c4674da7476457c7a25e232abc2299f29c2346ceab790b6.wav",
+    "bytes": 144428,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\71808d2c69d291fc1c4674da7476457c7a25e232abc2299f29c2346ceab790b6.wav"
+  },
+  {
+    "path": "shared/2a0353eefa06c61a16cdf4f59b29a5fa32f3bebfcf702bf71d285312da2dbd23.wav",
+    "bytes": 205356,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\2a0353eefa06c61a16cdf4f59b29a5fa32f3bebfcf702bf71d285312da2dbd23.wav"
+  },
+  {
+    "path": "shared/37eb3a0fbb96679dd3dccef05718bbc2a28a541ab9b6af410c68a568b3cbcfde.wav",
+    "bytes": 206380,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\37eb3a0fbb96679dd3dccef05718bbc2a28a541ab9b6af410c68a568b3cbcfde.wav"
+  },
+  {
+    "path": "shared/bfb574aff2679a5e87b98a050bf1dd2c5fc7ad4910b1a65851ae4531048f8a29.wav",
+    "bytes": 174636,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\bfb574aff2679a5e87b98a050bf1dd2c5fc7ad4910b1a65851ae4531048f8a29.wav"
+  },
+  {
+    "path": "shared/4b98702ddfdd8ec5ea1cf98c09e662f9130e749c456f63ba1b3474717908815f.wav",
+    "bytes": 184876,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\4b98702ddfdd8ec5ea1cf98c09e662f9130e749c456f63ba1b3474717908815f.wav"
+  },
+  {
+    "path": "shared/283236df734eb6b797ec24e3152cd7c92c0da852263910832773a0e9e6c2875e.wav",
+    "bytes": 207404,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\283236df734eb6b797ec24e3152cd7c92c0da852263910832773a0e9e6c2875e.wav"
+  },
+  {
+    "path": "shared/865d6b9cc1a1b9a4073b2f610416a7a2dfb7aede064d01678995c7fb2d074c4a.wav",
+    "bytes": 272428,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\865d6b9cc1a1b9a4073b2f610416a7a2dfb7aede064d01678995c7fb2d074c4a.wav"
+  },
+  {
+    "path": "shared/959a3ff7f34cc60c32cd1d95fd35d02d4501908bb7a2beb77167f485e399f317.wav",
+    "bytes": 225324,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\959a3ff7f34cc60c32cd1d95fd35d02d4501908bb7a2beb77167f485e399f317.wav"
+  },
+  {
+    "path": "shared/135266a00e573178e836160d7b8ced3ae80787c26acae16582fa56dd63827e29.wav",
+    "bytes": 209452,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\135266a00e573178e836160d7b8ced3ae80787c26acae16582fa56dd63827e29.wav"
+  },
+  {
+    "path": "shared/19dc9022d8a1f16ed3bea37b300369673fb0417eb85df8dd5b853c2e10f01a43.json",
+    "bytes": 2190,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\19dc9022d8a1f16ed3bea37b300369673fb0417eb85df8dd5b853c2e10f01a43.json"
+  },
+  {
+    "path": "shared/701788827d14fe02531b3aa15ea22ab4d430f257b5da02622391d94cf5e4a8b5.wav",
+    "bytes": 243244,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\701788827d14fe02531b3aa15ea22ab4d430f257b5da02622391d94cf5e4a8b5.wav"
+  },
+  {
+    "path": "shared/4e1075593d24a5ed00c60d37c3d3f84cba0b97c22c00ae1981e69b73e58e25c2.wav",
+    "bytes": 269868,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\4e1075593d24a5ed00c60d37c3d3f84cba0b97c22c00ae1981e69b73e58e25c2.wav"
+  },
+  {
+    "path": "shared/f843dbc95b69ef0c25e662cadea7b2fa14f519f8da4353f0628827922375f1a4.wav",
+    "bytes": 232492,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\f843dbc95b69ef0c25e662cadea7b2fa14f519f8da4353f0628827922375f1a4.wav"
+  },
+  {
+    "path": "shared/90f0d4da97b0fae16c9cddbbfd455a5f18accd120a3919c9bcad25cf81c9531c.wav",
+    "bytes": 300076,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\90f0d4da97b0fae16c9cddbbfd455a5f18accd120a3919c9bcad25cf81c9531c.wav"
+  },
+  {
+    "path": "shared/f7f7aeda79745f295ebf11e187ee996e2e23b95d85de438e2ec837e7b939cf9b.wav",
+    "bytes": 178220,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\f7f7aeda79745f295ebf11e187ee996e2e23b95d85de438e2ec837e7b939cf9b.wav"
+  },
+  {
+    "path": "shared/d575fc9541073b559c8a3629d53ac1d0a97e0aaab28b660e9d16140a9311e741.wav",
+    "bytes": 283180,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\d575fc9541073b559c8a3629d53ac1d0a97e0aaab28b660e9d16140a9311e741.wav"
+  },
+  {
+    "path": "shared/60387f7430b23c869b2f23accc17aa37515e5a300803add3f84532ee2df06b28.wav",
+    "bytes": 213548,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\60387f7430b23c869b2f23accc17aa37515e5a300803add3f84532ee2df06b28.wav"
+  },
+  {
+    "path": "shared/dfce3173fa35f87270c810e2ec1baa07ac41f4e7a260556bf1413766262ef263.wav",
+    "bytes": 249388,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\dfce3173fa35f87270c810e2ec1baa07ac41f4e7a260556bf1413766262ef263.wav"
+  },
+  {
+    "path": "shared/c767aa674cb7dc256b96a77c604e856d1f5e0e15bed2188e6af8551c60909a4b.wav",
+    "bytes": 216108,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c767aa674cb7dc256b96a77c604e856d1f5e0e15bed2188e6af8551c60909a4b.wav"
+  },
+  {
+    "path": "shared/dfa8a9ad792f46eff26f710f38bc80f6a7e4eb23ed7652c85e2b9a45774cfc82.wav",
+    "bytes": 191020,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\dfa8a9ad792f46eff26f710f38bc80f6a7e4eb23ed7652c85e2b9a45774cfc82.wav"
+  },
+  {
+    "path": "shared/7f3935407c9ced043c5d534fbe6bbcd0472b71c9279fa09feceb4b82e6313731.wav",
+    "bytes": 558124,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\7f3935407c9ced043c5d534fbe6bbcd0472b71c9279fa09feceb4b82e6313731.wav"
+  },
+  {
+    "path": "shared/b34ac6272c458572b4a7252d092992fb888f4eb4dc1fff92b4114b3dd844559e.wav",
+    "bytes": 278572,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\b34ac6272c458572b4a7252d092992fb888f4eb4dc1fff92b4114b3dd844559e.wav"
+  },
+  {
+    "path": "shared/9a1d37cf8a9b1e5e3f735cf3df5c6b5e5831d49c0437a77000771f0836cbea70.wav",
+    "bytes": 224300,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\9a1d37cf8a9b1e5e3f735cf3df5c6b5e5831d49c0437a77000771f0836cbea70.wav"
+  },
+  {
+    "path": "shared/eb0994fb027e4d2907704539d91c9f13646622decdfeece6b4626d163829d6e3.wav",
+    "bytes": 275500,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\eb0994fb027e4d2907704539d91c9f13646622decdfeece6b4626d163829d6e3.wav"
+  },
+  {
+    "path": "shared/c9e64909c799a6936e751774b6df364d3600fedbdd63b27b8c3f5764954aa14f.wav",
+    "bytes": 175148,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c9e64909c799a6936e751774b6df364d3600fedbdd63b27b8c3f5764954aa14f.wav"
+  },
+  {
+    "path": "shared/67ce411e29d9dbe0c69be1841eb261056818c82d86aac73ae1438fec57a5fc23.wav",
+    "bytes": 246316,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\67ce411e29d9dbe0c69be1841eb261056818c82d86aac73ae1438fec57a5fc23.wav"
+  },
+  {
+    "path": "shared/ccdf128dc8158b8c0870fbf0088e5550bff9a9c90d60f086b7be86c03df90a87.wav",
+    "bytes": 179244,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\ccdf128dc8158b8c0870fbf0088e5550bff9a9c90d60f086b7be86c03df90a87.wav"
+  },
+  {
+    "path": "shared/96fcda173d6c00839b83d7ccfbd298e9adbd68514e1c76d27c2d4fa0717fa287.wav",
+    "bytes": 155180,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\96fcda173d6c00839b83d7ccfbd298e9adbd68514e1c76d27c2d4fa0717fa287.wav"
+  },
+  {
+    "path": "shared/6c4dc38550c60739a9f5a9eea3efa74f37b7ba4e3ffc7a7d7efbb39ee7b54f9f.wav",
+    "bytes": 133164,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\6c4dc38550c60739a9f5a9eea3efa74f37b7ba4e3ffc7a7d7efbb39ee7b54f9f.wav"
+  },
+  {
+    "path": "shared/15f41a5554997b32972f10e84bb88e6dffe7e5807ed9b99c4c1b4935273a033b.json",
+    "bytes": 2186,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\15f41a5554997b32972f10e84bb88e6dffe7e5807ed9b99c4c1b4935273a033b.json"
+  },
+  {
+    "path": "shared/20347eb2797046a71ad1048efcf914a774e58279149c2aac6a46ccc81419c0b8.wav",
+    "bytes": 196140,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\20347eb2797046a71ad1048efcf914a774e58279149c2aac6a46ccc81419c0b8.wav"
+  },
+  {
+    "path": "shared/9c9d91ed67d1444262a11a87985c5d6fe79bc432bcef23814a78339fa36f25d4.wav",
+    "bytes": 187948,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\9c9d91ed67d1444262a11a87985c5d6fe79bc432bcef23814a78339fa36f25d4.wav"
+  },
+  {
+    "path": "shared/fa2e518998832c25aa21fdcae3d0203659c5446220ef403d222544aa798ac437.wav",
+    "bytes": 249388,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\fa2e518998832c25aa21fdcae3d0203659c5446220ef403d222544aa798ac437.wav"
+  },
+  {
+    "path": "shared/d85de8d6e1751807a1e514227d177543cc17feb39cfa41fc8a00fc19d19a13c6.wav",
+    "bytes": 212524,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\d85de8d6e1751807a1e514227d177543cc17feb39cfa41fc8a00fc19d19a13c6.wav"
+  },
+  {
+    "path": "shared/3b036fdb8e91f0f0852c42eb7e29231ab04f3a66efd2c4c0a6e00c5b1b5efa94.wav",
+    "bytes": 284716,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\3b036fdb8e91f0f0852c42eb7e29231ab04f3a66efd2c4c0a6e00c5b1b5efa94.wav"
+  },
+  {
+    "path": "shared/0d0c56e53dafc46cdf66a299cda0ba3eddf86eb256319fe1e4c0d4ebd3c8e0d7.wav",
+    "bytes": 247340,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\0d0c56e53dafc46cdf66a299cda0ba3eddf86eb256319fe1e4c0d4ebd3c8e0d7.wav"
+  },
+  {
+    "path": "shared/6574924f5ce70078afa715f33a21827c5bc3bd2ff2fe4571f327eeaa72b7a807.wav",
+    "bytes": 193068,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\6574924f5ce70078afa715f33a21827c5bc3bd2ff2fe4571f327eeaa72b7a807.wav"
+  },
+  {
+    "path": "shared/a9e29d6a33cd6c99b4b3b15c2e936a85477e59281d7971cba78d0bd506f9cb2f.wav",
+    "bytes": 303148,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\a9e29d6a33cd6c99b4b3b15c2e936a85477e59281d7971cba78d0bd506f9cb2f.wav"
+  },
+  {
+    "path": "shared/6519a35c42995f858fbfdb736afb5435303e2562fc1feca070906b78f6b9a788.wav",
+    "bytes": 320556,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\6519a35c42995f858fbfdb736afb5435303e2562fc1feca070906b78f6b9a788.wav"
+  },
+  {
+    "path": "shared/a075646905e6fa1040183c46dabdb9c665c5127b81a4fefd544a6a9d09af7fae.wav",
+    "bytes": 209964,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\a075646905e6fa1040183c46dabdb9c665c5127b81a4fefd544a6a9d09af7fae.wav"
+  },
+  {
+    "path": "shared/91ef1bee916ce80d8b718022c503b6795fb5e87a75c13ba19b013c08d8bf2f30.wav",
+    "bytes": 147500,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\91ef1bee916ce80d8b718022c503b6795fb5e87a75c13ba19b013c08d8bf2f30.wav"
+  },
+  {
+    "path": "shared/6174da367e2ae46e08a7b61a780591ae4d88aff61bae4a6df99f67b305758505.wav",
+    "bytes": 195116,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\6174da367e2ae46e08a7b61a780591ae4d88aff61bae4a6df99f67b305758505.wav"
+  },
+  {
+    "path": "shared/05cd238f7335e8a7e49972e25b91ec15a4e357947e2293250ce85acfd676c151.wav",
+    "bytes": 214060,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\05cd238f7335e8a7e49972e25b91ec15a4e357947e2293250ce85acfd676c151.wav"
+  },
+  {
+    "path": "shared/eb6be4f8ed11ecf6c8b7242420c0407b650abd892dbd832ab1af3c58ffd1c26b.wav",
+    "bytes": 172076,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\eb6be4f8ed11ecf6c8b7242420c0407b650abd892dbd832ab1af3c58ffd1c26b.wav"
+  },
+  {
+    "path": "shared/46fb2438dc8d4cbba88f949b1f806a0e744593f1e70cfd08d4adb955d565eef7.wav",
+    "bytes": 248364,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\46fb2438dc8d4cbba88f949b1f806a0e744593f1e70cfd08d4adb955d565eef7.wav"
+  },
+  {
+    "path": "shared/6f6ac5dc3d1bd1b1551be9db2e737285df855520dd5e0540875465f614b5701c.wav",
+    "bytes": 173100,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\6f6ac5dc3d1bd1b1551be9db2e737285df855520dd5e0540875465f614b5701c.wav"
+  },
+  {
+    "path": "shared/9defbbab88fb706237e496b7fc52caf0a016715a6c39a13a7d77de6890bb779e.wav",
+    "bytes": 212524,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\9defbbab88fb706237e496b7fc52caf0a016715a6c39a13a7d77de6890bb779e.wav"
+  },
+  {
+    "path": "shared/a8a54646873859e8e2dd892b82554674c69b191f0531e8748fef2f8a46512a4b.wav",
+    "bytes": 226348,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\a8a54646873859e8e2dd892b82554674c69b191f0531e8748fef2f8a46512a4b.wav"
+  },
+  {
+    "path": "shared/532e9a75d5a506cd42a2cc260a21c0b7ce2217beba0ac2555b21dbc69eabdf7d.wav",
+    "bytes": 248364,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\532e9a75d5a506cd42a2cc260a21c0b7ce2217beba0ac2555b21dbc69eabdf7d.wav"
+  },
+  {
+    "path": "shared/581785e22079f0841490131ff0420e4b33055fc10d65f3e5ef7fcbb8fa781704.wav",
+    "bytes": 186924,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\581785e22079f0841490131ff0420e4b33055fc10d65f3e5ef7fcbb8fa781704.wav"
+  },
+  {
+    "path": "shared/fc409b61c69c1c2f4a268bdc35e69f5e5393d2a8eda502ea6aeaa9ef2bcb7108.wav",
+    "bytes": 240172,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\fc409b61c69c1c2f4a268bdc35e69f5e5393d2a8eda502ea6aeaa9ef2bcb7108.wav"
+  },
+  {
+    "path": "shared/28fe7c2819d42cf32debab5d8cc5e6d6bde83c4880dabbf28eeb0c5bfa80db5d.wav",
+    "bytes": 187436,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\28fe7c2819d42cf32debab5d8cc5e6d6bde83c4880dabbf28eeb0c5bfa80db5d.wav"
+  },
+  {
+    "path": "shared/2ca087fc882297b50ba6241184445f3667b53c07472b233ac97d7bf3acf94b77.wav",
+    "bytes": 227372,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\2ca087fc882297b50ba6241184445f3667b53c07472b233ac97d7bf3acf94b77.wav"
+  },
+  {
+    "path": "shared/19ee566e045386e1c5115fdd8863d0bb9e97ae55537ee730d4ea83128b4f2b0c.wav",
+    "bytes": 251436,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\19ee566e045386e1c5115fdd8863d0bb9e97ae55537ee730d4ea83128b4f2b0c.wav"
+  },
+  {
+    "path": "shared/58e72ac0e20db351457ad05e4f6ad4d60643446cf402cbdaacbf548f6c5c16f5.wav",
+    "bytes": 179756,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\58e72ac0e20db351457ad05e4f6ad4d60643446cf402cbdaacbf548f6c5c16f5.wav"
+  },
+  {
+    "path": "shared/041d4337ec96dee6d654fc6ca53b1178bcd428506b905447b5268b614e440ff8.wav",
+    "bytes": 199212,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\041d4337ec96dee6d654fc6ca53b1178bcd428506b905447b5268b614e440ff8.wav"
+  },
+  {
+    "path": "shared/cb70483aa4b1d78fb4b1683a3175a6e2a052ef5919ce2b4e0f130b8e317e7f3b.json",
+    "bytes": 2373,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\cb70483aa4b1d78fb4b1683a3175a6e2a052ef5919ce2b4e0f130b8e317e7f3b.json"
+  },
+  {
+    "path": "shared/5e1e284056ccd2f878e15579b9e8a482f3808676121cc8b429f085613aaf41b1.wav",
+    "bytes": 170028,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\5e1e284056ccd2f878e15579b9e8a482f3808676121cc8b429f085613aaf41b1.wav"
+  },
+  {
+    "path": "shared/aafcd3be67d65da662ed7d278770204defe3f9023aaf4d3a0fa1f826366bd077.wav",
+    "bytes": 258604,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\aafcd3be67d65da662ed7d278770204defe3f9023aaf4d3a0fa1f826366bd077.wav"
+  },
+  {
+    "path": "shared/e3e375b18589bde119d9165a6f12a18afac69c29b34fcde5b3e522894b5ebf88.wav",
+    "bytes": 322092,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\e3e375b18589bde119d9165a6f12a18afac69c29b34fcde5b3e522894b5ebf88.wav"
+  },
+  {
+    "path": "shared/afcdd7677439aecd1578f7f8c527c5d743a765860691cfe6e6489691823b2645.wav",
+    "bytes": 272428,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\afcdd7677439aecd1578f7f8c527c5d743a765860691cfe6e6489691823b2645.wav"
+  },
+  {
+    "path": "shared/5304eec4cff6c00be536d5663ec1da70784858e645f389b3181efaac5af874ed.wav",
+    "bytes": 612396,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\5304eec4cff6c00be536d5663ec1da70784858e645f389b3181efaac5af874ed.wav"
+  },
+  {
+    "path": "shared/4c21f8dd5f1a4058289b3035fc03653c035d54930e483a0caa9696d7ae225d85.json",
+    "bytes": 46052,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\4c21f8dd5f1a4058289b3035fc03653c035d54930e483a0caa9696d7ae225d85.json"
+  },
+  {
+    "path": "shared/60ba15f1d43c1e7d5cc58a92ca114695978cbb520759a2a266582b86de922b93.wav",
+    "bytes": 180780,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\60ba15f1d43c1e7d5cc58a92ca114695978cbb520759a2a266582b86de922b93.wav"
+  },
+  {
+    "path": "shared/71d21bbe69bf8b8b9f81bc018f2ed212643d5f811a20b4eb4d7369126715a116.wav",
+    "bytes": 267820,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\71d21bbe69bf8b8b9f81bc018f2ed212643d5f811a20b4eb4d7369126715a116.wav"
+  },
+  {
+    "path": "shared/a6d17ecf4570c6e0c0e3da5052c77f7e2687536a28c2f59cae63c91b8c58b688.wav",
+    "bytes": 213036,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\a6d17ecf4570c6e0c0e3da5052c77f7e2687536a28c2f59cae63c91b8c58b688.wav"
+  },
+  {
+    "path": "shared/22478f5942a5f4bafd5776706d2184b34034ade994fe0ab5d33e7acb3cca17dc.wav",
+    "bytes": 166956,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\22478f5942a5f4bafd5776706d2184b34034ade994fe0ab5d33e7acb3cca17dc.wav"
+  },
+  {
+    "path": "shared/44f4a6e0598ac2e216dd2ebdb41a8666c0740dbe40adad4b7b2f9e2b9ca46bbb.wav",
+    "bytes": 191020,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\44f4a6e0598ac2e216dd2ebdb41a8666c0740dbe40adad4b7b2f9e2b9ca46bbb.wav"
+  },
+  {
+    "path": "shared/0b5137413f53edb1d9bee31db4ebfc0f7041101542520e368ccc08e6732de19c.wav",
+    "bytes": 244268,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\0b5137413f53edb1d9bee31db4ebfc0f7041101542520e368ccc08e6732de19c.wav"
+  },
+  {
+    "path": "shared/f076432168b26da2a6926eb6eabbd5a6308ec6a18dac2f88ef879ec914cbe05d.wav",
+    "bytes": 247340,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\f076432168b26da2a6926eb6eabbd5a6308ec6a18dac2f88ef879ec914cbe05d.wav"
+  },
+  {
+    "path": "shared/39535baa98ce0b724e505f6117f8bbb60bf3adc6ba533048dfd8bb1541520923.wav",
+    "bytes": 226348,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\39535baa98ce0b724e505f6117f8bbb60bf3adc6ba533048dfd8bb1541520923.wav"
+  },
+  {
+    "path": "shared/e90d980fd9213881af93d02f5d0170e564b5155def742e761f03fcddab831cfb.wav",
+    "bytes": 128044,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\e90d980fd9213881af93d02f5d0170e564b5155def742e761f03fcddab831cfb.wav"
+  },
+  {
+    "path": "shared/10b4b7cbe04111bd5b7ea054bdd63c44a4ccb7ceb303b1d25a72859240ac6923.wav",
+    "bytes": 185388,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\10b4b7cbe04111bd5b7ea054bdd63c44a4ccb7ceb303b1d25a72859240ac6923.wav"
+  },
+  {
+    "path": "shared/fab55b8aa166c26f1717537fae972bd4539fb5fdd125d4a2c413c5637484f583.wav",
+    "bytes": 196140,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\fab55b8aa166c26f1717537fae972bd4539fb5fdd125d4a2c413c5637484f583.wav"
+  },
+  {
+    "path": "shared/2098e4646f75829abd1df950a3e72f79800a49c28cc0202a495372442811d4cb.wav",
+    "bytes": 144940,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\2098e4646f75829abd1df950a3e72f79800a49c28cc0202a495372442811d4cb.wav"
+  },
+  {
+    "path": "shared/5d413d2adf0b4bbb67e246f83e9b5031c1018d8b9aa7e548ac7bd0dbef5a5d4e.json",
+    "bytes": 2259,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\5d413d2adf0b4bbb67e246f83e9b5031c1018d8b9aa7e548ac7bd0dbef5a5d4e.json"
+  },
+  {
+    "path": "shared/7d3ebe3fc0d7a2da6c998f2be5a90ce43960ebece7a4d66b5d80c63b30e002d0.wav",
+    "bytes": 194604,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\7d3ebe3fc0d7a2da6c998f2be5a90ce43960ebece7a4d66b5d80c63b30e002d0.wav"
+  },
+  {
+    "path": "shared/0cc4acef02c312324dd3c23e186595b04d52ba7941a98092901c62e254ec6edc.wav",
+    "bytes": 240684,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\0cc4acef02c312324dd3c23e186595b04d52ba7941a98092901c62e254ec6edc.wav"
+  },
+  {
+    "path": "shared/5394d846d19a07367b4b77fb158b0ba7f6a292b36ddc73deaae41f7b6117fc95.wav",
+    "bytes": 221740,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\5394d846d19a07367b4b77fb158b0ba7f6a292b36ddc73deaae41f7b6117fc95.wav"
+  },
+  {
+    "path": "shared/7e2a5855a72d71d4a0ae1df8eb8ad0b05d3ab212b095400f81f1e444c264bb7a.wav",
+    "bytes": 167468,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\7e2a5855a72d71d4a0ae1df8eb8ad0b05d3ab212b095400f81f1e444c264bb7a.wav"
+  },
+  {
+    "path": "shared/24284f4c6cf3185fd386492b2b5a1f152cfa00bc1de7c700417cf63e0e60f68e.wav",
+    "bytes": 225324,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\24284f4c6cf3185fd386492b2b5a1f152cfa00bc1de7c700417cf63e0e60f68e.wav"
+  },
+  {
+    "path": "shared/058726850c4c3e5f6aa6e8a7226e37a00f4f416420c41280ed1fe4e22c8757b5.wav",
+    "bytes": 227372,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\058726850c4c3e5f6aa6e8a7226e37a00f4f416420c41280ed1fe4e22c8757b5.wav"
+  },
+  {
+    "path": "shared/1dfc6f5c82a19311bb652ff55fba44efddb093aeedb029170037ce7b7d74dcdc.wav",
+    "bytes": 236588,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\1dfc6f5c82a19311bb652ff55fba44efddb093aeedb029170037ce7b7d74dcdc.wav"
+  },
+  {
+    "path": "shared/b64736fe2d0301e74dccdb70d8045aa330b3186791ea050461070d1fbb84ab73.wav",
+    "bytes": 171564,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\b64736fe2d0301e74dccdb70d8045aa330b3186791ea050461070d1fbb84ab73.wav"
+  },
+  {
+    "path": "shared/5d5e049b12efedba162389d3b02159a1e27479cbaef7f4bf803fba3695fe1c54.wav",
+    "bytes": 262188,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\5d5e049b12efedba162389d3b02159a1e27479cbaef7f4bf803fba3695fe1c54.wav"
+  },
+  {
+    "path": "shared/1ecf8bf68332de7fab4856ddc61d50e56b2b21b575da3929b7c5174d5dbe6bc8.wav",
+    "bytes": 202796,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\1ecf8bf68332de7fab4856ddc61d50e56b2b21b575da3929b7c5174d5dbe6bc8.wav"
+  },
+  {
+    "path": "shared/fcd37b43a02b0e056e02a11ee5c0a97bd79b9d45a4d566a8db3d798a6c1f0f5e.wav",
+    "bytes": 329260,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\fcd37b43a02b0e056e02a11ee5c0a97bd79b9d45a4d566a8db3d798a6c1f0f5e.wav"
+  },
+  {
+    "path": "shared/3510b63e5b1ee80e842c561ffa9894ef3c1da07313c9657fdf792afe2528e8f4.wav",
+    "bytes": 607276,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\3510b63e5b1ee80e842c561ffa9894ef3c1da07313c9657fdf792afe2528e8f4.wav"
+  },
+  {
+    "path": "shared/7543f970b633ccd9769fb2ff7d383995d1019f49a20eafcfe45f485496791561.wav",
+    "bytes": 237100,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\7543f970b633ccd9769fb2ff7d383995d1019f49a20eafcfe45f485496791561.wav"
+  },
+  {
+    "path": "shared/b5f6313d765f87e119fae15d41d3135c6c964dd9a8315c0ff059e1477943bf98.wav",
+    "bytes": 220716,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\b5f6313d765f87e119fae15d41d3135c6c964dd9a8315c0ff059e1477943bf98.wav"
+  },
+  {
+    "path": "shared/4705d19812c7444a8bf83e9ee1433e29d089ff9d3b76ff62a6047394981ce131.wav",
+    "bytes": 221740,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\4705d19812c7444a8bf83e9ee1433e29d089ff9d3b76ff62a6047394981ce131.wav"
+  },
+  {
+    "path": "shared/5413e49e2ffb35bed64e4e6de28936d658a8c20055a7284acdb4369606820527.wav",
+    "bytes": 608812,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\5413e49e2ffb35bed64e4e6de28936d658a8c20055a7284acdb4369606820527.wav"
+  },
+  {
+    "path": "shared/85f07425af903431a1091bbf26cfdca4045363751233ac5da8ca5fc2eaee21aa.wav",
+    "bytes": 161324,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\85f07425af903431a1091bbf26cfdca4045363751233ac5da8ca5fc2eaee21aa.wav"
+  },
+  {
+    "path": "shared/c1e42a4f174be10746b8cd677b77ef00d06746e9af745ca15d4089ec8266e48b.wav",
+    "bytes": 283692,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c1e42a4f174be10746b8cd677b77ef00d06746e9af745ca15d4089ec8266e48b.wav"
+  },
+  {
+    "path": "shared/8197db5f9f272cdc18b7030f25c51d85d1e6faeb220bdcae19960a91415f595f.wav",
+    "bytes": 259116,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\8197db5f9f272cdc18b7030f25c51d85d1e6faeb220bdcae19960a91415f595f.wav"
+  },
+  {
+    "path": "shared/baf59121e410cdca03ed8f0f1f123c0cb04aa15aee4bed2f07ed0f712a0f08dd.wav",
+    "bytes": 253484,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\baf59121e410cdca03ed8f0f1f123c0cb04aa15aee4bed2f07ed0f712a0f08dd.wav"
+  },
+  {
+    "path": "shared/54614de51a4a4d6b38c53776134ec3d63bc586a03f6cdf047ee705a3235ed87a.wav",
+    "bytes": 565804,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\54614de51a4a4d6b38c53776134ec3d63bc586a03f6cdf047ee705a3235ed87a.wav"
+  },
+  {
+    "path": "shared/c63382aa7f296bff757902ac5ca828acdca0361be32728a02cbb5d7cc0c22e91.wav",
+    "bytes": 216108,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c63382aa7f296bff757902ac5ca828acdca0361be32728a02cbb5d7cc0c22e91.wav"
+  },
+  {
+    "path": "shared/4f2ddf05e6e7b0e0a2fe88f52fcc851d6be13802f8af629928907654477df6ea.wav",
+    "bytes": 612396,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\4f2ddf05e6e7b0e0a2fe88f52fcc851d6be13802f8af629928907654477df6ea.wav"
+  },
+  {
+    "path": "shared/3bc57a52522706eb665c633734c4198d017d17a3f5fe496aef3a2189806b139b.wav",
+    "bytes": 284716,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\3bc57a52522706eb665c633734c4198d017d17a3f5fe496aef3a2189806b139b.wav"
+  },
+  {
+    "path": "shared/b427048df99f147b66a23e114e50f8d27ded7de623000275ff13cd0de748f6ac.wav",
+    "bytes": 270380,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\b427048df99f147b66a23e114e50f8d27ded7de623000275ff13cd0de748f6ac.wav"
+  },
+  {
+    "path": "shared/c246d00a1731bb72d7a63f466d50ab484af6c55a10942c05f3fb97d01365e870.json",
+    "bytes": 42509,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c246d00a1731bb72d7a63f466d50ab484af6c55a10942c05f3fb97d01365e870.json"
+  },
+  {
+    "path": "shared/df7f97061d4ec522aa32d80294429f6c324ff24b489d01ca9d573c649504b252.wav",
+    "bytes": 256556,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\df7f97061d4ec522aa32d80294429f6c324ff24b489d01ca9d573c649504b252.wav"
+  },
+  {
+    "path": "shared/2b3cacd963cd4b88ea61e7fdc6d854b6bfce2547453498cef1f4596b825d2871.wav",
+    "bytes": 173612,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\2b3cacd963cd4b88ea61e7fdc6d854b6bfce2547453498cef1f4596b825d2871.wav"
+  },
+  {
+    "path": "shared/35638d9bcbd0765e5b928468af8a77da380f5900ed2852300ed9674a4ad8b42e.wav",
+    "bytes": 473132,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\35638d9bcbd0765e5b928468af8a77da380f5900ed2852300ed9674a4ad8b42e.wav"
+  },
+  {
+    "path": "shared/847802d0232708c53b8e2f5e6487ecc6afe1ab6256bafba2e565e0ff6b36a6a2.wav",
+    "bytes": 246828,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\847802d0232708c53b8e2f5e6487ecc6afe1ab6256bafba2e565e0ff6b36a6a2.wav"
+  },
+  {
+    "path": "shared/32602b966c698d5f912ef8c279da252bddcc82f0af3dbbdf83e748adf02f8aa6.wav",
+    "bytes": 319532,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\32602b966c698d5f912ef8c279da252bddcc82f0af3dbbdf83e748adf02f8aa6.wav"
+  },
+  {
+    "path": "shared/412f83f4af2cac85a4176d0956468a1adf95fd7bf03f365a49fa5e8ad8e7470b.wav",
+    "bytes": 196652,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\412f83f4af2cac85a4176d0956468a1adf95fd7bf03f365a49fa5e8ad8e7470b.wav"
+  },
+  {
+    "path": "shared/c92ea233b7b548cc2e945748c35b803a510f6fd067017282e363131144e4d2a5.wav",
+    "bytes": 217644,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c92ea233b7b548cc2e945748c35b803a510f6fd067017282e363131144e4d2a5.wav"
+  },
+  {
+    "path": "shared/205c6163da6ae1af0502c55d6695e98002454e35c0cbc1dbacdfa0cd1385d444.wav",
+    "bytes": 193580,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\205c6163da6ae1af0502c55d6695e98002454e35c0cbc1dbacdfa0cd1385d444.wav"
+  },
+  {
+    "path": "shared/c6c5faabfb08c47afe5f61f56f1d3da6a53aad93199515cc90c7c431e0725853.wav",
+    "bytes": 228908,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c6c5faabfb08c47afe5f61f56f1d3da6a53aad93199515cc90c7c431e0725853.wav"
+  },
+  {
+    "path": "shared/7f39136b4f5c59350a41f23873cf734488509d0596e3772272c1111ca8acbdf8.wav",
+    "bytes": 234028,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\7f39136b4f5c59350a41f23873cf734488509d0596e3772272c1111ca8acbdf8.wav"
+  },
+  {
+    "path": "shared/206c48362dfad051fa8f77facece6e2715e808a5f88b41bc46ae36edad544a94.wav",
+    "bytes": 176172,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\206c48362dfad051fa8f77facece6e2715e808a5f88b41bc46ae36edad544a94.wav"
+  },
+  {
+    "path": "shared/e89328fd47414aa1d923ee824c3641158fcd8b988b131af1062b70ffa8cbd74c.wav",
+    "bytes": 245292,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\e89328fd47414aa1d923ee824c3641158fcd8b988b131af1062b70ffa8cbd74c.wav"
+  },
+  {
+    "path": "shared/4772eae0a1557d72ae72f8f9ba137ef01740f65ba482c8d186d5021c3a110f7f.wav",
+    "bytes": 216108,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\4772eae0a1557d72ae72f8f9ba137ef01740f65ba482c8d186d5021c3a110f7f.wav"
+  },
+  {
+    "path": "shared/85708126c836a3d7a970cbaacbf46f4b0f4ef467f121b0b93f05f57040c21b39.wav",
+    "bytes": 263724,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\85708126c836a3d7a970cbaacbf46f4b0f4ef467f121b0b93f05f57040c21b39.wav"
+  },
+  {
+    "path": "shared/3e7b78cdff52c7afca8c5bcfeeb0c30cc5bf36ed64b26f4f9568b960b2861db4.wav",
+    "bytes": 191532,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\3e7b78cdff52c7afca8c5bcfeeb0c30cc5bf36ed64b26f4f9568b960b2861db4.wav"
+  },
+  {
+    "path": "shared/088f630972b624c91ebfd78e3de2e7250df17076b9601d85a790b15fe7db1c01.wav",
+    "bytes": 203820,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\088f630972b624c91ebfd78e3de2e7250df17076b9601d85a790b15fe7db1c01.wav"
+  },
+  {
+    "path": "shared/c0f6509d37db01dc0a8f2e2902272abfc5181e0c8bbfa297324db79ad4329b72.wav",
+    "bytes": 268844,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c0f6509d37db01dc0a8f2e2902272abfc5181e0c8bbfa297324db79ad4329b72.wav"
+  },
+  {
+    "path": "shared/68c162b8c10d7276cfc0dc79d31bfcbabe4e9614ee92b65d0a6f3f51d6fc5e15.wav",
+    "bytes": 266284,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\68c162b8c10d7276cfc0dc79d31bfcbabe4e9614ee92b65d0a6f3f51d6fc5e15.wav"
+  },
+  {
+    "path": "shared/4692d0b733e02e18c6d846d73d680179c2d9d831b848909b9b7f76f29124321b.wav",
+    "bytes": 157228,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\4692d0b733e02e18c6d846d73d680179c2d9d831b848909b9b7f76f29124321b.wav"
+  },
+  {
+    "path": "shared/58454170bb6fc740d57668c0981cba488a74388e4e903064ff439176bcd217ba.wav",
+    "bytes": 282668,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\58454170bb6fc740d57668c0981cba488a74388e4e903064ff439176bcd217ba.wav"
+  },
+  {
+    "path": "shared/12ab7d85dd33bf17aab1297ec864f04d6b387f61d791a4eb98344a08c808f34c.wav",
+    "bytes": 209452,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\12ab7d85dd33bf17aab1297ec864f04d6b387f61d791a4eb98344a08c808f34c.wav"
+  },
+  {
+    "path": "shared/cc969ed379bf57f6381e1d391cac8f65d7ca7fa425128ed6ad54e0027c715a1f.json",
+    "bytes": 2222,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\cc969ed379bf57f6381e1d391cac8f65d7ca7fa425128ed6ad54e0027c715a1f.json"
+  },
+  {
+    "path": "shared/0b1d47802a8e229cf6363a0b1b7ddd91ad47e11492cd8edbcd0df1955fb23e28.wav",
+    "bytes": 332844,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\0b1d47802a8e229cf6363a0b1b7ddd91ad47e11492cd8edbcd0df1955fb23e28.wav"
+  },
+  {
+    "path": "shared/243ef22103f78c3d0eee9b14b56c4be54227507f4738aa37b555bb3ac4c60044.wav",
+    "bytes": 173612,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\243ef22103f78c3d0eee9b14b56c4be54227507f4738aa37b555bb3ac4c60044.wav"
+  },
+  {
+    "path": "shared/53d4249f1d0c0c3351afa99f9aaffb8db967fb92e15cf4098ee7e25f7495f818.wav",
+    "bytes": 209452,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\53d4249f1d0c0c3351afa99f9aaffb8db967fb92e15cf4098ee7e25f7495f818.wav"
+  },
+  {
+    "path": "shared/d7d022ec2567868138994345b3c83b5b5c9172d7af935e66fbb1f9bedf7c2824.wav",
+    "bytes": 167468,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\d7d022ec2567868138994345b3c83b5b5c9172d7af935e66fbb1f9bedf7c2824.wav"
+  },
+  {
+    "path": "shared/368ff32140e75c67677a79c893425d051a9c08a4c58c723ca505ff8258667df7.wav",
+    "bytes": 195628,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\368ff32140e75c67677a79c893425d051a9c08a4c58c723ca505ff8258667df7.wav"
+  },
+  {
+    "path": "shared/ea415d691b81700dc4dfa40b5eff227b064c4379172192de878d30409c342604.wav",
+    "bytes": 252460,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\ea415d691b81700dc4dfa40b5eff227b064c4379172192de878d30409c342604.wav"
+  },
+  {
+    "path": "shared/d93a70f0b18f5b7ab1ba51d4c6fdb8583a049f8c52cc25d0c55798a835e503ed.wav",
+    "bytes": 259628,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\d93a70f0b18f5b7ab1ba51d4c6fdb8583a049f8c52cc25d0c55798a835e503ed.wav"
+  },
+  {
+    "path": "shared/1d1f0b86ee16d5e50147f07b218c000c7c4561436de3460fab95aabeac73b37e.wav",
+    "bytes": 169004,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\1d1f0b86ee16d5e50147f07b218c000c7c4561436de3460fab95aabeac73b37e.wav"
+  },
+  {
+    "path": "shared/419d5c718660ae5b38cd756d4de0b9c6288ccc118f7ae31ad7671f03a990a18d.wav",
+    "bytes": 216108,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\419d5c718660ae5b38cd756d4de0b9c6288ccc118f7ae31ad7671f03a990a18d.wav"
+  },
+  {
+    "path": "shared/e6c508b80d9fdf8628cc63e6c84652304ddd4d15b93c3a4e99170341560b122f.wav",
+    "bytes": 205868,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\e6c508b80d9fdf8628cc63e6c84652304ddd4d15b93c3a4e99170341560b122f.wav"
+  },
+  {
+    "path": "shared/984bc8771172ecf361e1a8725b5618e2be15040cfb1dbec1c7393082ce2eb3fe.wav",
+    "bytes": 207916,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\984bc8771172ecf361e1a8725b5618e2be15040cfb1dbec1c7393082ce2eb3fe.wav"
+  },
+  {
+    "path": "shared/12538a1dda40bae39fe46bf6a1bca18f240036add6c2f25a92ec89f5b92a236c.wav",
+    "bytes": 194604,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\12538a1dda40bae39fe46bf6a1bca18f240036add6c2f25a92ec89f5b92a236c.wav"
+  },
+  {
+    "path": "shared/a5da997fc0a0e2c56766b3df052c382cc48611f6033623e089aa61ce5c37c927.wav",
+    "bytes": 262188,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\a5da997fc0a0e2c56766b3df052c382cc48611f6033623e089aa61ce5c37c927.wav"
+  },
+  {
+    "path": "shared/c8aefb788b47425773b0d92f8f2bc3c69975d384d689663f1454f219d22347a5.wav",
+    "bytes": 181292,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\c8aefb788b47425773b0d92f8f2bc3c69975d384d689663f1454f219d22347a5.wav"
+  },
+  {
+    "path": "shared/ba51b8946f42735479a788d4cb10de5954f037ce2ea568d9a5810b35a7eea0d5.wav",
+    "bytes": 177196,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\ba51b8946f42735479a788d4cb10de5954f037ce2ea568d9a5810b35a7eea0d5.wav"
+  },
+  {
+    "path": "shared/ab599dafb23ae9df6af668943fc13f26830087aaeec254e1c2d48efadb4998a1.wav",
+    "bytes": 160300,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\ab599dafb23ae9df6af668943fc13f26830087aaeec254e1c2d48efadb4998a1.wav"
+  },
+  {
+    "path": "shared/ee4a5b33fbfe3dc9d638d083e1c230c62ee15991fa0d844fc2a7dc57901da48f.wav",
+    "bytes": 228396,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\ee4a5b33fbfe3dc9d638d083e1c230c62ee15991fa0d844fc2a7dc57901da48f.wav"
+  },
+  {
+    "path": "shared/fc983e639c5e4f1e43f83c474636a09e5a5ff3a4aea171f2e2a3816b774b4af6.wav",
+    "bytes": 157740,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\shared\\fc983e639c5e4f1e43f83c474636a09e5a5ff3a4aea171f2e2a3816b774b4af6.wav"
+  },
+  {
+    "path": "lobby-voice/ayaka-baccarat-calm.wav",
+    "bytes": 1560620,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\ayaka-baccarat-calm.wav"
+  },
+  {
+    "path": "lobby-voice/ayaka-baccarat-expressive.wav",
+    "bytes": 1567276,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\ayaka-baccarat-expressive.wav"
+  },
+  {
+    "path": "lobby-voice/ayaka-blackjack-calm.wav",
+    "bytes": 1578540,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\ayaka-blackjack-calm.wav"
+  },
+  {
+    "path": "lobby-voice/ayaka-blackjack-expressive.wav",
+    "bytes": 1585708,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\ayaka-blackjack-expressive.wav"
+  },
+  {
+    "path": "lobby-voice/ayaka-poker-calm.wav",
+    "bytes": 1576492,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\ayaka-poker-calm.wav"
+  },
+  {
+    "path": "lobby-voice/ayaka-poker-expressive.wav",
+    "bytes": 1583660,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\ayaka-poker-expressive.wav"
+  },
+  {
+    "path": "lobby-voice/misaki-baccarat-calm.wav",
+    "bytes": 1211948,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\misaki-baccarat-calm.wav"
+  },
+  {
+    "path": "lobby-voice/misaki-baccarat-expressive.wav",
+    "bytes": 1213484,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\misaki-baccarat-expressive.wav"
+  },
+  {
+    "path": "lobby-voice/misaki-blackjack-calm.wav",
+    "bytes": 1257004,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\misaki-blackjack-calm.wav"
+  },
+  {
+    "path": "lobby-voice/misaki-blackjack-expressive.wav",
+    "bytes": 1259052,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\misaki-blackjack-expressive.wav"
+  },
+  {
+    "path": "lobby-voice/misaki-poker-calm.wav",
+    "bytes": 1249836,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\misaki-poker-calm.wav"
+  },
+  {
+    "path": "lobby-voice/misaki-poker-expressive.wav",
+    "bytes": 1251372,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\misaki-poker-expressive.wav"
+  },
+  {
+    "path": "lobby-voice/rina-baccarat-calm.wav",
+    "bytes": 1239084,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\rina-baccarat-calm.wav"
+  },
+  {
+    "path": "lobby-voice/rina-baccarat-expressive.wav",
+    "bytes": 1250348,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\rina-baccarat-expressive.wav"
+  },
+  {
+    "path": "lobby-voice/rina-blackjack-calm.wav",
+    "bytes": 1275948,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\rina-blackjack-calm.wav"
+  },
+  {
+    "path": "lobby-voice/rina-blackjack-expressive.wav",
+    "bytes": 1287724,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\rina-blackjack-expressive.wav"
+  },
+  {
+    "path": "lobby-voice/rina-poker-calm.wav",
+    "bytes": 1252908,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\rina-poker-calm.wav"
+  },
+  {
+    "path": "lobby-voice/rina-poker-expressive.wav",
+    "bytes": 1264684,
+    "backup": "C:\\work\\game-org\\CardGame-backup-20261028-104744\\frontend\\lobby-voice\\rina-poker-expressive.wav"
+  }
+]

@@ -1,0 +1,9 @@
+AYAKA音声: VOICEVOX:九州そら（あまあま・スタイルID 15）
+VOICEVOX CORE 0.17.0 / VOICEVOX VVM 0.16.4
+
+本フォルダはAYAKA用の40種類のセリフ、それぞれ抑揚あり・落ち着いた話し方の2パターンです。
+MISAKIとは別に、高めの音高と明るい話し方で生成しています。
+音声の再利用・配布は音声ライブラリの規約に従い、同クレジットを記載してください。
+第三者に利用を許諾する際も、規約の遵守とその条件の引継ぎを義務付けてください。
+https://zunko.jp/con_ongen_kiyaku.html
+詳細: docs/VOICE-CREDITS.ja.md

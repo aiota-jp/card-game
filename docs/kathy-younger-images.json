@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Kathyを25歳程度の若い成人の顔に調整。実写風・金髪・笑顔・構図を保持。TOPは右から2人目のみ調整。",
+  "images": {
+    "frontend/cast-images/kathy-full.png": "94c04fe3c88a5683730d02a8129a9a33b2123472aa74dc23be9f646437893ec3",
+    "frontend/cast-images/kathy-portrait.png": "c8ea2dae12c9139e0022a811641d3d717256e037aa77eb0e298e1ae5b884b6c0",
+    "frontend/cast-images/kathy-summer.png": "6b611f3e17d0dbe50b4a6d3c8ce6f0883a62fc0cbd0ad97664f0a4c5a4b172a6",
+    "frontend/lounge-title-five.png": "fa64f94c328f147117c99be6de307a5a32b0a100aa3d7122680658495ab11bc0"
+  }
+}

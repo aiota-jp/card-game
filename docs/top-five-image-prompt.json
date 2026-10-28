@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Create a replacement wide 16:9 photographic title background for CARD GAME LOUNGE. Use case: compositing / identity-preserve. Image 1 is the current three-woman card-lounge title: preserve this warm elegant lounge, green felt card table, realistic photographic rendering, the identities and clothing of its three fictional adult women (Misaki in black jacket and emerald blouse, Ayaka in navy cardigan and burgundy ribbon, Rina in teal sports jacket). Image 2 supplies the two additional fictional adult women: Kathy is the blonde fourth woman from left, Shizue is the Japanese woman in floral kimono at far right. Produce ONE coherent realistic photograph of EXACTLY FIVE adult women together playing cards around that same table: from left to right Ayaka, Rina, Misaki, Kathy, Shizue. All five distinct faces fully visible, pleasant natural expressions, anatomically credible hands holding playing cards, colored poker chips and a few playing cards on the table. Kathy wears an elegant pale-yellow dress, Shizue wears a navy floral kimono. Preserve the reference faces, hair, ethnicity and mature/adult appearance. High-quality warm amber cinematic lounge lighting; realistic skin and fabric, no cartoon, no anime. Pull back enough to comfortably fit all five people without any face cut off. Maintain generous dark negative space in the upper quarter for an HTML title overlay and a dark foreground margin for an HTML button. No lettering, logos, watermark, extra people, board-game boards or Reversi stones. Landscape composition intended for contain fitting on desktop and phone.",
+  "references": [
+    "C:/work/game-org/CardGame/frontend/lounge-title.png",
+    "C:/work/game-org/reversi-queens/assets/title_cutout.png"
+  ],
+  "generatedSource": "C:/Users/aero3/.codex/generated_images/01a1802c-3e7c-77e2-83c2-c6e993924449/exec-c14806ed-5669-433d-9bb1-03baeeae3c46.png",
+  "asset": "frontend/lounge-title-five.png"
+}

@@ -1,0 +1,7 @@
+RINA voice: VOICEVOX:九州そら（ツンツン / style 18）
+Pitch +0.035, intonation x0.98, speed x1.06.
+Original dialogue: scripts/rina-lines.json
+
+RINAの声は歯切れのよいボーイッシュな話し方を保ち、音高を少し上げた若々しい雰囲気に調整。セリフ40種類と音量・会話速度の設定は維持しています。
+
+Synthesis style 18 / timing and accent query style 16.
